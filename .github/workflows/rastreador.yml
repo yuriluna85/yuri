@@ -1,8 +1,32 @@
-# ... (partes anteriores iguais) ...
-      - name: Salvar e commitar alterações
+name: Rotina de Clipping Automático
+
+on:
+  schedule:
+    - cron: '0 9 * * *' # Roda diariamente às 06:00 (Brasília)
+  workflow_dispatch: # Permite rodar manualmente
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout código
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Instalar dependências
+        run: pip install googlesearch-python
+
+      - name: Executar Crawler
+        run: python buscar_mencoes.py
+
+      - name: Salvar alterações
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
           git add mencoes.csv index.html
-          git diff --staged --quiet || git commit -m "🤖 [Auto] Atualiza Painel de Menções HTML"
+          git diff --staged --quiet || git commit -m "🤖 [Auto] Atualização do Memorial de Menções"
           git push
