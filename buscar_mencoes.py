@@ -6,15 +6,19 @@ from urllib.parse import urlparse
 
 # Configurações
 NOME_BUSCA = '"Yuri de Oliveira Luna e Almeida"'
-CSV_FILE = 'mencoes.csv'
+
+# Define a pasta 'data' para organizar o CSV, e mantém o HTML na raiz
+PASTA_DADOS = 'data'
+CSV_FILE = f'{PASTA_DADOS}/mencoes.csv'
 HTML_FILE = 'index.html'
 
-# 1. Verifica o Modo de Execução
+# 1. Garante que a pasta 'data' exista no sistema antes de salvar qualquer coisa
+os.makedirs(PASTA_DADOS, exist_ok=True)
+
+# 2. Verifica o Modo de Execução
 primeira_execucao = not os.path.exists(CSV_FILE)
-# Se for a primeira vez, busca mais a fundo. Se for diária, busca menos.
 limite_busca = 150 if primeira_execucao else 30
 
-# Lê os links existentes para não duplicar
 links_existentes = set()
 if not primeira_execucao:
     with open(CSV_FILE, mode='r', encoding='utf-8') as f:
@@ -27,7 +31,6 @@ data_execucao = datetime.now().strftime('%d/%m/%Y %H:%M')
 
 print(f"Iniciando busca para: {NOME_BUSCA}")
 print(f"Modo: {'Busca Geral (Primeira Execução)' if primeira_execucao else 'Varredura Diária'}")
-print(f"Limite de resultados definidos: {limite_busca}")
 
 try:
     for url in search(NOME_BUSCA, num_results=limite_busca, lang="pt"):
@@ -39,36 +42,49 @@ try:
                 'Link': url
             })
 except Exception as e:
-    print(f"Erro na busca: {e}")
+    print(f"Erro na busca do Google: {e}")
 
-# 2. Atualização Condicional do CSV
-if novas_mencoes:
+# 3. Criação e Atualização do CSV
+if primeira_execucao:
+    # Se for a primeira vez, CRIA o arquivo obrigatoriamente, mesmo que vazio
+    with open(CSV_FILE, mode='w', encoding='utf-8', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=['Data', 'Portal', 'Link'])
+        writer.writeheader()
+        if novas_mencoes:
+            writer.writerows(novas_mencoes)
+    print("Pasta 'data' e arquivo CSV base criados com sucesso.")
+elif novas_mencoes:
+    # Execuções diárias: só abre o CSV se houver o que adicionar
     with open(CSV_FILE, mode='a', encoding='utf-8', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=['Data', 'Portal', 'Link'])
-        if primeira_execucao:
-            writer.writeheader()
         writer.writerows(novas_mencoes)
-    print(f"Sucesso: {len(novas_mencoes)} novas menções salvas no CSV.")
+    print(f"Sucesso: {len(novas_mencoes)} novas menções anexadas.")
 else:
-    print("Nenhuma menção inédita encontrada. O arquivo CSV foi mantido inalterado.")
+    print("Nenhuma menção inédita. CSV mantido inalterado.")
 
-# 3. Atualização Condicional do Painel HTML
-# Só recria o arquivo HTML se encontramos links novos OU se o HTML sumiu/não existe
-precisa_atualizar_html = bool(novas_mencoes) or not os.path.exists(HTML_FILE)
+# 4. Geração do Painel HTML
+# Força a criação do HTML na primeira vez ou se houver links novos
+precisa_atualizar_html = primeira_execucao or bool(novas_mencoes) or not os.path.exists(HTML_FILE)
 
-if precisa_atualizar_html and os.path.exists(CSV_FILE):
-    with open(CSV_FILE, mode='r', encoding='utf-8') as f:
-        dados = list(csv.DictReader(f))
-        dados.reverse() # Coloca os mais recentes no topo da tabela
+if precisa_atualizar_html:
+    dados = []
+    if os.path.exists(CSV_FILE):
+        with open(CSV_FILE, mode='r', encoding='utf-8') as f:
+            dados = list(csv.DictReader(f))
+            dados.reverse() # Mais recentes no topo
 
     rows = ""
-    for item in dados:
-        rows += f"""
-        <tr>
-            <td>{item['Data']}</td>
-            <td><span class="portal-tag">{item['Portal']}</span></td>
-            <td><a href="{item['Link']}" target="_blank" class="btn-link">Ver Menção ↗</a></td>
-        </tr>"""
+    # Se houver dados preenche a tabela, senão, exibe mensagem amigável
+    if dados:
+        for item in dados:
+            rows += f"""
+            <tr>
+                <td>{item['Data']}</td>
+                <td><span class="portal-tag">{item['Portal']}</span></td>
+                <td><a href="{item['Link']}" target="_blank" class="btn-link">Ver Menção ↗</a></td>
+            </tr>"""
+    else:
+        rows = "<tr><td colspan='3' style='text-align: center; color: #64748b;'>Nenhum registro encontrado ainda. O robô continuará monitorando.</td></tr>"
 
     html_template = f"""
     <!DOCTYPE html>
@@ -104,20 +120,18 @@ if precisa_atualizar_html and os.path.exists(CSV_FILE):
                     <tr>
                         <th>Data</th>
                         <th>Fonte/Portal</th>
-                        <th>Ação</th>
+                        <th>Acesso</th>
                     </tr>
                 </thead>
                 <tbody>
                     {rows}
                 </tbody>
             </table>
-            <footer>Atualizado automaticamente via GitHub Actions em: {data_execucao}</footer>
+            <footer>Atualizado via automação em: {data_execucao}</footer>
         </div>
     </body>
     </html>
     """
     with open(HTML_FILE, 'w', encoding='utf-8') as f:
         f.write(html_template)
-    print("Painel HTML gerado/atualizado com sucesso.")
-else:
-    print("Painel HTML mantido inalterado, pois não houve novas menções.")
+    print("Painel HTML gerado com sucesso.")
