@@ -23,8 +23,9 @@ data_execucao = datetime.now().strftime('%d/%m/%Y %H:%M')
 print(f"Iniciando busca para: {NOME_BUSCA}")
 
 try:
-    # Busca os primeiros 30 resultados (ajustável)
-    for url in search(NOME_BUSCA, num=30, stop=30, pause=2.0):
+    # Correção aplicada: googlesearch-python usa 'num_results' em vez de 'num' e 'stop'
+    # Adicionado lang="pt" para focar em resultados do Brasil/em português
+    for url in search(NOME_BUSCA, num_results=30, lang="pt"):
         if url not in links_existentes:
             portal = urlparse(url).netloc.replace('www.', '')
             novas_mencoes.append({
@@ -42,7 +43,7 @@ if novas_mencoes:
         if arquivo_novo:
             writer.writeheader()
         writer.writerows(novas_mencoes)
-    print(f"Sucesso: {len(novas_mencoes)} novas menções encontradas.")
+    print(f"Sucesso: {len(novas_mencoes)} novas menções encontradas e salvas no CSV.")
 else:
     print("Nenhuma menção inédita encontrada.")
 
