@@ -1,1 +1,43 @@
-
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorial de Menções | Yuri Almeida</title>
+    <style>
+        :root { --primary: #2563eb; --bg: #f8fafc; --text: #1e293b; }
+        body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); padding: 2rem; margin: 0; }
+        .container { max-width: 900px; margin: 0 auto; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+        header { border-bottom: 2px solid #e2e8f0; margin-bottom: 2rem; padding-bottom: 1rem; display: flex; justify-content: space-between; align-items: center; }
+        h1 { margin: 0; font-size: 1.5rem; color: var(--primary); }
+        .counter { background: #dbeafe; color: var(--primary); padding: 0.25rem 0.75rem; border-radius: 999px; font-weight: bold; font-size: 0.875rem; }
+        table { width: 100%; border-collapse: collapse; text-align: left; }
+        th { padding: 0.75rem; border-bottom: 2px solid #e2e8f0; font-size: 0.875rem; text-transform: uppercase; color: #64748b; }
+        td { padding: 1rem 0.75rem; border-bottom: 1px solid #f1f5f9; font-size: 0.95rem; text-align: center; color: #64748b; }
+        footer { margin-top: 2rem; font-size: 0.8rem; color: #94a3b8; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏛️ Memorial de Menções</h1>
+            <span class="counter">0 Registros</span>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Fonte/Portal</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="3">Nenhuma menção indexada ainda. O robô preencherá esta tabela na próxima execução.</td>
+                </tr>
+            </tbody>
+        </table>
+        <footer>Aguardando a primeira execução do GitHub Actions...</footer>
+    </div>
+</body>
+</html>
