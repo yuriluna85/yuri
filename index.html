@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -5,154 +6,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Memorial de Menções | Yuri Almeida</title>
     <style>
-        :root {
-            --primary: #2563eb;
-            --primary-hover: #1d4ed8;
-            --bg: #f8fafc;
-            --text: #1e293b;
-            --text-muted: #64748b;
-            --border: #e2e8f0;
-            --card-bg: #ffffff;
-        }
-
-        body {
-            font-family: system-ui, -apple-system, sans-serif;
-            background-color: var(--bg);
-            color: var(--text);
-            margin: 0;
-            padding: 2rem;
-            line-height: 1.5;
-        }
-
-        .container {
-            max-width: 950px;
-            margin: 0 auto;
-            background: var(--card-bg);
-            padding: 2.5rem;
-            border-radius: 16px;
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-        }
-
-        header {
-            border-bottom: 2px solid #f1f5f9;
-            margin-bottom: 2rem;
-            padding-bottom: 1.5rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        h1 {
-            margin: 0;
-            font-size: 1.75rem;
-            color: var(--primary);
-            letter-spacing: -0.025em;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .counter {
-            background: #dbeafe;
-            color: var(--primary);
-            padding: 0.4rem 1rem;
-            border-radius: 999px;
-            font-weight: 700;
-            font-size: 0.875rem;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            text-align: left;
-        }
-
-        th {
-            padding: 1rem;
-            border-bottom: 2px solid #f1f5f9;
-            font-size: 0.75rem;
-            text-transform: uppercase;
-            color: var(--text-muted);
-            font-weight: 700;
-        }
-
-        td {
-            padding: 1.25rem 1rem;
-            border-bottom: 1px solid #f8fafc;
-            font-size: 0.95rem;
-        }
-
-        .portal-tag {
-            background: #f1f5f9;
-            padding: 0.3rem 0.6rem;
-            border-radius: 6px;
-            font-size: 0.8rem;
-            color: #475569;
-            border: 1px solid var(--border);
-            font-weight: 500;
-        }
-
-        .btn-link {
-            color: var(--primary);
-            text-decoration: none;
-            font-weight: 600;
-            border: 1px solid #dbeafe;
-            padding: 0.4rem 0.8rem;
-            border-radius: 6px;
-            transition: all 0.2s ease;
-            display: inline-block;
-        }
-
-        .btn-link:hover {
-            background: var(--primary);
-            color: white;
-            border-color: var(--primary);
-            transform: translateY(-1px);
-        }
-
-        footer {
-            margin-top: 3rem;
-            font-size: 0.85rem;
-            color: var(--text-muted);
-            text-align: center;
-            border-top: 1px solid #f1f5f9;
-            padding-top: 1.5rem;
-        }
-
-        .empty-state {
-            text-align: center;
-            padding: 3rem;
-            color: var(--text-muted);
-        }
+        :root { --primary: #2563eb; --bg: #f8fafc; --text: #1e293b; }
+        body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); padding: 2rem; margin: 0; }
+        .container { max-width: 950px; margin: 0 auto; background: white; padding: 2.5rem; border-radius: 16px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
+        header { border-bottom: 2px solid #f1f5f9; margin-bottom: 2rem; padding-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; }
+        h1 { margin: 0; font-size: 1.5rem; color: var(--primary); }
+        .counter { background: #dbeafe; color: var(--primary); padding: 0.4rem 1rem; border-radius: 999px; font-weight: 700; font-size: 0.875rem; }
+        table { width: 100%; border-collapse: collapse; text-align: left; }
+        th { padding: 1rem; border-bottom: 2px solid #f1f5f9; font-size: 0.75rem; text-transform: uppercase; color: #64748b; }
+        td { padding: 1.25rem 1rem; border-bottom: 1px solid #f8fafc; font-size: 0.95rem; }
+        .portal-tag { background: #f1f5f9; padding: 0.3rem 0.6rem; border-radius: 6px; font-size: 0.8rem; color: #475569; border: 1px solid #e2e8f0; }
+        .btn-link { color: var(--primary); text-decoration: none; font-weight: 600; border: 1px solid #dbeafe; padding: 0.4rem 0.8rem; border-radius: 6px; }
+        .btn-link:hover { background: var(--primary); color: white; }
+        footer { margin-top: 3rem; font-size: 0.8rem; color: #94a3b8; text-align: center; border-top: 1px solid #f1f5f9; padding-top: 1.5rem; }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
             <h1>🏛️ Memorial de Menções</h1>
-            <span class="counter">0 Registros Catalogados</span>
+            <span class="counter">13 Registros Catalogados</span>
         </header>
-
         <table>
             <thead>
                 <tr>
-                    <th>Data da Identificação</th>
+                    <th>Data</th>
                     <th>Fonte / Portal</th>
-                    <th>Link de Acesso</th>
+                    <th>Acesso</th>
                 </tr>
             </thead>
-            <tbody id="table-body">
-                <tr>
-                    <td colspan="3" class="empty-state">
-                        Nenhuma menção indexada ainda. Aguardando a execução do robô para buscar dados no CSV.
-                    </td>
-                </tr>
+            <tbody>
+                
+    <tr>
+        <td>06/05/2026 19:53</td>
+        <td><span class="portal-tag">poscom.ufba.br</span></td>
+        <td><a href="http://poscom.ufba.br/wp-content/uploads/2025/09/Inscricoes-homologadas-Mestrado-Selecao-Regular-2026.docx.pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>
+    <tr>
+        <td>06/05/2026 19:53</td>
+        <td><span class="portal-tag">portal.ifsuldeminas.edu.br</span></td>
+        <td><a href="https://portal.ifsuldeminas.edu.br/attachments/article/6490/Edital%20208%20de%202024%20-%20RESULTADO%20PRELIMINAR%20DA%20AN%C3%81LISE%20DE%20PONTUA%C3%87%C3%83O%20(2).pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>
+    <tr>
+        <td>06/05/2026 19:53</td>
+        <td><span class="portal-tag">concurso.ifbaiano.edu.br</span></td>
+        <td><a href="https://concurso.ifbaiano.edu.br/portal/eleicao-cis-pcctae-2025/wp-content/uploads/sites/1150/2025/03/resultado.final_.pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>
+    <tr>
+        <td>06/05/2026 19:46</td>
+        <td><span class="portal-tag">editorametrics.com.br</span></td>
+        <td><a href="https://editorametrics.com.br/livro/coordenacao-pedagogica-e-processos-formativos" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>
+    <tr>
+        <td>06/05/2026 19:46</td>
+        <td><span class="portal-tag">portal.ifsuldeminas.edu.br</span></td>
+        <td><a href="https://portal.ifsuldeminas.edu.br/attachments/article/6490/Edital%20208%20de%202024%20-%20RESULTADO%20FINAL.pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>
+    <tr>
+        <td>06/05/2026 19:46</td>
+        <td><span class="portal-tag">cefor.ifes.edu.br</span></td>
+        <td><a href="https://cefor.ifes.edu.br/images/stories/Classifica%C3%A7%C3%A3o_preliminar_TCF_05.2026.pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>
+    <tr>
+        <td>06/05/2026 19:46</td>
+        <td><span class="portal-tag">anais2.uesb.br</span></td>
+        <td><a href="https://anais2.uesb.br/index.php/semgepraxis/article/view/2010" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>
+    <tr>
+        <td>06/05/2026 19:46</td>
+        <td><span class="portal-tag">ojs.observatoriolatinoamericano.com</span></td>
+        <td><a href="https://ojs.observatoriolatinoamericano.com/ojs/index.php/olel/article/view/2082" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>
+    <tr>
+        <td>06/05/2026 19:46</td>
+        <td><span class="portal-tag">researchgate.net</span></td>
+        <td><a href="https://www.researchgate.net/publication/376467786_O_uso_das_tecnologias_da_informacao_e_comunicacao_na_organizacao_do_trabalho_pedagogico_em_uma_escola_de_ensino_fundamental_Pos-Pandemia_COVID-19" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>
+    <tr>
+        <td>06/05/2026 19:46</td>
+        <td><span class="portal-tag">ifbaiano.edu.br</span></td>
+        <td><a href="https://www.ifbaiano.edu.br/unidades/lapa/ngti/" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>
+    <tr>
+        <td>06/05/2026 19:46</td>
+        <td><span class="portal-tag">portaltransparenciabrasil.com</span></td>
+        <td><a href="https://portaltransparenciabrasil.com/viagem/yuri-de-oliveira-luna-e-almeida-0000000000021252771-1" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>
+    <tr>
+        <td>06/05/2026 19:46</td>
+        <td><span class="portal-tag">observatoriolatinoamericano.com</span></td>
+        <td><a href="https://observatoriolatinoamericano.com/author/yuri-de-oliveira-luna-e-almeida/" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>
+    <tr>
+        <td>06/05/2026 19:46</td>
+        <td><span class="portal-tag">eduplay.rnp.br</span></td>
+        <td><a href="https://eduplay.rnp.br/app/canal/299242" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>
             </tbody>
         </table>
-
         <footer>
-            <strong>Monitoramento Ativo:</strong> Yuri de Oliveira Luna e Almeida<br>
-            Este painel é atualizado automaticamente via GitHub Actions.
+            <strong>Monitoramento em tempo real:</strong> Yuri de Oliveira Luna e Almeida<br>
+            Última atualização: 06/05/2026 19:53
         </footer>
     </div>
 </body>
