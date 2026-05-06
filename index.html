@@ -1,28 +1,164 @@
+import csv
+import os
+import requests
+import json
+from datetime import datetime
+from urllib.parse import urlparse
 
-    <!DOCTYPE html>
-    <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Memorial de Menções | Yuri Almeida</title>
-        <style>
-            :root { --primary: #2563eb; --bg: #f8fafc; --text: #1e293b; }
-            body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); padding: 2rem; }
-            .container { max-width: 900px; margin: 0 auto; background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-            header { border-bottom: 2px solid #e2e8f0; margin-bottom: 2rem; display: flex; justify-content: space-between; align-items: center; padding-bottom: 1rem; }
-            .counter { background: #dbeafe; color: var(--primary); padding: 0.3rem 0.8rem; border-radius: 999px; font-weight: bold; }
-            table { width: 100%; border-collapse: collapse; }
-            th { text-align: left; padding: 0.75rem; color: #64748b; border-bottom: 2px solid #e2e8f0; }
-            td { padding: 1rem 0.75rem; border-bottom: 1px solid #f1f5f9; }
-            .portal-tag { background: #f1f5f9; padding: 0.2rem 0.5rem; border-radius: 4px; border: 1px solid #e2e8f0; font-size: 0.85rem; }
-            .btn-link { color: var(--primary); text-decoration: none; font-weight: 500; }
-        </style>
-    </head>
-    <body>
-        <div class="container">
-            <header><h1>🏛️ Memorial de Menções</h1><span class="counter">10 Registros</span></header>
-            <table><thead><tr><th>Data</th><th>Fonte</th><th>Link</th></tr></thead><tbody><tr><td>06/05/2026 19:46</td><td><span class='portal-tag'>editorametrics.com.br</span></td><td><a href='https://editorametrics.com.br/livro/coordenacao-pedagogica-e-processos-formativos' target='_blank' class='btn-link'>Ver ↗</a></td></tr><tr><td>06/05/2026 19:46</td><td><span class='portal-tag'>portal.ifsuldeminas.edu.br</span></td><td><a href='https://portal.ifsuldeminas.edu.br/attachments/article/6490/Edital%20208%20de%202024%20-%20RESULTADO%20FINAL.pdf' target='_blank' class='btn-link'>Ver ↗</a></td></tr><tr><td>06/05/2026 19:46</td><td><span class='portal-tag'>cefor.ifes.edu.br</span></td><td><a href='https://cefor.ifes.edu.br/images/stories/Classifica%C3%A7%C3%A3o_preliminar_TCF_05.2026.pdf' target='_blank' class='btn-link'>Ver ↗</a></td></tr><tr><td>06/05/2026 19:46</td><td><span class='portal-tag'>anais2.uesb.br</span></td><td><a href='https://anais2.uesb.br/index.php/semgepraxis/article/view/2010' target='_blank' class='btn-link'>Ver ↗</a></td></tr><tr><td>06/05/2026 19:46</td><td><span class='portal-tag'>ojs.observatoriolatinoamericano.com</span></td><td><a href='https://ojs.observatoriolatinoamericano.com/ojs/index.php/olel/article/view/2082' target='_blank' class='btn-link'>Ver ↗</a></td></tr><tr><td>06/05/2026 19:46</td><td><span class='portal-tag'>researchgate.net</span></td><td><a href='https://www.researchgate.net/publication/376467786_O_uso_das_tecnologias_da_informacao_e_comunicacao_na_organizacao_do_trabalho_pedagogico_em_uma_escola_de_ensino_fundamental_Pos-Pandemia_COVID-19' target='_blank' class='btn-link'>Ver ↗</a></td></tr><tr><td>06/05/2026 19:46</td><td><span class='portal-tag'>ifbaiano.edu.br</span></td><td><a href='https://www.ifbaiano.edu.br/unidades/lapa/ngti/' target='_blank' class='btn-link'>Ver ↗</a></td></tr><tr><td>06/05/2026 19:46</td><td><span class='portal-tag'>portaltransparenciabrasil.com</span></td><td><a href='https://portaltransparenciabrasil.com/viagem/yuri-de-oliveira-luna-e-almeida-0000000000021252771-1' target='_blank' class='btn-link'>Ver ↗</a></td></tr><tr><td>06/05/2026 19:46</td><td><span class='portal-tag'>observatoriolatinoamericano.com</span></td><td><a href='https://observatoriolatinoamericano.com/author/yuri-de-oliveira-luna-e-almeida/' target='_blank' class='btn-link'>Ver ↗</a></td></tr><tr><td>06/05/2026 19:46</td><td><span class='portal-tag'>eduplay.rnp.br</span></td><td><a href='https://eduplay.rnp.br/app/canal/299242' target='_blank' class='btn-link'>Ver ↗</a></td></tr></tbody></table>
-            <footer style="margin-top:20px; text-align:center; font-size:12px; color:gray;">Sincronizado via API em: 06/05/2026 19:46</footer>
-        </div>
-    </body>
-    </html>
+# Configurações de Identidade e Caminhos
+NOME_ALVO = "Yuri de Oliveira Luna e Almeida"
+PASTA_DATA = 'data'
+CSV_FILE = os.path.join(PASTA_DATA, 'mencoes.csv')
+HTML_FILE = 'index.html'
+
+# Pega a chave da API do Serper.dev nos Secrets do GitHub
+SERPER_API_KEY = os.getenv('SERPER_API_KEY')
+
+# Garante que a pasta 'data' exista
+os.makedirs(PASTA_DATA, exist_ok=True)
+
+def buscar_na_api():
+    url = "https://google.serper.dev/search"
+    payload = json.dumps({
+        "q": f'"{NOME_ALVO}"',
+        "gl": "br",
+        "hl": "pt-br",
+        "autocorrect": False
+    })
+    headers = {
+        'X-API-KEY': SERPER_API_KEY,
+        'Content-Type': 'application/json'
+    }
+    response = requests.request("POST", url, headers=headers, data=payload)
+    return response.json()
+
+# --- 1. CARREGAMENTO E BUSCA ---
+links_existentes = set()
+if os.path.exists(CSV_FILE):
+    with open(CSV_FILE, mode='r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            # Usamos o link como chave única para evitar duplicados
+            links_existentes.add(row['Link'])
+
+novas_mencoes = []
+data_execucao = datetime.now().strftime('%d/%m/%Y %H:%M')
+
+print(f"--- 📡 INICIANDO VARREDURA ---")
+
+try:
+    dados_api = buscar_na_api()
+    resultados = dados_api.get('organic', [])
     
+    for item in resultados:
+        link = item.get('link')
+        if link and link not in links_existentes:
+            portal = urlparse(link).netloc.replace('www.', '')
+            novas_mencoes.append({
+                'Data': data_execucao,
+                'Portal': portal,
+                'Link': link
+            })
+            print(f"✅ Nova menção encontrada: {link}")
+
+except Exception as e:
+    print(f"❌ Erro ao acessar a API: {e}")
+
+# --- 2. ATUALIZAÇÃO DO CSV (INCREMENTAL) ---
+# Se for a primeira vez, cria com cabeçalho. Se não, anexa o que for novo.
+if novas_mencoes:
+    arquivo_existe = os.path.exists(CSV_FILE)
+    with open(CSV_FILE, mode='a', encoding='utf-8', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=['Data', 'Portal', 'Link'])
+        if not arquivo_existe:
+            writer.writeheader()
+        writer.writerows(novas_mencoes)
+    print(f"📊 CSV atualizado com {len(novas_mencoes)} novos registros.")
+elif not os.path.exists(CSV_FILE):
+    # Se não achou nada e o arquivo nem existe, cria pelo menos o cabeçalho
+    with open(CSV_FILE, mode='w', encoding='utf-8', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=['Data', 'Portal', 'Link'])
+        writer.writeheader()
+
+# --- 3. GERAÇÃO DO HTML (ESTÁTICO) ---
+# Aqui o Python "vai atrás" do arquivo data/mencoes.csv para ler TUDO o que já foi salvo
+todos_registros = []
+if os.path.exists(CSV_FILE):
+    with open(CSV_FILE, mode='r', encoding='utf-8') as f:
+        todos_registros = list(csv.DictReader(f))
+        # Inverte para que as menções mais recentes fiquem no topo
+        todos_registros.reverse()
+
+print(f"📋 Gerando Dashboard com {len(todos_registros)} registros totais.")
+
+# Constrói as linhas da tabela
+rows_html = ""
+for item in todos_registros:
+    # Garante que os campos existem antes de montar a linha
+    data = item.get('Data', 'N/A')
+    portal = item.get('Portal', 'Site Desconhecido')
+    link = item.get('Link', '#')
+    
+    rows_html += f"""
+    <tr>
+        <td>{data}</td>
+        <td><span class="portal-tag">{portal}</span></td>
+        <td><a href="{link}" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
+    </tr>"""
+
+# Template do Dashboard
+html_content = f"""
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memorial de Menções | Yuri Almeida</title>
+    <style>
+        :root {{ --primary: #2563eb; --bg: #f8fafc; --text: #1e293b; }}
+        body {{ font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); padding: 2rem; margin: 0; }}
+        .container {{ max-width: 950px; margin: 0 auto; background: white; padding: 2.5rem; border-radius: 16px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }}
+        header {{ border-bottom: 2px solid #f1f5f9; margin-bottom: 2rem; padding-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; }}
+        h1 {{ margin: 0; font-size: 1.5rem; color: var(--primary); }}
+        .counter {{ background: #dbeafe; color: var(--primary); padding: 0.4rem 1rem; border-radius: 999px; font-weight: 700; font-size: 0.875rem; }}
+        table {{ width: 100%; border-collapse: collapse; text-align: left; }}
+        th {{ padding: 1rem; border-bottom: 2px solid #f1f5f9; font-size: 0.75rem; text-transform: uppercase; color: #64748b; }}
+        td {{ padding: 1.25rem 1rem; border-bottom: 1px solid #f8fafc; font-size: 0.95rem; }}
+        .portal-tag {{ background: #f1f5f9; padding: 0.3rem 0.6rem; border-radius: 6px; font-size: 0.8rem; color: #475569; border: 1px solid #e2e8f0; }}
+        .btn-link {{ color: var(--primary); text-decoration: none; font-weight: 600; border: 1px solid #dbeafe; padding: 0.4rem 0.8rem; border-radius: 6px; }}
+        .btn-link:hover {{ background: var(--primary); color: white; }}
+        footer {{ margin-top: 3rem; font-size: 0.8rem; color: #94a3b8; text-align: center; border-top: 1px solid #f1f5f9; padding-top: 1.5rem; }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🏛️ Memorial de Menções</h1>
+            <span class="counter">{len(todos_registros)} Registros Catalogados</span>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Fonte / Portal</th>
+                    <th>Acesso</th>
+                </tr>
+            </thead>
+            <tbody>
+                {rows_html if rows_html else "<tr><td colspan='3' style='text-align:center;'>Aguardando primeira sincronização...</td></tr>"}
+            </tbody>
+        </table>
+        <footer>
+            <strong>Monitoramento em tempo real:</strong> {NOME_ALVO}<br>
+            Última atualização: {data_execucao}
+        </footer>
+    </div>
+</body>
+</html>
+"""
+
+# Salva o arquivo HTML final na raiz do repositório
+with open(HTML_FILE, 'w', encoding='utf-8') as f:
+    f.write(html_content)
+
+print("✅ Dashboard index.html gerado com sucesso.")
