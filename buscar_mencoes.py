@@ -9,9 +9,14 @@ NOME_BUSCA = '"Yuri de Oliveira Luna e Almeida"'
 CSV_FILE = 'mencoes.csv'
 HTML_FILE = 'index.html'
 
-# 1. Gerenciamento de Dados (CSV)
+# 1. Verifica o Modo de Execução
+primeira_execucao = not os.path.exists(CSV_FILE)
+# Se for a primeira vez, busca mais a fundo. Se for diária, busca menos.
+limite_busca = 150 if primeira_execucao else 30
+
+# Lê os links existentes para não duplicar
 links_existentes = set()
-if os.path.exists(CSV_FILE):
+if not primeira_execucao:
     with open(CSV_FILE, mode='r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
         for row in reader:
@@ -21,11 +26,11 @@ novas_mencoes = []
 data_execucao = datetime.now().strftime('%d/%m/%Y %H:%M')
 
 print(f"Iniciando busca para: {NOME_BUSCA}")
+print(f"Modo: {'Busca Geral (Primeira Execução)' if primeira_execucao else 'Varredura Diária'}")
+print(f"Limite de resultados definidos: {limite_busca}")
 
 try:
-    # Correção aplicada: googlesearch-python usa 'num_results' em vez de 'num' e 'stop'
-    # Adicionado lang="pt" para focar em resultados do Brasil/em português
-    for url in search(NOME_BUSCA, num_results=30, lang="pt"):
+    for url in search(NOME_BUSCA, num_results=limite_busca, lang="pt"):
         if url not in links_existentes:
             portal = urlparse(url).netloc.replace('www.', '')
             novas_mencoes.append({
@@ -36,22 +41,25 @@ try:
 except Exception as e:
     print(f"Erro na busca: {e}")
 
+# 2. Atualização Condicional do CSV
 if novas_mencoes:
-    arquivo_novo = not os.path.exists(CSV_FILE)
     with open(CSV_FILE, mode='a', encoding='utf-8', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=['Data', 'Portal', 'Link'])
-        if arquivo_novo:
+        if primeira_execucao:
             writer.writeheader()
         writer.writerows(novas_mencoes)
-    print(f"Sucesso: {len(novas_mencoes)} novas menções encontradas e salvas no CSV.")
+    print(f"Sucesso: {len(novas_mencoes)} novas menções salvas no CSV.")
 else:
-    print("Nenhuma menção inédita encontrada.")
+    print("Nenhuma menção inédita encontrada. O arquivo CSV foi mantido inalterado.")
 
-# 2. Geração do Painel HTML
-if os.path.exists(CSV_FILE):
+# 3. Atualização Condicional do Painel HTML
+# Só recria o arquivo HTML se encontramos links novos OU se o HTML sumiu/não existe
+precisa_atualizar_html = bool(novas_mencoes) or not os.path.exists(HTML_FILE)
+
+if precisa_atualizar_html and os.path.exists(CSV_FILE):
     with open(CSV_FILE, mode='r', encoding='utf-8') as f:
         dados = list(csv.DictReader(f))
-        dados.reverse() # Mais recentes no topo
+        dados.reverse() # Coloca os mais recentes no topo da tabela
 
     rows = ""
     for item in dados:
@@ -110,3 +118,6 @@ if os.path.exists(CSV_FILE):
     """
     with open(HTML_FILE, 'w', encoding='utf-8') as f:
         f.write(html_template)
+    print("Painel HTML gerado/atualizado com sucesso.")
+else:
+    print("Painel HTML mantido inalterado, pois não houve novas menções.")
