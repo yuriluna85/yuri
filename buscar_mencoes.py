@@ -1,164 +1,255 @@
-import csv
-import os
-import requests
-import json
-from datetime import datetime
-from urllib.parse import urlparse
-
-# Configurações de Identidade e Caminhos
-NOME_ALVO = "Yuri de Oliveira Luna e Almeida"
-PASTA_DATA = 'data'
-CSV_FILE = os.path.join(PASTA_DATA, 'mencoes.csv')
-HTML_FILE = 'index.html'
-
-# Pega a chave da API do Serper.dev nos Secrets do GitHub
-SERPER_API_KEY = os.getenv('SERPER_API_KEY')
-
-# Garante que a pasta 'data' exista
-os.makedirs(PASTA_DATA, exist_ok=True)
-
-def buscar_na_api():
-    url = "https://google.serper.dev/search"
-    payload = json.dumps({
-        "q": f'"{NOME_ALVO}"',
-        "gl": "br",
-        "hl": "pt-br",
-        "autocorrect": False
-    })
-    headers = {
-        'X-API-KEY': SERPER_API_KEY,
-        'Content-Type': 'application/json'
-    }
-    response = requests.request("POST", url, headers=headers, data=payload)
-    return response.json()
-
-# --- 1. CARREGAMENTO E BUSCA ---
-links_existentes = set()
-if os.path.exists(CSV_FILE):
-    with open(CSV_FILE, mode='r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            # Usamos o link como chave única para evitar duplicados
-            links_existentes.add(row['Link'])
-
-novas_mencoes = []
-data_execucao = datetime.now().strftime('%d/%m/%Y %H:%M')
-
-print(f"--- 📡 INICIANDO VARREDURA ---")
-
-try:
-    dados_api = buscar_na_api()
-    resultados = dados_api.get('organic', [])
-    
-    for item in resultados:
-        link = item.get('link')
-        if link and link not in links_existentes:
-            portal = urlparse(link).netloc.replace('www.', '')
-            novas_mencoes.append({
-                'Data': data_execucao,
-                'Portal': portal,
-                'Link': link
-            })
-            print(f"✅ Nova menção encontrada: {link}")
-
-except Exception as e:
-    print(f"❌ Erro ao acessar a API: {e}")
-
-# --- 2. ATUALIZAÇÃO DO CSV (INCREMENTAL) ---
-# Se for a primeira vez, cria com cabeçalho. Se não, anexa o que for novo.
-if novas_mencoes:
-    arquivo_existe = os.path.exists(CSV_FILE)
-    with open(CSV_FILE, mode='a', encoding='utf-8', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=['Data', 'Portal', 'Link'])
-        if not arquivo_existe:
-            writer.writeheader()
-        writer.writerows(novas_mencoes)
-    print(f"📊 CSV atualizado com {len(novas_mencoes)} novos registros.")
-elif not os.path.exists(CSV_FILE):
-    # Se não achou nada e o arquivo nem existe, cria pelo menos o cabeçalho
-    with open(CSV_FILE, mode='w', encoding='utf-8', newline='') as f:
-        writer = csv.DictWriter(f, fieldnames=['Data', 'Portal', 'Link'])
-        writer.writeheader()
-
-# --- 3. GERAÇÃO DO HTML (ESTÁTICO) ---
-# Aqui o Python "vai atrás" do arquivo data/mencoes.csv para ler TUDO o que já foi salvo
-todos_registros = []
-if os.path.exists(CSV_FILE):
-    with open(CSV_FILE, mode='r', encoding='utf-8') as f:
-        todos_registros = list(csv.DictReader(f))
-        # Inverte para que as menções mais recentes fiquem no topo
-        todos_registros.reverse()
-
-print(f"📋 Gerando Dashboard com {len(todos_registros)} registros totais.")
-
-# Constrói as linhas da tabela
-rows_html = ""
-for item in todos_registros:
-    # Garante que os campos existem antes de montar a linha
-    data = item.get('Data', 'N/A')
-    portal = item.get('Portal', 'Site Desconhecido')
-    link = item.get('Link', '#')
-    
-    rows_html += f"""
-    <tr>
-        <td>{data}</td>
-        <td><span class="portal-tag">{portal}</span></td>
-        <td><a href="{link}" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>"""
-
-# Template do Dashboard
-html_content = f"""
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memorial de Menções | Yuri Almeida</title>
-    <style>
-        :root {{ --primary: #2563eb; --bg: #f8fafc; --text: #1e293b; }}
-        body {{ font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); padding: 2rem; margin: 0; }}
-        .container {{ max-width: 950px; margin: 0 auto; background: white; padding: 2.5rem; border-radius: 16px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }}
-        header {{ border-bottom: 2px solid #f1f5f9; margin-bottom: 2rem; padding-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; }}
-        h1 {{ margin: 0; font-size: 1.5rem; color: var(--primary); }}
-        .counter {{ background: #dbeafe; color: var(--primary); padding: 0.4rem 1rem; border-radius: 999px; font-weight: 700; font-size: 0.875rem; }}
-        table {{ width: 100%; border-collapse: collapse; text-align: left; }}
-        th {{ padding: 1rem; border-bottom: 2px solid #f1f5f9; font-size: 0.75rem; text-transform: uppercase; color: #64748b; }}
-        td {{ padding: 1.25rem 1rem; border-bottom: 1px solid #f8fafc; font-size: 0.95rem; }}
-        .portal-tag {{ background: #f1f5f9; padding: 0.3rem 0.6rem; border-radius: 6px; font-size: 0.8rem; color: #475569; border: 1px solid #e2e8f0; }}
-        .btn-link {{ color: var(--primary); text-decoration: none; font-weight: 600; border: 1px solid #dbeafe; padding: 0.4rem 0.8rem; border-radius: 6px; }}
-        .btn-link:hover {{ background: var(--primary); color: white; }}
-        footer {{ margin-top: 3rem; font-size: 0.8rem; color: #94a3b8; text-align: center; border-top: 1px solid #f1f5f9; padding-top: 1.5rem; }}
-    </style>
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>🏛️ Memorial de Menções</h1>
-            <span class="counter">{len(todos_registros)} Registros Catalogados</span>
-        </header>
-        <table>
-            <thead>
-                <tr>
-                    <th>Data</th>
-                    <th>Fonte / Portal</th>
-                    <th>Acesso</th>
-                </tr>
-            </thead>
-            <tbody>
-                {rows_html if rows_html else "<tr><td colspan='3' style='text-align:center;'>Aguardando primeira sincronização...</td></tr>"}
-            </tbody>
-        </table>
-        <footer>
-            <strong>Monitoramento em tempo real:</strong> {NOME_ALVO}<br>
-            Última atualização: {data_execucao}
-        </footer>
-    </div>
-</body>
-</html>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+╔══════════════════════════════════════════════════════════════╗
+║   YURI-MAIN — Multi-Motor & Multi-Pessoa Clipping Engine     ║
+║   Versão 3.0 — YLuna85 LABs                                  ║
+║   Busca no Google (Serper), Bing e DOU (Imprensa Nacional)   ║
+║   Deduplicação Canônica Cross-Engine + Exportação CSV/JSON   ║
+╚══════════════════════════════════════════════════════════════╝
 """
 
-# Salva o arquivo HTML final na raiz do repositório
-with open(HTML_FILE, 'w', encoding='utf-8') as f:
-    f.write(html_content)
+import csv
+import json
+import os
+import re
+from datetime import datetime
+from urllib.parse import parse_qs, urlparse, urlunparse
 
-print("✅ Dashboard index.html gerado com sucesso.")
+import requests
+
+# ── Configurações de Pessoas e Caminhos ───────────────────────
+PASTA_DATA = 'data'
+SERPER_API_KEY = os.getenv('SERPER_API_KEY')
+
+PESSOAS_MONITORADAS = [
+    {
+        "id": "yuri_luna",
+        "nome_busca": "Yuri de Oliveira Luna e Almeida",
+        "nome_exibicao": "Yuri Luna",
+        "csv_path": os.path.join(PASTA_DATA, 'mencoes_yuri_luna.csv')
+    },
+    {
+        "id": "ana_gabriela",
+        "nome_busca": "Ana Gabriela dos Santos Barbosa",
+        "nome_exibicao": "Ana Gabriela",
+        "csv_path": os.path.join(PASTA_DATA, 'mencoes_ana_gabriela.csv')
+    },
+    {
+        "id": "rodrigo_neves",
+        "nome_busca": "Rodrigo Neves Araújo",
+        "nome_exibicao": "Rodrigo Neves",
+        "csv_path": os.path.join(PASTA_DATA, 'mencoes_rodrigo_neves.csv')
+    }
+]
+
+JSON_CONSOLIDADO = os.path.join(PASTA_DATA, 'mencoes_consolidado.json')
+CSV_FIELDNAMES = ['Data_Coleta', 'Pessoa', 'Fonte', 'Portal', 'Titulo', 'Link']
+
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+}
+
+os.makedirs(PASTA_DATA, exist_ok=True)
+
+
+# ── Utilitários de Normalização e Deduplicação ───────────────
+def normalizar_url(url: str) -> str:
+    """Normaliza URL para comparação canônica unificada."""
+    if not url:
+        return ""
+    try:
+        parsed = urlparse(url.strip())
+        scheme = "https"
+        netloc = parsed.netloc.lower().replace("www.", "")
+        path = parsed.path.rstrip("/")
+        return f"{scheme}://{netloc}{path}"
+    except Exception:
+        return url.strip().lower()
+
+
+def extrair_portal(url: str) -> str:
+    """Extrai o nome amigável do portal da URL."""
+    try:
+        netloc = urlparse(url).netloc.lower().replace("www.", "")
+        return netloc if netloc else "Portal Web"
+    except Exception:
+        return "Portal Web"
+
+
+# ── Motores de Varredura ──────────────────────────────────────
+def buscar_google_serper(nome: str, max_pages: int = 3) -> list:
+    """Busca no Google via Serper.dev com paginação histórica."""
+    resultados = []
+    if not SERPER_API_KEY:
+        print("[!] SERPER_API_KEY nao configurada no ambiente. Pulando Google.")
+        return resultados
+
+    url = "https://google.serper.dev/search"
+    for page in range(1, max_pages + 1):
+        payload = json.dumps({
+            "q": f'"{nome}"',
+            "gl": "br",
+            "hl": "pt-br",
+            "autocorrect": False,
+            "page": page
+        })
+        headers = {
+            'X-API-KEY': SERPER_API_KEY,
+            'Content-Type': 'application/json'
+        }
+        try:
+            r = requests.post(url, headers=headers, data=payload, timeout=20)
+            if r.status_code == 200:
+                data = r.json()
+                for item in data.get('organic', []):
+                    link = item.get('link')
+                    title = item.get('title', 'Menção em artigo/página web')
+                    if link:
+                        resultados.append({
+                            'fonte': 'Google',
+                            'titulo': title,
+                            'link': link
+                        })
+            else:
+                break
+        except Exception as e:
+            print(f"❌ Erro busca Google (Pág {page}): {e}")
+            break
+    return resultados
+
+
+def buscar_dou_oficial(nome: str) -> list:
+    """Busca nativa no Diário Oficial da União (in.gov.br)."""
+    resultados = []
+    url = f'https://www.in.gov.br/consulta/-/buscar/dou?q="{requests.utils.quote(nome)}"&s=todos&exactDate=all&sortType=0'
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=25)
+        if r.status_code == 200:
+            marker = '_br_com_seatecnologia_in_buscadou_BuscaDouPortlet_params'
+            idx = r.text.find(marker)
+            if idx != -1:
+                start_json = r.text.find('{', idx)
+                end_json = r.text.find('</script>', start_json)
+                json_str = r.text[start_json:end_json].strip()
+                data = json.loads(json_str)
+                for item in data.get('jsonArray', []):
+                    title = item.get('title', 'Publicação no Diário Oficial da União')
+                    url_title = item.get('urlTitle', '')
+                    pub_date = item.get('pubDate', '')
+                    full_link = f"https://www.in.gov.br/web/dou/-/{url_title}" if url_title else ""
+                    if full_link:
+                        resultados.append({
+                            'fonte': 'DOU',
+                            'titulo': f"{title} ({pub_date})" if pub_date else title,
+                            'link': full_link
+                        })
+    except Exception as e:
+        print(f"❌ Erro busca DOU para {nome}: {e}")
+    return resultados
+
+
+def buscar_bing_search(nome: str) -> list:
+    """Busca complementar no Bing Search."""
+    resultados = []
+    url = f"https://www.bing.com/search?q=%22{requests.utils.quote(nome)}%22"
+    try:
+        r = requests.get(url, headers=HEADERS, timeout=20)
+        if r.status_code == 200:
+            links = re.findall(r'<a href="(https?://[^"]+)"[^>]*>(.*?)</a>', r.text)
+            for link, raw_title in links:
+                if 'bing.com' not in link and 'microsoft.com' not in link:
+                    clean_title = re.sub(r'<[^>]+>', '', raw_title).strip()
+                    resultados.append({
+                        'fonte': 'Bing',
+                        'titulo': clean_title if clean_title else 'Publicação na Web (Bing)',
+                        'link': link
+                    })
+    except Exception as e:
+        print(f"[-] Erro busca Bing para {nome}: {e}")
+    return resultados
+
+
+# ── Processamento Principal ───────────────────────────────────
+def processar_varredura():
+    data_hoje = datetime.now().strftime('%d/%m/%Y %H:%M')
+    print(f"\n==================================================")
+    print(f" [!] INICIANDO VARREDURA MULTI-MOTOR -- {data_hoje}")
+    print(f"==================================================\n")
+
+    todos_registros_consolidados = []
+
+    for pessoa in PESSOAS_MONITORADAS:
+        nome_busca = pessoa['nome_busca']
+        nome_exib = pessoa['nome_exibicao']
+        csv_file = pessoa['csv_path']
+
+        print(f"Processando: {nome_exib} ({nome_busca})...")
+
+        # 1. Carrega links já existentes para a pessoa
+        links_existentes_norm = set()
+        registros_pessoa = []
+
+        if os.path.exists(csv_file):
+            with open(csv_file, mode='r', encoding='utf-8') as f:
+                reader = csv.DictReader(f)
+                for r in reader:
+                    registros_pessoa.append(r)
+                    url_norm = normalizar_url(r.get('Link', ''))
+                    if url_norm:
+                        links_existentes_norm.add(url_norm)
+
+        # 2. Executa a varredura nas 3 fontes
+        res_dou = buscar_dou_oficial(nome_busca)
+        res_google = buscar_google_serper(nome_busca, max_pages=3)
+        res_bing = buscar_bing_search(nome_busca)
+
+        # Combina mantendo prioridade: DOU > Google > Bing
+        todos_novos_candidatos = res_dou + res_google + res_bing
+        novos_adicionados = 0
+
+        for item in todos_novos_candidatos:
+            link = item['link']
+            url_norm = normalizar_url(link)
+
+            if url_norm and url_norm not in links_existentes_norm:
+                links_existentes_norm.add(url_norm)
+                novo_reg = {
+                    'Data_Coleta': data_hoje,
+                    'Pessoa': nome_exib,
+                    'Fonte': item['fonte'],
+                    'Portal': extrair_portal(link),
+                    'Titulo': item['titulo'],
+                    'Link': link
+                }
+                registros_pessoa.append(novo_reg)
+                novos_adicionados += 1
+                print(f"  + Novo [{item['fonte']}]: {link[:80]}...")
+
+        # 3. Salva CSV individual atualizado
+        with open(csv_file, mode='w', encoding='utf-8', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=CSV_FIELDNAMES)
+            writer.writeheader()
+            writer.writerows(registros_pessoa)
+
+        print(f"  [OK] {nome_exib}: {len(registros_pessoa)} registros totais (+{novos_adicionados} novos).\n")
+        todos_registros_consolidados.extend(registros_pessoa)
+
+    # 4. Gera JSON consolidado para renderização estática ultra-rápida
+    # Ordena do mais recente para o mais antigo
+    todos_registros_consolidados.sort(key=lambda x: x.get('Data_Coleta', ''), reverse=True)
+
+    with open(JSON_CONSOLIDADO, mode='w', encoding='utf-8') as f:
+        json.dump({
+            "ultima_atualizacao": data_hoje,
+            "total_registros": len(todos_registros_consolidados),
+            "registros": todos_registros_consolidados
+        }, f, ensure_ascii=False, indent=2)
+
+    print(f"==================================================")
+    print(f" [OK] VARREDURA CONCLUIDA")
+    print(f" [OK] JSON Consolidado salvo com {len(todos_registros_consolidados)} registros.")
+    print(f"==================================================\n")
+
+if __name__ == "__main__":
+    processar_varredura()

@@ -1,213 +1,229 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Memorial de Menções | Yuri Almeida</title>
-    <style>
-        :root { --primary: #2563eb; --bg: #f8fafc; --text: #1e293b; }
-        body { font-family: system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); padding: 2rem; margin: 0; }
-        .container { max-width: 950px; margin: 0 auto; background: white; padding: 2.5rem; border-radius: 16px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
-        header { border-bottom: 2px solid #f1f5f9; margin-bottom: 2rem; padding-bottom: 1.5rem; display: flex; justify-content: space-between; align-items: center; }
-        h1 { margin: 0; font-size: 1.5rem; color: var(--primary); }
-        .counter { background: #dbeafe; color: var(--primary); padding: 0.4rem 1rem; border-radius: 999px; font-weight: 700; font-size: 0.875rem; }
-        table { width: 100%; border-collapse: collapse; text-align: left; }
-        th { padding: 1rem; border-bottom: 2px solid #f1f5f9; font-size: 0.75rem; text-transform: uppercase; color: #64748b; }
-        td { padding: 1.25rem 1rem; border-bottom: 1px solid #f8fafc; font-size: 0.95rem; }
-        .portal-tag { background: #f1f5f9; padding: 0.3rem 0.6rem; border-radius: 6px; font-size: 0.8rem; color: #475569; border: 1px solid #e2e8f0; }
-        .btn-link { color: var(--primary); text-decoration: none; font-weight: 600; border: 1px solid #dbeafe; padding: 0.4rem 0.8rem; border-radius: 6px; }
-        .btn-link:hover { background: var(--primary); color: white; }
-        footer { margin-top: 3rem; font-size: 0.8rem; color: #94a3b8; text-align: center; border-top: 1px solid #f1f5f9; padding-top: 1.5rem; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Memorial de Menções & Clipping Automático — YLuna85 LABs</title>
+  <meta name="description" content="Dashboard de monitoramento contínuo de menções e clipping público." />
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <div class="container">
-        <header>
-            <h1>🏛️ Memorial de Menções</h1>
-            <span class="counter">33 Registros Catalogados</span>
-        </header>
-        <table>
-            <thead>
-                <tr>
-                    <th>Data</th>
-                    <th>Fonte / Portal</th>
-                    <th>Acesso</th>
-                </tr>
-            </thead>
-            <tbody>
-                
-    <tr>
-        <td>21/06/2026 11:42</td>
-        <td><span class="portal-tag">jusbrasil.com.br</span></td>
-        <td><a href="https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>21/06/2026 11:42</td>
-        <td><span class="portal-tag">iffarroupilha.edu.br</span></td>
-        <td><a href="https://www.iffarroupilha.edu.br/component/k2/attachments/download/37273/ded369d9fee8ded02ea339cd4bdd2126" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>19/06/2026 12:42</td>
-        <td><span class="portal-tag">poscom.ufba.br</span></td>
-        <td><a href="http://poscom.ufba.br/wp-content/uploads/2025/09/Inscricoes-recebidas-Mestrado-Selecao-Regular-2026.docx-1.pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>15/06/2026 15:10</td>
-        <td><span class="portal-tag">anais2.uesb.br</span></td>
-        <td><a href="https://anais2.uesb.br/index.php/semgepraxis/article/download/2010/1577" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>07/06/2026 11:05</td>
-        <td><span class="portal-tag">groups.google.com</span></td>
-        <td><a href="https://groups.google.com/g/pedagogia-uneb-20172/c/cqkb6KmMpA0" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>03/06/2026 13:12</td>
-        <td><span class="portal-tag">eduplay.rnp.br</span></td>
-        <td><a href="https://eduplay.rnp.br/app/video/412722" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>03/06/2026 13:12</td>
-        <td><span class="portal-tag">anais2.uesb.br</span></td>
-        <td><a href="https://anais2.uesb.br/index.php/semgepraxis/citationstylelanguage/get/vancouver?submissionId=2010&publicationId=2010" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>31/05/2026 10:53</td>
-        <td><span class="portal-tag">escavador.com</span></td>
-        <td><a href="https://www.escavador.com/diarios/6193456/DOU/secao-2/2026-01-09?page=13" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>30/05/2026 10:45</td>
-        <td><span class="portal-tag">researchgate.net</span></td>
-        <td><a href="https://www.researchgate.net/publication/402633163_TECNOLOGIAS_DA_INFORMACAO_E_COMUNICACAO_NO_ENSINO_DE_POS-GRADUACAO_EM_ENFERMAGEM_NA_PANDEMIA_DE_COVID-19" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>27/05/2026 12:16</td>
-        <td><span class="portal-tag">eduplay.rnp.br</span></td>
-        <td><a href="https://eduplay.rnp.br/app/video/405211" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>27/05/2026 12:16</td>
-        <td><span class="portal-tag">groups.google.com</span></td>
-        <td><a href="https://groups.google.com/g/pedagogia-uneb-20172/c/KxQEsegU7KM" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>27/05/2026 12:16</td>
-        <td><span class="portal-tag">researchgate.net</span></td>
-        <td><a href="https://www.researchgate.net/profile/Isaura-Francisco-De-Oliveira" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>25/05/2026 12:24</td>
-        <td><span class="portal-tag">researchgate.net</span></td>
-        <td><a href="https://www.researchgate.net/publication/360558524_MAES_FORMADAS_EM_DIREITO_NO_ESTADO_DO_RIO_DE_JANEIRO_UM_ESTUDO_SOBRE_O_IMPACTO_DA_PANDEMIA_DE_COVID-19_E_DO_USO_DAS_TECNOLOGIAS_DE_COMUNICACAO_E_INFORMACAO_NAS_ROTINAS_PROFISSIONAL_E_FAMILIAR_DAS_MULH" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>24/05/2026 10:27</td>
-        <td><span class="portal-tag">anais2.uesb.br</span></td>
-        <td><a href="https://anais2.uesb.br/index.php/semgepraxis/citationstylelanguage/get/ieee?submissionId=2010&publicationId=2010" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>22/05/2026 11:42</td>
-        <td><span class="portal-tag">groups.google.com</span></td>
-        <td><a href="https://groups.google.com/g/pedagogia-uneb-20172/c/hd37cnBjXzg" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>20/05/2026 11:46</td>
-        <td><span class="portal-tag">orcid.org</span></td>
-        <td><a href="https://orcid.org/0000-0001-7646-3202" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>19/05/2026 11:58</td>
-        <td><span class="portal-tag">concurso.ifbaiano.edu.br</span></td>
-        <td><a href="https://concurso.ifbaiano.edu.br/portal/pronatec-simplificado-20152/wp-content/uploads/sites/29/2015/12/Resultado.pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>19/05/2026 11:58</td>
-        <td><span class="portal-tag">ifbaiano.edu.br</span></td>
-        <td><a href="https://ifbaiano.edu.br/portal/engenharia-agronomica-lapa/wp-content/uploads/sites/21/2017/03/8-Normas-de-Biosseguranca-dos-Laboratorios-Didaticos.pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>16/05/2026 10:10</td>
-        <td><span class="portal-tag">ifbaiano.edu.br</span></td>
-        <td><a href="https://www.ifbaiano.edu.br/unidades/lapa/files/2024/02/PORTARIA-73_2023.pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>07/05/2026 11:06</td>
-        <td><span class="portal-tag">ifbaiano.edu.br</span></td>
-        <td><a href="https://ifbaiano.edu.br/portal/comissoes/comissao-interna-de-supervisao/" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>06/05/2026 19:53</td>
-        <td><span class="portal-tag">poscom.ufba.br</span></td>
-        <td><a href="http://poscom.ufba.br/wp-content/uploads/2025/09/Inscricoes-homologadas-Mestrado-Selecao-Regular-2026.docx.pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>06/05/2026 19:53</td>
-        <td><span class="portal-tag">portal.ifsuldeminas.edu.br</span></td>
-        <td><a href="https://portal.ifsuldeminas.edu.br/attachments/article/6490/Edital%20208%20de%202024%20-%20RESULTADO%20PRELIMINAR%20DA%20AN%C3%81LISE%20DE%20PONTUA%C3%87%C3%83O%20(2).pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>06/05/2026 19:53</td>
-        <td><span class="portal-tag">concurso.ifbaiano.edu.br</span></td>
-        <td><a href="https://concurso.ifbaiano.edu.br/portal/eleicao-cis-pcctae-2025/wp-content/uploads/sites/1150/2025/03/resultado.final_.pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>06/05/2026 19:46</td>
-        <td><span class="portal-tag">editorametrics.com.br</span></td>
-        <td><a href="https://editorametrics.com.br/livro/coordenacao-pedagogica-e-processos-formativos" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>06/05/2026 19:46</td>
-        <td><span class="portal-tag">portal.ifsuldeminas.edu.br</span></td>
-        <td><a href="https://portal.ifsuldeminas.edu.br/attachments/article/6490/Edital%20208%20de%202024%20-%20RESULTADO%20FINAL.pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>06/05/2026 19:46</td>
-        <td><span class="portal-tag">cefor.ifes.edu.br</span></td>
-        <td><a href="https://cefor.ifes.edu.br/images/stories/Classifica%C3%A7%C3%A3o_preliminar_TCF_05.2026.pdf" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>06/05/2026 19:46</td>
-        <td><span class="portal-tag">anais2.uesb.br</span></td>
-        <td><a href="https://anais2.uesb.br/index.php/semgepraxis/article/view/2010" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>06/05/2026 19:46</td>
-        <td><span class="portal-tag">ojs.observatoriolatinoamericano.com</span></td>
-        <td><a href="https://ojs.observatoriolatinoamericano.com/ojs/index.php/olel/article/view/2082" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>06/05/2026 19:46</td>
-        <td><span class="portal-tag">researchgate.net</span></td>
-        <td><a href="https://www.researchgate.net/publication/376467786_O_uso_das_tecnologias_da_informacao_e_comunicacao_na_organizacao_do_trabalho_pedagogico_em_uma_escola_de_ensino_fundamental_Pos-Pandemia_COVID-19" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>06/05/2026 19:46</td>
-        <td><span class="portal-tag">ifbaiano.edu.br</span></td>
-        <td><a href="https://www.ifbaiano.edu.br/unidades/lapa/ngti/" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>06/05/2026 19:46</td>
-        <td><span class="portal-tag">portaltransparenciabrasil.com</span></td>
-        <td><a href="https://portaltransparenciabrasil.com/viagem/yuri-de-oliveira-luna-e-almeida-0000000000021252771-1" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>06/05/2026 19:46</td>
-        <td><span class="portal-tag">observatoriolatinoamericano.com</span></td>
-        <td><a href="https://observatoriolatinoamericano.com/author/yuri-de-oliveira-luna-e-almeida/" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-    <tr>
-        <td>06/05/2026 19:46</td>
-        <td><span class="portal-tag">eduplay.rnp.br</span></td>
-        <td><a href="https://eduplay.rnp.br/app/canal/299242" target="_blank" class="btn-link">Acessar Menção ↗</a></td>
-    </tr>
-            </tbody>
-        </table>
-        <footer>
-            <strong>Monitoramento em tempo real:</strong> Yuri de Oliveira Luna e Almeida<br>
-            Última atualização: 29/07/2026 11:20
-        </footer>
+<body class="font-md">
+
+  <!-- ══ BARRA DE ACESSIBILIDADE ═══════════════════════════════ -->
+  <div class="a11y-bar" role="region" aria-label="Controles de Acessibilidade">
+    <span>Acessibilidade:</span>
+    <button id="btn-font-dec" class="btn-a11y" aria-label="Diminuir tamanho do texto">A-</button>
+    <button id="btn-font-inc" class="btn-a11y" aria-label="Aumentar tamanho do texto">A+</button>
+    <button id="btn-contrast" class="btn-a11y" aria-label="Alternar modo de alto contraste">Alto Contraste</button>
+    <button id="btn-theme" class="btn-a11y" aria-label="Alternar tema claro ou escuro">Tema 🌙</button>
+  </div>
+
+  <!-- ══ CABEÇALHO ═════════════════════════════════════════════ -->
+  <header class="app-header" role="banner">
+    <div class="header-container">
+      <div>
+        <h1 class="brand-title">🏛️ Memorial de Menções & Clipping</h1>
+        <span class="brand-sub">YLuna85 LABs — Monitoramento de Identidade</span>
+      </div>
+      <div id="sync-info" style="font-size: 0.85rem; color: var(--text-sub);">
+        Sincronizando dados…
+      </div>
     </div>
+  </header>
+
+  <!-- ══ CONTEÚDO PRINCIPAL ════════════════════════════════════ -->
+  <main class="app-container" role="main">
+
+    <!-- ── NAVEGAÇÃO POR ABAS (PESSOAS) ────────────────────────── -->
+    <nav class="tabs-nav" role="tablist" aria-label="Seleção de Pessoa Monitorada">
+      <button class="tab-btn active" role="tab" aria-selected="true" data-person="TODOS">
+        📌 Todos os Registros
+      </button>
+      <button class="tab-btn" role="tab" aria-selected="false" data-person="Yuri Luna">
+        👨‍💻 Yuri Luna
+      </button>
+      <button class="tab-btn" role="tab" aria-selected="false" data-person="Ana Gabriela">
+        👩‍🏫 Ana Gabriela
+      </button>
+      <button class="tab-btn" role="tab" aria-selected="false" data-person="Rodrigo Neves">
+        👨‍💼 Rodrigo Neves
+      </button>
+    </nav>
+
+    <!-- ── CARDS DE MÉTRICAS RÁPIDAS ───────────────────────────── -->
+    <section class="metrics-grid" aria-label="Resumo estatístico">
+      <article class="metric-card">
+        <div id="metric-total" class="metric-value">0</div>
+        <div class="metric-label">Total de Menções</div>
+      </article>
+      <article class="metric-card">
+        <div id="metric-dou" class="metric-value" style="color: var(--accent-green);">0</div>
+        <div class="metric-label">Publicações no DOU</div>
+      </article>
+      <article class="metric-card">
+        <div id="metric-google" class="metric-value">0</div>
+        <div class="metric-label">Registros no Google</div>
+      </article>
+      <article class="metric-card">
+        <div id="metric-bing" class="metric-value" style="color: var(--accent-orange);">0</div>
+        <div class="metric-label">Registros no Bing</div>
+      </article>
+    </section>
+
+    <!-- ── FILTROS E PESQUISA ──────────────────────────────────── -->
+    <section class="filters-bar" aria-label="Filtros de busca">
+      <div class="search-box">
+        <input
+          type="search"
+          id="search-input"
+          class="search-input"
+          placeholder="Pesquisar por palavra-chave (ex: IF Baiano, Portaria, Artigo)..."
+          aria-label="Filtrar menções por palavra-chave"
+        />
+      </div>
+      <div class="filter-source" role="group" aria-label="Filtrar por fonte de busca">
+        <button class="badge-filter active" data-source="TODAS">Todas Fontes</button>
+        <button class="badge-filter" data-source="DOU">🟢 DOU</button>
+        <button class="badge-filter" data-source="Google">🔵 Google</button>
+        <button class="badge-filter" data-source="Bing">🟠 Bing</button>
+      </div>
+    </section>
+
+    <!-- ── GRID DE CARDS DE MENÇÃO ─────────────────────────────── -->
+    <section id="mentions-container" class="mentions-grid" aria-label="Lista de menções catalogadas">
+      <div style="grid-column: 1/-1; text-align: center; color: var(--text-sub); padding: 40px;">
+        Carregando histórico de menções…
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══ RODAPÉ ════════════════════════════════════════════════ -->
+  <footer class="app-footer" role="contentinfo">
+    <p>⚡ <strong>YLuna85 LABs</strong> — Sistema Inteligente de Automação e Preservação de Memória</p>
+    <p style="margin-top: 4px; opacity: 0.7;">Desenvolvido com HTML5 Semântico, Vanilla CSS3 e Acessibilidade (A11y/WCAG).</p>
+  </footer>
+
+  <!-- ══ LÓGICA FRONTEND JS ════════════════════════════════════ -->
+  <script>
+    (function () {
+      let state = {
+        allMentions: [],
+        currentPerson: 'TODOS',
+        currentSource: 'TODAS',
+        searchQuery: ''
+      };
+
+      const $ = id => document.getElementById(id);
+
+      // ── Controles de Acessibilidade ──────────────────────────
+      const body = document.body;
+      $('btn-font-dec').onclick = () => { body.classList.remove('font-lg'); body.classList.add('font-sm'); };
+      $('btn-font-inc').onclick = () => { body.classList.remove('font-sm'); body.classList.add('font-lg'); };
+      $('btn-contrast').onclick = () => { body.classList.toggle('high-contrast'); };
+      $('btn-theme').onclick = () => { body.classList.toggle('light-theme'); };
+
+      // ── Carregamento do JSON Consolidado ──────────────────────
+      async function carregarDados() {
+        try {
+          const res = await fetch('data/mencoes_consolidado.json');
+          if (!res.ok) throw new Error('Arquivo JSON não encontrado');
+          const data = await res.json();
+          state.allMentions = data.registros || [];
+          $('sync-info').textContent = `Última atualização: ${data.ultima_atualizacao || 'Hoje'}`;
+          render();
+        } catch (err) {
+          $('mentions-container').innerHTML = `
+            <div style="grid-column: 1/-1; text-align: center; color: #ef4444; padding: 40px;">
+              ⚠️ Histórico em processamento. Aguarde a conclusão da primeira varredura.
+            </div>`;
+        }
+      }
+
+      // ── Filtragem de Dados ───────────────────────────────────
+      function getFilteredData() {
+        return state.allMentions.filter(item => {
+          const matchPerson = state.currentPerson === 'TODOS' || item.Pessoa === state.currentPerson;
+          const matchSource = state.currentSource === 'TODAS' || item.Fonte === state.currentSource;
+          const q = state.searchQuery.toLowerCase();
+          const matchQuery = !q ||
+            (item.Titulo && item.Titulo.toLowerCase().includes(q)) ||
+            (item.Portal && item.Portal.toLowerCase().includes(q)) ||
+            (item.Link && item.Link.toLowerCase().includes(q));
+          return matchPerson && matchSource && matchQuery;
+        });
+      }
+
+      // ── Renderização do Dashboard ────────────────────────────
+      function render() {
+        const filtered = getFilteredData();
+
+        // Atualiza Métricas
+        $('metric-total').textContent = filtered.length;
+        $('metric-dou').textContent = filtered.filter(i => i.Fonte === 'DOU').length;
+        $('metric-google').textContent = filtered.filter(i => i.Fonte === 'Google').length;
+        $('metric-bing').textContent = filtered.filter(i => i.Fonte === 'Bing').length;
+
+        // Renderiza Grid
+        const container = $('mentions-container');
+        if (!filtered.length) {
+          container.innerHTML = `
+            <div style="grid-column: 1/-1; text-align: center; color: var(--text-sub); padding: 40px;">
+              Nenhum registro encontrado para os filtros selecionados.
+            </div>`;
+          return;
+        }
+
+        container.innerHTML = filtered.map(item => {
+          const tagClass = item.Fonte === 'DOU' ? 'tag-dou' : (item.Fonte === 'Bing' ? 'tag-bing' : 'tag-google');
+          return `
+            <article class="mention-card">
+              <div class="card-top">
+                <span class="tag-person">${item.Pessoa || 'Geral'}</span>
+                <span class="tag-source ${tagClass}">${item.Fonte || 'Web'}</span>
+              </div>
+              <div class="card-title">${item.Titulo || 'Menção na Web'}</div>
+              <div class="card-footer">
+                <span>🌐 ${item.Portal || 'Site'}</span>
+                <a href="${item.Link}" target="_blank" rel="noopener noreferrer" class="btn-access">
+                  Acessar ↗
+                </a>
+              </div>
+            </article>`;
+        }).join('');
+      }
+
+      // ── Eventos de Abas e Filtros ────────────────────────────
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.onclick = () => {
+          document.querySelectorAll('.tab-btn').forEach(b => {
+            b.classList.remove('active');
+            b.setAttribute('aria-selected', 'false');
+          });
+          btn.classList.add('active');
+          btn.setAttribute('aria-selected', 'true');
+          state.currentPerson = btn.dataset.person;
+          render();
+        };
+      });
+
+      document.querySelectorAll('.badge-filter').forEach(btn => {
+        btn.onclick = () => {
+          document.querySelectorAll('.badge-filter').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          state.currentSource = btn.dataset.source;
+          render();
+        };
+      });
+
+      $('search-input').oninput = e => {
+        state.searchQuery = e.target.value;
+        render();
+      };
+
+      // Inicializa
+      carregarDados();
+    })();
+  </script>
 </body>
 </html>
