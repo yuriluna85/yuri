@@ -3,22 +3,31 @@
 """
 ╔══════════════════════════════════════════════════════════════╗
 ║   YURI-MAIN — Multi-Motor & Multi-Pessoa Clipping Engine     ║
-║   Versão 3.0 — YLuna85 LABs                                  ║
+║   Versão 3.5 — YLuna85 LABs                                  ║
+║   Modos: 'semanal' (últimos 7 dias) vs 'forcado' (histórico) ║
 ║   Busca no Google (Serper), Bing e DOU (Imprensa Nacional)   ║
-║   Deduplicação Canônica Cross-Engine + Exportação CSV/JSON   ║
 ╚══════════════════════════════════════════════════════════════╝
 """
 
+import argparse
 import csv
 import json
 import os
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 from urllib.parse import parse_qs, urlparse, urlunparse
 
 import requests
 
-# ── Configurações de Pessoas e Caminhos ───────────────────────
+# ── Argumentos e Variáveis de Ambiente ───────────────────────
+parser = argparse.ArgumentParser(description="Clipping Engine yuri-main")
+parser.add_argument("--modo", choices=["semanal", "forcado"], default=os.getenv("MODO_VARREDURA", "forcado"), help="Modo de varredura")
+parser.add_argument("--paginas", type=int, default=int(os.getenv("MAX_PAGINAS", "5")), help="Quantidade de páginas do Google no modo forçado")
+args = parser.parse_args()
+
+MODO_VARREDURA = args.modo
+MAX_PAGINAS_GOOGLE = args.paginas if MODO_VARREDURA == "forcado" else 2
+
 PASTA_DATA = 'data'
 SERPER_API_KEY = os.getenv('SERPER_API_KEY')
 
@@ -53,9 +62,8 @@ HEADERS = {
 os.makedirs(PASTA_DATA, exist_ok=True)
 
 
-# ── Utilitários de Normalização e Deduplicação ───────────────
+# ── Normalização Canônica de URLs ────────────────────────────
 def normalizar_url(url: str) -> str:
-    """Normaliza URL para comparação canônica unificada."""
     if not url:
         return ""
     try:
@@ -69,7 +77,6 @@ def normalizar_url(url: str) -> str:
 
 
 def extrair_portal(url: str) -> str:
-    """Extrai o nome amigável do portal da URL."""
     try:
         netloc = urlparse(url).netloc.lower().replace("www.", "")
         return netloc if netloc else "Portal Web"
@@ -78,8 +85,7 @@ def extrair_portal(url: str) -> str:
 
 
 # ── Motores de Varredura ──────────────────────────────────────
-def buscar_google_serper(nome: str, max_pages: int = 3) -> list:
-    """Busca no Google via Serper.dev com paginação histórica."""
+def buscar_google_serper(nome: str, modo: str, max_pages: int) -> list:
     resultados = []
     if not SERPER_API_KEY:
         print("[!] SERPER_API_KEY nao configurada no ambiente. Pulando Google.")
@@ -87,13 +93,17 @@ def buscar_google_serper(nome: str, max_pages: int = 3) -> list:
 
     url = "https://google.serper.dev/search"
     for page in range(1, max_pages + 1):
-        payload = json.dumps({
+        payload_dict = {
             "q": f'"{nome}"',
             "gl": "br",
             "hl": "pt-br",
             "autocorrect": False,
             "page": page
-        })
+        }
+        if modo == "semanal":
+            payload_dict["tbs"] = "qdr:w"  # Filtro dos últimos 7 dias
+
+        payload = json.dumps(payload_dict)
         headers = {
             'X-API-KEY': SERPER_API_KEY,
             'Content-Type': 'application/json'
@@ -102,7 +112,10 @@ def buscar_google_serper(nome: str, max_pages: int = 3) -> list:
             r = requests.post(url, headers=headers, data=payload, timeout=20)
             if r.status_code == 200:
                 data = r.json()
-                for item in data.get('organic', []):
+                items = data.get('organic', [])
+                if not items:
+                    break
+                for item in items:
                     link = item.get('link')
                     title = item.get('title', 'Menção em artigo/página web')
                     if link:
@@ -114,15 +127,15 @@ def buscar_google_serper(nome: str, max_pages: int = 3) -> list:
             else:
                 break
         except Exception as e:
-            print(f"❌ Erro busca Google (Pág {page}): {e}")
+            print(f"[-] Erro busca Google (Pág {page}): {e}")
             break
     return resultados
 
 
-def buscar_dou_oficial(nome: str) -> list:
-    """Busca nativa no Diário Oficial da União (in.gov.br)."""
+def buscar_dou_oficial(nome: str, modo: str) -> list:
     resultados = []
-    url = f'https://www.in.gov.br/consulta/-/buscar/dou?q="{requests.utils.quote(nome)}"&s=todos&exactDate=all&sortType=0'
+    exact_date = "w" if modo == "semanal" else "all"
+    url = f'https://www.in.gov.br/consulta/-/buscar/dou?q="{requests.utils.quote(nome)}"&s=todos&exactDate={exact_date}&sortType=0'
     try:
         r = requests.get(url, headers=HEADERS, timeout=25)
         if r.status_code == 200:
@@ -145,12 +158,11 @@ def buscar_dou_oficial(nome: str) -> list:
                             'link': full_link
                         })
     except Exception as e:
-        print(f"❌ Erro busca DOU para {nome}: {e}")
+        print(f"[-] Erro busca DOU para {nome}: {e}")
     return resultados
 
 
 def buscar_bing_search(nome: str) -> list:
-    """Busca complementar no Bing Search."""
     resultados = []
     url = f"https://www.bing.com/search?q=%22{requests.utils.quote(nome)}%22"
     try:
@@ -174,7 +186,7 @@ def buscar_bing_search(nome: str) -> list:
 def processar_varredura():
     data_hoje = datetime.now().strftime('%d/%m/%Y %H:%M')
     print(f"\n==================================================")
-    print(f" [!] INICIANDO VARREDURA MULTI-MOTOR -- {data_hoje}")
+    print(f" [!] VARREDURA MULTI-MOTOR — MODO: {MODO_VARREDURA.upper()} — {data_hoje}")
     print(f"==================================================\n")
 
     todos_registros_consolidados = []
@@ -200,8 +212,8 @@ def processar_varredura():
                         links_existentes_norm.add(url_norm)
 
         # 2. Executa a varredura nas 3 fontes
-        res_dou = buscar_dou_oficial(nome_busca)
-        res_google = buscar_google_serper(nome_busca, max_pages=3)
+        res_dou = buscar_dou_oficial(nome_busca, MODO_VARREDURA)
+        res_google = buscar_google_serper(nome_busca, MODO_VARREDURA, MAX_PAGINAS_GOOGLE)
         res_bing = buscar_bing_search(nome_busca)
 
         # Combina mantendo prioridade: DOU > Google > Bing
@@ -235,13 +247,13 @@ def processar_varredura():
         print(f"  [OK] {nome_exib}: {len(registros_pessoa)} registros totais (+{novos_adicionados} novos).\n")
         todos_registros_consolidados.extend(registros_pessoa)
 
-    # 4. Gera JSON consolidado para renderização estática ultra-rápida
-    # Ordena do mais recente para o mais antigo
+    # 4. Gera JSON consolidado para renderização estática
     todos_registros_consolidados.sort(key=lambda x: x.get('Data_Coleta', ''), reverse=True)
 
     with open(JSON_CONSOLIDADO, mode='w', encoding='utf-8') as f:
         json.dump({
             "ultima_atualizacao": data_hoje,
+            "modo_varredura": MODO_VARREDURA,
             "total_registros": len(todos_registros_consolidados),
             "registros": todos_registros_consolidados
         }, f, ensure_ascii=False, indent=2)
