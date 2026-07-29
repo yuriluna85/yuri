@@ -1,35 +1,55 @@
-name: Rotina de Clipping Automático
+name: Rotina de Clipping & Varredura Histórica (yuri-main)
 
 on:
   schedule:
-    - cron: '0 9 * * *'
+    # Executa a cada 7 dias (toda segunda-feira às 09:00 UTC)
+    - cron: '0 9 * * 1'
+
   workflow_dispatch:
+    inputs:
+      modo:
+        description: 'Modo de Varredura'
+        required: true
+        default: 'forcado'
+        type: choice
+        options:
+          - forcado
+          - semanal
+      max_paginas:
+        description: 'Páginas de Busca do Google (Modo Forçado)'
+        required: false
+        default: '5'
 
 jobs:
-  build:
+  clipping:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout código
-        uses: actions/checkout@v3
+      - name: Checkout Código
+        uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v4
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
-      - name: Instalar dependências
-        run: pip install -r requirements.txt
-
-      - name: Executar Crawler
-        env:
-          # É aqui que a mágica acontece: o script lê a chave do segredo
-          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
-        run: python buscar_mencoes.py
-
-      - name: Salvar alterações
+      - name: Instalar Dependências
         run: |
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-          git add .
-          git diff --staged --quiet || git commit -m "🤖 [Auto] Clipping atualizado via API"
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Executar Varredura de Menções
+        env:
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          MODO_VARREDURA: ${{ github.event.inputs.modo || 'semanal' }}
+          MAX_PAGINAS: ${{ github.event.inputs.max_paginas || '5' }}
+        run: |
+          python buscar_mencoes.py --modo ${{ env.MODO_VARREDURA }} --paginas ${{ env.MAX_PAGINAS }}
+
+      - name: Salvar Alterações no GitHub
+        run: |
+          git config --global user.name "YLuna85 Bot"
+          git config --global user.email "bot@yluna85.labs"
+          git add data/ index.html style.css
+          git diff --staged --quiet || git commit -m "🤖 [Auto] Clipping atualizado (${{ github.event.inputs.modo || 'semanal' }})"
           git push
