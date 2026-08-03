@@ -1,22 +1,22 @@
-name: Rotina de Clipping & Varredura Histórica (yuri-main)
+name: Rotina Diária de Clipping & Varredura Histórica (yuri-main v4.0)
 
 on:
   schedule:
-    # Executa a cada 7 dias (toda segunda-feira às 09:00 UTC)
-    - cron: '0 9 * * 1'
+    # Executa todos os dias às 06:10 BRT (09:10 UTC)
+    - cron: '10 9 * * *'
 
   workflow_dispatch:
     inputs:
       modo:
         description: 'Modo de Varredura'
         required: true
-        default: 'forcado'
+        default: 'diario'
         type: choice
         options:
-          - forcado
-          - semanal
+          - diario
+          - historico
       max_paginas:
-        description: 'Páginas de Busca do Google (Modo Forçado)'
+        description: 'Páginas de Busca (Modo Histórico)'
         required: false
         default: '5'
 
@@ -41,7 +41,7 @@ jobs:
       - name: Executar Varredura de Menções
         env:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
-          MODO_VARREDURA: ${{ github.event.inputs.modo || 'semanal' }}
+          MODO_VARREDURA: ${{ github.event.inputs.modo || 'diario' }}
           MAX_PAGINAS: ${{ github.event.inputs.max_paginas || '5' }}
         run: |
           python buscar_mencoes.py --modo ${{ env.MODO_VARREDURA }} --paginas ${{ env.MAX_PAGINAS }}
@@ -51,5 +51,5 @@ jobs:
           git config --global user.name "YLuna85 Bot"
           git config --global user.email "bot@yluna85.labs"
           git add data/ index.html style.css
-          git diff --staged --quiet || git commit -m "🤖 [Auto] Clipping atualizado (${{ github.event.inputs.modo || 'semanal' }})"
+          git diff --staged --quiet || git commit -m "🤖 [Auto] Clipping diário atualizado (${{ github.event.inputs.modo || 'diario' }})"
           git push

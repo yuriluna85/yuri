@@ -4,8 +4,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Memorial de Menções & Clipping Automático — YLuna85 LABs</title>
-  <meta name="description" content="Dashboard de monitoramento contínuo de menções e clipping público." />
+  <meta name="description" content="Dashboard de monitoramento contínuo e histórico de menções públicas (Yuri Almeida, Ana Gabriela e Rodrigo Neves)." />
+  
+  <!-- Favicon YLuna85 LABs -->
+  <link rel="icon" type="image/x-icon" href="favicon-yluna85-labs.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-yluna85-labs.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-yluna85-labs.png">
+  <link rel="apple-touch-icon" href="favicon-yluna85-labs.png">
+  <meta property="og:image" content="favicon-yluna85-labs.png">
+  
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 <body class="font-md">
 
@@ -23,10 +34,15 @@
     <div class="header-container">
       <div>
         <h1 class="brand-title">🏛️ Memorial de Menções & Clipping</h1>
-        <span class="brand-sub">YLuna85 LABs — Monitoramento de Identidade</span>
+        <span class="brand-sub">YLuna85 LABs — Monitoramento de Identidade v4.0</span>
       </div>
-      <div id="sync-info" style="font-size: 0.85rem; color: var(--text-sub);">
-        Sincronizando dados…
+      <div class="header-right">
+        <div id="api-status-badge" class="api-status-badge">
+          <span class="dot-status dot-offline"></span> API Local: Offline
+        </div>
+        <div id="sync-info" class="sync-info">
+          Sincronizando dados…
+        </div>
       </div>
     </div>
   </header>
@@ -39,8 +55,8 @@
       <button class="tab-btn active" role="tab" aria-selected="true" data-person="TODOS">
         📌 Todos os Registros
       </button>
-      <button class="tab-btn" role="tab" aria-selected="false" data-person="Yuri Luna">
-        👨‍💻 Yuri Luna
+      <button class="tab-btn" role="tab" aria-selected="false" data-person="Yuri Almeida">
+        👨‍💻 Yuri Almeida
       </button>
       <button class="tab-btn" role="tab" aria-selected="false" data-person="Ana Gabriela">
         👩‍🏫 Ana Gabriela
@@ -57,41 +73,53 @@
         <div class="metric-label">Total de Menções</div>
       </article>
       <article class="metric-card">
-        <div id="metric-dou" class="metric-value" style="color: var(--accent-green);">0</div>
-        <div class="metric-label">Publicações no DOU</div>
+        <div id="metric-yuri" class="metric-value" style="color: var(--yl-cyan);">0</div>
+        <div class="metric-label">Yuri Almeida</div>
       </article>
       <article class="metric-card">
-        <div id="metric-google" class="metric-value">0</div>
-        <div class="metric-label">Registros no Google</div>
+        <div id="metric-ana" class="metric-value" style="color: #e879f9;">0</div>
+        <div class="metric-label">Ana Gabriela</div>
       </article>
       <article class="metric-card">
-        <div id="metric-bing" class="metric-value" style="color: var(--accent-orange);">0</div>
-        <div class="metric-label">Registros no Bing</div>
+        <div id="metric-rodrigo" class="metric-value" style="color: #facc15;">0</div>
+        <div class="metric-label">Rodrigo Neves</div>
       </article>
     </section>
 
-    <!-- ── FILTROS E PESQUISA ──────────────────────────────────── -->
+    <!-- ── FILTROS DE ANO E PESQUISA ──────────────────────────── -->
     <section class="filters-bar" aria-label="Filtros de busca">
       <div class="search-box">
         <input
           type="search"
           id="search-input"
           class="search-input"
-          placeholder="Pesquisar por palavra-chave (ex: IF Baiano, Portaria, Artigo)..."
+          placeholder="Pesquisar por palavra-chave (ex: Portaria, IF Baiano, Artigo, Edital)..."
           aria-label="Filtrar menções por palavra-chave"
         />
       </div>
-      <div class="filter-source" role="group" aria-label="Filtrar por fonte de busca">
-        <button class="badge-filter active" data-source="TODAS">Todas Fontes</button>
-        <button class="badge-filter" data-source="DOU">🟢 DOU</button>
-        <button class="badge-filter" data-source="Google">🔵 Google</button>
-        <button class="badge-filter" data-source="Bing">🟠 Bing</button>
+
+      <div class="filter-group">
+        <span class="filter-label">Ano:</span>
+        <div id="years-filter-container" class="filter-years">
+          <button class="badge-year active" data-year="TODOS">Todos Anos</button>
+          <button class="badge-year" data-year="2026">2026</button>
+        </div>
       </div>
     </section>
 
+    <!-- ── CONTROLES DA API LOCAL (SE ATIVA) ───────────────────── -->
+    <div id="api-controls-panel" class="api-controls-panel" style="display: none;">
+      <span>⚡ <strong>API Local Conectada</strong> (FastAPI :8000)</span>
+      <div class="api-actions">
+        <button id="btn-api-busca-diaria" class="btn-api-action">▶️ Disparar Busca 24h</button>
+        <button id="btn-api-busca-historica" class="btn-api-action btn-secondary">🔍 Busca Histórica</button>
+        <button id="btn-api-sync" class="btn-api-action btn-success">☁️ Sync GitHub</button>
+      </div>
+    </div>
+
     <!-- ── GRID DE CARDS DE MENÇÃO ─────────────────────────────── -->
     <section id="mentions-container" class="mentions-grid" aria-label="Lista de menções catalogadas">
-      <div style="grid-column: 1/-1; text-align: center; color: var(--text-sub); padding: 40px;">
+      <div style="grid-column: 1/-1; text-align: center; color: var(--yl-text-muted); padding: 40px;">
         Carregando histórico de menções…
       </div>
     </section>
@@ -101,7 +129,7 @@
   <!-- ══ RODAPÉ ════════════════════════════════════════════════ -->
   <footer class="app-footer" role="contentinfo">
     <p>⚡ <strong>YLuna85 LABs</strong> — Sistema Inteligente de Automação e Preservação de Memória</p>
-    <p style="margin-top: 4px; opacity: 0.7;">Desenvolvido com HTML5 Semântico, Vanilla CSS3 e Acessibilidade (A11y/WCAG).</p>
+    <p style="margin-top: 4px; opacity: 0.7;">Desenvolvido com HTML5 Semântico, Vanilla CSS3, FastAPI e Acessibilidade (WCAG).</p>
   </footer>
 
   <!-- ══ LÓGICA FRONTEND JS ════════════════════════════════════ -->
@@ -110,47 +138,107 @@
       let state = {
         allMentions: [],
         currentPerson: 'TODOS',
-        currentSource: 'TODAS',
-        searchQuery: ''
+        currentYear: 'TODOS',
+        searchQuery: '',
+        apiConnected: false
       };
 
       const $ = id => document.getElementById(id);
+      const body = document.body;
 
       // ── Controles de Acessibilidade ──────────────────────────
-      const body = document.body;
       $('btn-font-dec').onclick = () => { body.classList.remove('font-lg'); body.classList.add('font-sm'); };
       $('btn-font-inc').onclick = () => { body.classList.remove('font-sm'); body.classList.add('font-lg'); };
       $('btn-contrast').onclick = () => { body.classList.toggle('high-contrast'); };
       $('btn-theme').onclick = () => { body.classList.toggle('light-theme'); };
 
-      // ── Carregamento do JSON Consolidado ──────────────────────
+      // ── Teste de Conexão com API Local FastAPI ─────────────────
+      async function checarAPILocal() {
+        try {
+          const res = await fetch('http://127.0.0.1:8000/api/status');
+          if (res.ok) {
+            state.apiConnected = true;
+            $('api-status-badge').innerHTML = '<span class="dot-status dot-online"></span> API Local: Online (8000)';
+            $('api-controls-panel').style.display = 'flex';
+          }
+        } catch (e) {
+          state.apiConnected = false;
+        }
+      }
+
+      // ── Carregamento dos Dados (JSON Consolidado) ──────────────
       async function carregarDados() {
         try {
-          const res = await fetch('data/mencoes_consolidado.json');
+          let res = await fetch('data/mencoes_index_geral.json');
+          if (!res.ok) {
+            res = await fetch('data/mencoes_consolidado.json');
+          }
           if (!res.ok) throw new Error('Arquivo JSON não encontrado');
+          
           const data = await res.json();
-          state.allMentions = data.registros || [];
-          $('sync-info').textContent = `Última atualização: ${data.ultima_atualizacao || 'Hoje'}`;
+          state.allMentions = data.mencoes || data.registros || [];
+          
+          const ultData = data.ultima_atualizacao ? new Date(data.ultima_atualizacao).toLocaleString('pt-BR') : 'Hoje';
+          $('sync-info').textContent = `Atualizado: ${ultData}`;
+          
+          popularFiltroAnos();
           render();
         } catch (err) {
           $('mentions-container').innerHTML = `
             <div style="grid-column: 1/-1; text-align: center; color: #ef4444; padding: 40px;">
-              ⚠️ Histórico em processamento. Aguarde a conclusão da primeira varredura.
+              ⚠️ Histórico em inicialização. Aguarde a conclusão da primeira varredura diária.
             </div>`;
         }
+      }
+
+      // ── Popula Filtro Dinâmico de Anos ────────────────────────
+      function popularFiltroAnos() {
+        const anosSet = new Set();
+        state.allMentions.forEach(item => {
+          if (item.Ano) anosSet.add(item.Ano.toString());
+          else if (item.Data_Coleta) {
+            const ano = item.Data_Coleta.substring(0, 4);
+            if (ano && ano.length === 4) anosSet.add(ano);
+          }
+        });
+
+        const anosArr = Array.from(anosSet).sort().reverse();
+        const container = $('years-filter-container');
+        let html = '<button class="badge-year active" data-year="TODOS">Todos Anos</button>';
+        
+        anosArr.forEach(ano => {
+          html += `<button class="badge-year" data-year="${ano}">${ano}</button>`;
+        });
+
+        container.innerHTML = html;
+
+        container.querySelectorAll('.badge-year').forEach(btn => {
+          btn.onclick = () => {
+            container.querySelectorAll('.badge-year').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            state.currentYear = btn.dataset.year;
+            render();
+          };
+        });
       }
 
       // ── Filtragem de Dados ───────────────────────────────────
       function getFilteredData() {
         return state.allMentions.filter(item => {
-          const matchPerson = state.currentPerson === 'TODOS' || item.Pessoa === state.currentPerson;
-          const matchSource = state.currentSource === 'TODAS' || item.Fonte === state.currentSource;
+          const pessoaNome = item.Pessoa || '';
+          const matchPerson = state.currentPerson === 'TODOS' || 
+            pessoaNome.toLowerCase().includes(state.currentPerson.toLowerCase());
+            
+          const anoItem = item.Ano ? item.Ano.toString() : (item.Data_Coleta ? item.Data_Coleta.substring(0, 4) : '');
+          const matchYear = state.currentYear === 'TODOS' || anoItem === state.currentYear;
+          
           const q = state.searchQuery.toLowerCase();
           const matchQuery = !q ||
             (item.Titulo && item.Titulo.toLowerCase().includes(q)) ||
             (item.Portal && item.Portal.toLowerCase().includes(q)) ||
             (item.Link && item.Link.toLowerCase().includes(q));
-          return matchPerson && matchSource && matchQuery;
+            
+          return matchPerson && matchYear && matchQuery;
         });
       }
 
@@ -160,31 +248,30 @@
 
         // Atualiza Métricas
         $('metric-total').textContent = filtered.length;
-        $('metric-dou').textContent = filtered.filter(i => i.Fonte === 'DOU').length;
-        $('metric-google').textContent = filtered.filter(i => i.Fonte === 'Google').length;
-        $('metric-bing').textContent = filtered.filter(i => i.Fonte === 'Bing').length;
+        $('metric-yuri').textContent = filtered.filter(i => (i.Pessoa || '').includes('Yuri')).length;
+        $('metric-ana').textContent = filtered.filter(i => (i.Pessoa || '').includes('Ana')).length;
+        $('metric-rodrigo').textContent = filtered.filter(i => (i.Pessoa || '').includes('Rodrigo')).length;
 
-        // Renderiza Grid
         const container = $('mentions-container');
         if (!filtered.length) {
           container.innerHTML = `
-            <div style="grid-column: 1/-1; text-align: center; color: var(--text-sub); padding: 40px;">
-              Nenhum registro encontrado para os filtros selecionados.
+            <div style="grid-column: 1/-1; text-align: center; color: var(--yl-text-muted); padding: 40px;">
+              Nenhuma menção encontrada para os filtros selecionados.
             </div>`;
           return;
         }
 
         container.innerHTML = filtered.map(item => {
-          const tagClass = item.Fonte === 'DOU' ? 'tag-dou' : (item.Fonte === 'Bing' ? 'tag-bing' : 'tag-google');
+          const anoExib = item.Ano || (item.Data_Coleta ? item.Data_Coleta.substring(0, 4) : '2026');
           return `
             <article class="mention-card">
               <div class="card-top">
                 <span class="tag-person">${item.Pessoa || 'Geral'}</span>
-                <span class="tag-source ${tagClass}">${item.Fonte || 'Web'}</span>
+                <span class="tag-year">${anoExib}</span>
               </div>
               <div class="card-title">${item.Titulo || 'Menção na Web'}</div>
               <div class="card-footer">
-                <span>🌐 ${item.Portal || 'Site'}</span>
+                <span class="portal-name">🌐 ${item.Portal || 'Web'}</span>
                 <a href="${item.Link}" target="_blank" rel="noopener noreferrer" class="btn-access">
                   Acessar ↗
                 </a>
@@ -193,7 +280,7 @@
         }).join('');
       }
 
-      // ── Eventos de Abas e Filtros ────────────────────────────
+      // ── Eventos de Abas de Pessoas ──────────────────────────
       document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.onclick = () => {
           document.querySelectorAll('.tab-btn').forEach(b => {
@@ -207,21 +294,30 @@
         };
       });
 
-      document.querySelectorAll('.badge-filter').forEach(btn => {
-        btn.onclick = () => {
-          document.querySelectorAll('.badge-filter').forEach(b => b.classList.remove('active'));
-          btn.classList.add('active');
-          state.currentSource = btn.dataset.source;
-          render();
-        };
-      });
-
       $('search-input').oninput = e => {
         state.searchQuery = e.target.value;
         render();
       };
 
+      // ── Ações da API Local (se disponível) ────────────────────
+      $('btn-api-busca-diaria').onclick = async () => {
+        alert('Varredura 24h iniciada na API local!');
+        await fetch('http://127.0.0.1:8000/api/buscar-historico?modo=diario', { method: 'POST' });
+      };
+
+      $('btn-api-busca-historica').onclick = async () => {
+        alert('Busca Histórica iniciada na API local!');
+        await fetch('http://127.0.0.1:8000/api/buscar-historico?modo=historico&paginas=5', { method: 'POST' });
+      };
+
+      $('btn-api-sync').onclick = async () => {
+        const res = await fetch('http://127.0.0.1:8000/api/sincronizar-github', { method: 'POST' });
+        const data = await res.json();
+        alert(data.mensagem || 'Sincronização executada!');
+      };
+
       // Inicializa
+      checarAPILocal();
       carregarDados();
     })();
   </script>
