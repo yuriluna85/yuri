@@ -118,6 +118,32 @@ def carregar_hashes_existentes(pessoa_pasta: str, ano: str) -> set:
             pass
     return hashes
 
+def validar_homonimo_estrito(pessoa_id: str, titulo: str, link: str) -> bool:
+    comb = f"{titulo} {link}".lower()
+    
+    if pessoa_id == 'ana_gabriela':
+        proibidos = ['cantora', 'música', 'álbum', 'turnê', 'lulu santos', 'altas horas', 'bbb', 'ifood', 'cabilhas', 'becker', 'cidinho', 'porto', 'esquartejada', 'palmeirense', 'casamento', 'portugal', 'deputada', 'miss', 'trainee', 'carvalho']
+        if any(p in comb for p in proibidos):
+            return False
+        validos = ['ana gabriela dos santos barbosa', 'ana gabriela dos santos', 'ana gabriela barbosa', 'ifbaiano', 'if baiano', 'uesb', 'gépraxis', 'gepraxis', 'pedagogia', 'educação', 'ensino', 'escola', 'estagio']
+        return any(v in comb for v in validos)
+
+    elif pessoa_id == 'rodrigo_neves':
+        proibidos = ['niterói', 'niteroi', 'prefeito', 'pdt', 'eleição', 'rio de janeiro', 'preso', 'lava jato', 'lula', 'bope']
+        if any(p in comb for p in proibidos):
+            return False
+        validos = ['rodrigo neves Araújo', 'rodrigo neves araujo', 'ifbaiano', 'if baiano', 'ifba', 'dou', 'diário oficial', 'portaria', 'professor', 'servidor']
+        return any(v in comb for v in validos)
+
+    elif pessoa_id == 'yuri_almeida':
+        proibidos = ['jogador', 'futebol', 'crime', 'preso', 'homicídio', 'assassinado', 'mc yuri']
+        if any(p in comb for p in proibidos):
+            return False
+        validos = ['yuri de oliveira luna e almeida', 'yuri de oliveira luna', 'yuri luna', 'yuri almeida', 'ifbaiano', 'if baiano', 'computação', 'ti', 'dou', 'portaria', 'observatorio', 'gépraxis', 'gepraxis']
+        return any(v in comb for v in validos)
+
+    return True
+
 def salvar_mencoes(pessoa_obj: dict, novas_mencoes: list) -> int:
     salvas_total = 0
     mencoes_por_ano = {}
@@ -126,6 +152,11 @@ def salvar_mencoes(pessoa_obj: dict, novas_mencoes: list) -> int:
         url_link = mencao.get('Link')
         if not url_link:
             continue
+            
+        titulo = mencao.get('Titulo', '')
+        if not validar_homonimo_estrito(pessoa_obj['id'], titulo, url_link):
+            continue
+
         hash_id = gerar_hash_url(url_link)
         ano = extrair_ano(mencao.get('Data_Coleta'))
         
