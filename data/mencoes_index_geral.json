@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-08-06T11:30:38.240701+00:00",
-  "total_mencoes": 116,
+  "ultima_atualizacao": "2026-08-07T10:08:13.583453+00:00",
+  "total_mencoes": 121,
   "mencoes": [
     {
       "Hash_ID": "52a747de7ab6fcb3b1b1a61b51724f78",
@@ -361,6 +361,56 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "3afeac9284117cc4481206b8463ef3ee",
+      "Data_Coleta": "2026-08-07 10:08:11",
+      "Ano": "2026",
+      "Pessoa": "Ana Gabriela",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Prefeitura nomeia e reabre prazos para servidores da educação - Prefeitura de Pelotas",
+      "Link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaHluSzBiTHFzMVNsUDBxTmNEZWhLTHdBcDVVYnBOc01kdzFZVFpKUnUtT0k3SEc0eFhjUHItR1JqNFRyV1RXQXRHaTJldWZWeXFGRUpFaENVc0ZOc2NwV3djcDlKVEotbGZOWmVzTmFycUgyQ2k3STItbTVrYzRidTBCUkVrZW1NWThEdzNTci13UFlVSzI2NkZEdEk?oc=5"
+    },
+    {
+      "Hash_ID": "86ca1964444076fdf503fa0b734316e7",
+      "Data_Coleta": "2026-08-07 10:08:09",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Luna-25 falhou a missão: nave russa despenhou-se na superfície da Lua - CNN Portugal",
+      "Link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQdjZlSExxbHJlaGltZzdBZ3FEdDk3dTNYUWpzdlA5UkFXdm5JY29YNndnaFVZMTF1R0hCRWlWbEUwZ3hXd0tEQ3c3TFNlWWt5WnpPaENyVEVRNVYtTjlzR203Tk1CVGotdnFPcnpXWTBWQTlrdXI0OVNvQndjazFEWDBsc2FXRnNWSWV1UFFrNGlPaFBFalVaNGUtVnFrTkxaLWFiZ1JyMGJnQ3lYTGtUNlE1cDRPVEJVc1BaTmEzQkI3ODBDd0JzcW8tNzhWbTdwZ2NZLUdjeVdLTmZ6?oc=5"
+    },
+    {
+      "Hash_ID": "5586662ff0f05c7d2ce373b7be3683cf",
+      "Data_Coleta": "2026-08-07 10:08:09",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Jornalista diz que aliados de Braide empurram imprensa para impedir coletiva - iMaranhense",
+      "Link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeHJFUU0zalo0ZC1sWllJMmpCUkdZMXJTMGViRW1EQ1d0cDdRR0hPcEJzVVhvUWEzYnFUOGkxX0VKbUd6UXUzVjNZMlBJSXlxTm53TmxBOERJeUtJdGdFYzRHSGNfbWlDc2M2d2JHNVd4V21HdUxuOFkxekRWanc1UzcxZzVPeGZSYzM3b0RZd19FZ1dLZHpxLVRvSlMwS2ZSam0wTTEzT2NfLWlnSGtCR3NiMWE?oc=5"
+    },
+    {
+      "Hash_ID": "9e189fc0cca30aeacbe017e5b5e04fae",
+      "Data_Coleta": "2026-08-07 10:08:09",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Chapa única para nova diretoria da ABI terá primeira mulher na presidência e participação de membros do Sinjorba - SinjorBA",
+      "Link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSHJkVTNkY2F1X1BlRm14ZWhQY202WVJqQWFIZDEtLWFBQXhOYjZ1WkoySEhVVHA1LURrMXNWLVNkZk0xWGw3T2Zzelc5QjNUVi1zdnktWERDcjRrN0RPYllrbmYxRGZTMkxZUXlVdWYwMmJSc2xYcFZVT3lUNW05YTRZc0JSYUk3Y2ZhbkxPRDUxNVFuSVlYU2pUbXJlR2lvb3gxM3lSQklNb3k5MkFDNXNLVkJuTEJCekpDWTJ3TmllbVRSLVRjN2R5T3AzN0FvcVY0?oc=5"
+    },
+    {
+      "Hash_ID": "b79b08668bb9dbd54e1288c4b94ac5b5",
+      "Data_Coleta": "2026-08-07 10:08:09",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "MN Empreendimentos pode ter desviado mais de R$ 4 milhões em Loreto - Atual7",
+      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObTJKODllOW85em9QdUVYSGtQNEFaT2lxV3ZjU2ZTWExrZmdWekhuekNoQngwQ1J5SFpVeWJYTE5hcWFPX2U1aWduYUlLTmpWMVBGOGV6Mjg3bFZ4czR3Y1N2SVdzdGdjaGtHZUdQZ002WF9DWVU0S3ZRek56RGZ3NzBxYzRRT2RnSEFST1kzdTk5M01SZ2o5Y2s5anlhQQ?oc=5"
     },
     {
       "Hash_ID": "927835c4af8ec9242361d9a914dd0b17",
