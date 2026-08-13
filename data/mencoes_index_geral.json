@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-08-12T10:17:21.960306+00:00",
-  "total_mencoes": 133,
+  "ultima_atualizacao": "2026-08-13T10:19:17.731069+00:00",
+  "total_mencoes": 134,
   "mencoes": [
     {
       "Hash_ID": "52a747de7ab6fcb3b1b1a61b51724f78",
@@ -361,6 +361,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "924540f10c827c7fba8aca1f495845e3",
+      "Data_Coleta": "2026-08-13 10:19:13",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "A matemática da Ilusão: o que a pesquisa Quaest realmente diz sobre as eleições de 2026 na Bahia - :: Bahia Jornal ::",
+      "Link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPaHJUMUhjMThtTXg3YWVLWEJBS2VHTU1UZWl1ME45MU5fLTE4TVVUY0VITDBkY1ZaU3N6UjlDQ3pPWk40UTB1SlhVQW8xeHpDdnpJa1ZMRVUyVlFkWDlsMWpqVWxFZ2szZ3ZMTHJnLUE1WVZLVE85cVFhV1o1ajlYb3VEclFIRmcxa1FteGtNTXh0UXJHRkZIdVFSeTVIWTlTaUhyc1g2blZaMm9pbkpKbU81WTFmd2o1ZUZRcmZiWFhEYkFTSUhsYTFXVTZ0TmVGQ0ctS2Z6TEQ?oc=5"
     },
     {
       "Hash_ID": "8e8d6ba4d73b676f19bbd11bb7bf757f",
