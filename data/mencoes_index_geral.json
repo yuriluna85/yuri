@@ -1,87 +1,7 @@
 {
-  "ultima_atualizacao": "2026-08-13T10:19:17.731069+00:00",
-  "total_mencoes": 134,
+  "ultima_atualizacao": "2026-08-14T10:14:03.802881+00:00",
+  "total_mencoes": 136,
   "mencoes": [
-    {
-      "Hash_ID": "52a747de7ab6fcb3b1b1a61b51724f78",
-      "Data_Coleta": "Wed, 27 Aug 2025 07:00:00 GMT",
-      "Ano": "2025",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "Polícia investiga morte de jovem atropelado na BR-116, em Caxias do Sul - Leouve",
-      "Link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2xWOUpJczhkb2xNNG13dW03eTN4YTN6WWViVHljNjJObk8zZ3RFbzQ3T19DbE96cFNFREFpd0gyUW9WM0c4dTRmWnU2SkdxZmV2a2VQM256Smc4MWRsMWgzQ1VoMlpaZlQ0LXVvVk5lMExjbjFDLW5jWTdVMjJNTmRnYy1DUnFFWGJpZHlncm1sM0NMQzhXQnFwdGFoc3FuVmxLN1RZZ3MxaXlYSjhZcVVn?oc=5"
-    },
-    {
-      "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
-      "Data_Coleta": "Wed, 08 Apr 2015 07:00:00 GMT",
-      "Ano": "2015",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "Yuri dispensa apelido \"Mamutelli\", vira pai babão e vê valor de mercado subir - ge",
-      "Link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNay1QODI1U3d3c09MMVhIc1ZZRUlHWFlwTEZ1eEhXSWZXYnRCaGUxSjlqZHVUSjFNd3U0b2lyb2hiUE5Va0Q4djdpaTBLQmJwQ012d0p3RUJ5NFFwaW13Q1ZUVU9fOFFRS2k2UHp4Nnk3ei10SzJUQzhRNzc2VS1lckxWbS1kM2kwck8xUFVwd2VlaXBKbm8yXzh3Y0Rqb1c4Y0lBZkJBUXRmRFF6RDlFU1o3bG9iY0NEYmFMYTBJRGtUeENKQU5Pdm1OZFc1a2RFVXlGMHVTMmp0dVh5ZmJGSQ?oc=5"
-    },
-    {
-      "Hash_ID": "55fd0da30e694eb2840adb018212b27b",
-      "Data_Coleta": "Wed, 02 Dec 2015 08:00:00 GMT",
-      "Ano": "2015",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "Atiradores do Tiro de Guerra são homenageados pelos vereadores de Linhares - Eu vi em Linhares",
-      "Link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbFNpYjlySl9MaHhGdGp2Q3pySjk5Umw3OEprM1d2THc3OFpTQWlxek1ZU1VraUNjeWdhZkc4SnBmd1lwSnVmUjNsY3BUSjlWb3N6akJHODdkdXpubURDOV9GQ2ZyR21VUXBSYkR1SFVlYXhkV1lMZm5TcUgxazFpbDV3Vm1BUm10QUx2N29UMWxSYWlRNk9lMloyRncwVXByTGZMQ2RTTXQ3SmFObEoxamdJTXd4dHc3N3c?oc=5"
-    },
-    {
-      "Hash_ID": "bcdb5f20e287d056c3885ea556c057f7",
-      "Data_Coleta": "Tue, 25 Mar 2025 07:00:00 GMT",
-      "Ano": "2025",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "Em evento de integração, Semsa Manaus destaca carreira e valorização do servidor - Prefeitura de Manaus",
-      "Link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPalJob2FYaDFDamM5N2drMlVnczEtcFlXMVF6Mm95UFFYY3J3cW5wRWlQLUFWVy1rV0lodXJ0YmExaXhyRHpxZ3N2OGJiS3lVQTU3MkNuOXZSNUJBMl9BTXllbTJRTWJqa3o3b3BWZ3FScUZWeWRTV01aOVFQd3BSMEpqcHhtSFNNdUNjZGppVUVFdm5VenJFSERoSlBZLVJLeEY0X1Q0emN1Z3M5NmFTaVpfamRWUQ?oc=5"
-    },
-    {
-      "Hash_ID": "e9219854a37dd12625aea6994db39908",
-      "Data_Coleta": "Tue, 10 Jun 2025 07:00:00 GMT",
-      "Ano": "2025",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "Brandão decide ficar no governo e apoiar Orleans; Senado deve ficar com Weverton e Fufuca - atual7.com",
-      "Link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM2hacW9MR2dPclR3ZkRoM1lUZXp0TFJDVWFZV3ZVd0RZWlU0TTNKRDJHZnUwNlJuN1loS0lwaURQVUhicWN5eEJzNEZPUWRDZ1A3dVlmdzExOU9jYlBHMGt5TEM0dDhYMW80eHZxdTV0Yk9ieGdWekNYMWdVMUVvS3dOSF9uMGFlcFM1bWU0eWo0TEJmY3E0Wi1CWVZaN3ptSHM3WnRSNVlPWmhtTEs0MGg4X1BNcldTZFVv?oc=5"
-    },
-    {
-      "Hash_ID": "4156ce5051b5cc1aba3c94a67d855556",
-      "Data_Coleta": "Tue, 08 Jul 2025 07:00:00 GMT",
-      "Ano": "2025",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "Memes ganham espaço no marketing político - Terra",
-      "Link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWmg3SzFHcGNrOE1TRDBJc2VlWEpZRy1qQ2MxTzl5QURsY0JSWGNUcVlNTWE3T21Vd18xMUZ5RHJPQlJMaDNLQnJIVmZLZGZCOGxQWXNoLUxQekZVY3pzV1pLS250TlpkVDhOMlkxdmFDTHIzWFN6T296UndDNV9QMU1zNlJaZ01scWZ5NVB5dktSRldtWTZ4UktRV3lXYndYVHU2OTZHYXl4TU9ZZU90VU5WUlJBaW9GRTEwZUZn?oc=5"
-    },
-    {
-      "Hash_ID": "5ad1e5dbff48e46b6d71b1b25b99b97d",
-      "Data_Coleta": "Tue, 08 Jul 2025 07:00:00 GMT",
-      "Ano": "2025",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "Me poupem! - Portal Diário do Aço",
-      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBqNExWbU1YcGtrdkxEQ3ZBcHNWb2U4R0pxb3g3UXJyWnFjSzV5a2dUWjNHNmdxbjZ3NFlKN0c5M2NrdF9KRjJsMUZLaGNKWWJSc2RycFN3akVKT3ROVXF2dC1n?oc=5"
-    },
-    {
-      "Hash_ID": "3997924a18210346a7c0f2c9b8b22c2e",
-      "Data_Coleta": "Thu, 13 Aug 2015 07:00:00 GMT",
-      "Ano": "2015",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "De quase R$ 17 milhões, primeiro contrato de Léo Coutinho foi com a própria família - atual7.com",
-      "Link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdVE3Z1NWZDlmOW95TTg5dUtyaFF2RGQ2cmJoUTdfd21IQnZxN3c0YjVVbE9YakJmSUlidVBlODlfaFVRd2tqR1hLUElSa0x0dVNyTnFBSGZ3Z1FtV3RsTUlWVHU4NlBzT1dXdWJXWW44SGxIal8wNWNjNVlLamlhTGprTkdlZFhWdU1UX2YweG9yQTV3SkN4MDNBb0loRFJHOVM3MnozVTVvY0I3TzV0N3FR?oc=5"
-    },
     {
       "Hash_ID": "2ce48d48685c61dbefff6588e5b15aff",
       "Data_Coleta": "Sun, 19 Dec 2010 08:00:00 GMT",
@@ -91,96 +11,6 @@
       "Portal": "news.google.com",
       "Titulo": "A última Aloha do ano - Portal IN - Pompeu Vasconcelos - Balada IN",
       "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50VmxwUjhMSlRqcW12OUFKSW5jRzlOOFpvY2FJZC11VHV5Vl9SSEVDN213VHZ3NEpyXzFrZklUVFhPRnd5SXQtTVNXVzFmTEkzdWRnVGVzMVBmdVBKNW1vdXozczZIbUpLcUVlVFN3?oc=5"
-    },
-    {
-      "Hash_ID": "fd8c1ae2d99d5311ca990db428549370",
-      "Data_Coleta": "Sun, 13 Apr 2025 07:00:00 GMT",
-      "Ano": "2025",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "Morre aos 65 anos, o jornalista Luís Cardoso - Diego Emir",
-      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNSUpmaW5vYkNvQ2pUVFFva21SRTYzdGZpc3Y1UUR0Vkw1ZG13NUl1Vy1qSmRxTjNvbnZXd3V4NVlyWXVHTl9FQzhsOHVCSllNVklmdzdWeDhRVEhjeHZIZFdBVGpfSXc3dC1IMW82TG1mQUlyY2ZrVG9BdzBPZ00?oc=5"
-    },
-    {
-      "Hash_ID": "05a56474cfb372c101f73a1e973ec7e1",
-      "Data_Coleta": "Sat, 12 Jan 2013 08:00:00 GMT",
-      "Ano": "2014",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "Ex-participante Yuri é o novo integrante do BBB13 - G1",
-      "Link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSGVrU1NIQ0V6eUxaUEc1TXczQjVFMXF4X1BGYVU1YnZEdWJSQTNFanFpUERkdTE3WS1fOHVjcS1HaTc4c0g5THk0WmsySDNfUEpFXzdJaWxwNlRkU2pXT3I2NFR3aGljOE9RWk5CY0V6QzEtbDZKdG0tRWlwUzdKdXVUUDM0clRHLWtRV21zVk1WY2VzU1ZoOTQxSzhTQjNQLXc?oc=5"
-    },
-    {
-      "Hash_ID": "683c4de4b6ddd9bcf1c814b0810edc52",
-      "Data_Coleta": "Mon, 08 Dec 2025 08:00:00 GMT",
-      "Ano": "2025",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "Bolsonaristas lideram engajamento nas redes sociais entre deputados da AL-BA, diz levantamento - Bahia Notícias",
-      "Link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOc0ticG1vN2c0Rkh2bEdVQm5VTng1SWxJZ0VpSi1kTE9jNER0ZlpSNWk4d29HOXlNUlJVLVd3aDZJd2RCdklieGhWSlQzVm9aYVhIdzZJUGIxWVJ2Qm81Qk9NaDc2TldTRFlnMHRoMUhyRVdobkFDTFZaT3UzWFRiVzhaOGVGUmRXanR2V3hGTzVaNUJuQk5RN0RSYnBlMkkzYjVpU3R4ZVNXcVRMN0JCRlNmU1NfRkRQNGNfTlZmM3ZuQXdRbUxPZ3FkMGxqN05QSWRCcGtGQ2I?oc=5"
-    },
-    {
-      "Hash_ID": "57e22fccac344baaf5e15e4df1e41c79",
-      "Data_Coleta": "Fri, 21 Mar 2025 07:00:00 GMT",
-      "Ano": "2025",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "IML confirma que ossada encontrada é de marceneiro desaparecido desde outubro de 2023 - afnoticias.com.br",
-      "Link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb3NMV1ZPcWF5S2xNU0RKN0FXVWs4VHJHZlFBX1NwMEVPdnNDalhHbUgwNVY2OXhWbWU4Mm5BQkJqUy1zczRLQlFoUFlLOFpibEh5aEEyRUZGNGN0NVVrb05qTGI1OGRXd2FzMTFLYlZUNGhpZGJ4S0Y1UUp5LWV0QmNfWjJqTjJIa0UyZWh5bTAxT3Vfb3BDVFJPaWlYRnQzTldlMHkzdW5SbWpoSEpLRTZuY014ejJkLVRDbnJOWXhQckZaNlU1bzhQNFFpQ28?oc=5"
-    },
-    {
-      "Hash_ID": "9bd505e3687342a13bddc1da06c1e57d",
-      "Data_Coleta": "Fri, 15 Aug 2025 07:00:00 GMT",
-      "Ano": "2025",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "ENTREVISTA – Uma Luedji Luna para cada um, antes que a Terra acabe - Billboard Brasil",
-      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9semE5ZXBZMUdlNVNrejVXcnAwaUpmVjlqUlFGcENzazlId2hfeVhDMDJTYTF6S2Fkek1mUXQxd0dOYzlQQzMyeWFZdDctMmFTaEsyUVB2VXA0WS1hYkdNNHpDVjlyY3c?oc=5"
-    },
-    {
-      "Hash_ID": "c34790cad9a1d9c7298ec959b5cc2aeb",
-      "Data_Coleta": "Fri, 07 Nov 2025 08:00:00 GMT",
-      "Ano": "2025",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "CAPITÃO ALDEN LIDERA ENGAJAMENTO ENTRE DEPUTADOS FEDERAIS BAIANOS NAS REDES SOCIAIS - - Bahia Economica",
-      "Link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU1BPbk1vbV9KWDFLTUVIYzF3T292Wi1nTDhtRUxEcTAzMnBTLWNxS0FtWWZZbXIzYjVPdlBNandjNHQzdkhoZVE0bjBpMzRVTFRQUWwyaWZWeVlrMnpuZXE1QWJkTkF2UEtvMnByVmZ6Z1gtVnljd254YUh0cXJTbi0wR0loRXE0d3hLa0t5Z1pieGlCQlNHRmVFc1k3N1BCV1dZUHViclZzRHpEbVkyS1N5bkhGUDFWR05DaUIxTGJ5eE5Ea0Fj?oc=5"
-    },
-    {
-      "Hash_ID": "8d29ad8566ebe2b8805256651f89f9e1",
-      "Data_Coleta": "Fri, 07 Nov 2025 08:00:00 GMT",
-      "Ano": "2025",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "Pesquisa aponta que só 6 deputados baianos lideram engajamento nas redes - Panorama da Bahia",
-      "Link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSWlUUFd4OW1TSzJpejRqNkxrd2hpMWE1LXNfSmI1VmdieTNPcUEzM3U5RGFtNklTNEgtNU9kbGtDRVppY3VwNkI4ZkdpMTN6T3Y2andCcFg5QXZ1a0tVYlR5MWt0MnVKOXpySGpsSFM3TmdzZ29LbXBoazNDSjdNRmR4aHZNN1U3QXBTRjBkRlJYN0dwYUZRZGF4WU9LTDNWZU9VbElXNA?oc=5"
-    },
-    {
-      "Hash_ID": "c3581523350affd135bf45a908a3c6a6",
-      "Data_Coleta": "Fri, 07 Nov 2025 08:00:00 GMT",
-      "Ano": "2025",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "Saiba quem são os deputados federais da Bahia com melhor engajamento nas redes sociais - Bnews",
-      "Link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcm5sZHNRRUZvaFBLVUNyTnpId0dyTm5hd19TM05GbG9lUE5mc1RYcU1RWUM3N2YxQTUwNGRHZV9jVkVtSHlUQUN6NGFhQlpXblRNVEhSU3oxSXFkeGNIZVJnZG5yaVNlaFJCdE5FZzlaQnlsdEtpWTlYQ1poMERMSmRLdlU4VE1xZ0FadHh5eEYxemFnNEZiUGdPV0hwd2NZMEJjUXAwdkRZaFpub1J6NldLbUJYTklpYXEwZm15ZC03T2dNT1o4NF9WNjJEZVXSAdQBQVVfeXFMUFAtMEgtZVQ5V0QzLXUydzZGcWFIUHpGUlk2VlhGMFhSYy1vUF9kZlByTDNsWmpETnhOSUQ4aVU0NDZBRWdKUXd6ektJTnJsOEIyWTI5NUVlSFpLNTd1LTZuVWtyMmlkVFIyalBfVjB2eTFRLVA3Rnd0UHdNUFVPdjlPYzdwY2otRlp2eDRKQ1liclNuOUNtQmVBTmRVTGh3WDZCS0FhYjBsTHd2UmI0bmx2RmhVaFNhMnVrMTRYTTlUZnBtRzM5YV85RHhZY2ZlZ2NpeVc?oc=5"
-    },
-    {
-      "Hash_ID": "86a6fd767a944e37398462f71a5d49ab",
-      "Data_Coleta": "Fri, 06 Feb 2015 08:00:00 GMT",
-      "Ano": "2015",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "Confira a lista dos aprovados do vestibular 2015 da Unesp - Estadão",
-      "Link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUmY5ck1xd3dFOURUZWFfZXpHQk1odTFacE82bnJyUWd6SjU2V3laMUk4TldEOGxRQXVoclE2UHZmRWVBWnlFVzJBOWZyaGRqVHRKVGowT3J4ZzIzS2wzSlB6MFNHQTNkeExsZ05Jb3Z5SFJRYWRPN2NlZ0VZSFlPT1RkYTVMSzZ2NXFKRkJaVk1JdU5XSW5MWXlkY9IBoAFBVV95cUxOdnFWT1hXMU40Z3lFLW02alV5dENzY1RHS0xsWjFKNGpoOXVkdDFfa0Zabl8wRzlidGRTWjM2LWl4dlBRcndFeXRHYXVVMUhEUUtrRE9vRmNMSW9lLUcyMTV6TEdSbW5lY0FqeFJtNWQxcUNpM2xuLWJGSmpUVlh3N2liTUtCS0dfQkd1TzBSWmFpRkVXaVhzUG9iZ0ZqRVVI?oc=5"
     },
     {
       "Hash_ID": "819629496544acf0aa58cdac8335e606",
@@ -363,6 +193,26 @@
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
     },
     {
+      "Hash_ID": "098f9de4a5d63174845d697f51f53cad",
+      "Data_Coleta": "2026-08-14 10:13:59",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Eleição em Petrópolis confirma Hingo Hammes como próximo prefeito - Eu, Rio!",
+      "Link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOX3BfZElxbWstTHd4Z0NNOEJlQl90cUJTXzdrRmE1OEVnYi1zUllIOFg0aGJXMW9ibUNpdGRsTVVqYy1HUTNUQjNZZThwQlhCMnFGdTFGS0l0T2VWM2RWeHRfRmJDdHJJbUpGYVlJZjB2c3ZURWZKX1lDU0tlUFJwMWwzbkRyNWdMcWpyRTlVTE84YjdHdEEzSnVpTVhWNWVEeVNyN0ZvY3DSAacBQVVfeXFMUDVtZHdOSEw4LXNudFFIdU5MZF9nMFdhZ2tKaW9qMVljVEZLbTczWW4xWVBZWnJCZm02dVNVTUpuSVZ4c1cxMVptRGowVnkzc3lqM1Y0alFxRHBkZXBSc2hjMkd1R3NpLUM0RlNCTng0QlhqZGxPSlFLVlFyc3ZiNnh0bkNDMURablotekxJa2F1QXloX3ZLT0I0dWlxSkJTRG9xRjNnVlE?oc=5"
+    },
+    {
+      "Hash_ID": "ad54f2b590a2c8d0f8ea73292e04598d",
+      "Data_Coleta": "2026-08-14 10:13:59",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Receitas simples para fazer em casa - Imparcial.com.br",
+      "Link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZkx2YXdmeU5WbGl6NFR2WGVKdHBTcGxnWHpfVnpkTUJSbGh4cl9LMHZ6VlNTUnR6ZlBBN2YxNEdGUFNHb3Nia1BCWFJRckluelRoZUlWQ1dzTTlOUUF5c2JlN0hSMGlCOERaUW1tQk11V3MtQmxtaDJjenA3cDVCY3JQVUE4Zw?oc=5"
+    },
+    {
       "Hash_ID": "924540f10c827c7fba8aca1f495845e3",
       "Data_Coleta": "2026-08-13 10:19:13",
       "Ano": "2026",
@@ -401,6 +251,16 @@
       "Portal": "news.google.com",
       "Titulo": "Anielle Franco demite secretário ligado a Silvio Almeida - Folha de S.Paulo",
       "Link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOU81bVRYUTNpMi0wRzMzX2xJRUppWjdaRjE2NEY4LXF3a0ZYV2VFaUVBQlFQdWxYU3c4YS1SRjhIM1BjV2lEWVVVWkJLX3ZxUGNhOUEyYWthLWN0blV5YzgzZ3dVdFVpTjBydkRJS3RQemV0ZHYxM2hLRF9ia18yeEV1YnVvV1U3UDd5WkVJcU1KZFN2R0VKVTZUeGZRRzRWSld2OGxaQThDQdIBrwFBVV95cUxPSWJoV1dYSE1XVC05TllVUTVsUmM3V3Atb3JBZ3RFendtOEJJcWhyczVvcVF1UEN4cXlJdjh1akVXV25kOGpCUzNzVklBUWluUWZsbVM5R21ySWUxOGtQa0dINTg5YWpPUVEwdkR4bVMySzFxUzRZYkpCX1NKV0puVzhJczByM0VLbENoRDY2Z2RtTUo4X3lkNHBUV0syODAzelY1SWtnVV90bjRlRlI0?oc=5"
+    },
+    {
+      "Hash_ID": "5ad1e5dbff48e46b6d71b1b25b99b97d",
+      "Data_Coleta": "2026-08-11 10:08:11",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Me poupem! - Portal Diário do Aço",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBqNExWbU1YcGtrdkxEQ3ZBcHNWb2U4R0pxb3g3UXJyWnFjSzV5a2dUWjNHNmdxbjZ3NFlKN0c5M2NrdF9KRjJsMUZLaGNKWWJSc2RycFN3akVKT3ROVXF2dC1n?oc=5"
     },
     {
       "Hash_ID": "6d7a029639510fc725a56451f16117af",
@@ -663,6 +523,16 @@
       "Link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdzRKdm0xMWctcUZCZDl3TjFYU2QxcDhCeE10YlFCSHJhYWM1Skt1Vk5OZFR4aXppcWlfUi0zTXFZLURQVTk5dkZvdnp0eFlWSnN6OFNfSkE0MElzcFlzOWJ6MzlFSDRHaFN0MmU3Z2h3RWRucmRXQ2tGeEc0QXU5cTQ3bUpYU0VBalF3SE4xdnV3WU0tcFdEdW5JcDExdFZCa0dnNGlZWmdCbzZLQVl0TTdIOHVEczFFcDA3OXRFYlBUYVpfZ0w5bjlVYkJTeEFCZzFsd250Tmg?oc=5"
     },
     {
+      "Hash_ID": "9bd505e3687342a13bddc1da06c1e57d",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "ENTREVISTA – Uma Luedji Luna para cada um, antes que a Terra acabe - Billboard Brasil",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9semE5ZXBZMUdlNVNrejVXcnAwaUpmVjlqUlFGcENzazlId2hfeVhDMDJTYTF6S2Fkek1mUXQxd0dOYzlQQzMyeWFZdDctMmFTaEsyUVB2VXA0WS1hYkdNNHpDVjlyY3c?oc=5"
+    },
+    {
       "Hash_ID": "1cc4399d0520e745c0e7edf93d95384e",
       "Data_Coleta": "2026-08-03 09:13:04",
       "Ano": "2026",
@@ -803,6 +673,16 @@
       "Link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYThIYkpWRmFDQ2FOMXNNaTRwV3ptSXdKUmtDUUZ5bnEza0h3S2I2NXJpQmIyNVV3ZWpqbVd4dHJsLWdhZFpBUTBOVE82bFdCZlBYMUgzVUdqMVUtM2lldUgxYjJmWmF3ZFNQVHIwUlpoY1l3YWxmTTgwdWI0UEwyWkVSc0h4RGRZdmd3ekk0Tk9BT1l2ZWFHQmwyX0JXRmlIdUhyVHJmSVFfZmdsTWc?oc=5"
     },
     {
+      "Hash_ID": "683c4de4b6ddd9bcf1c814b0810edc52",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Bolsonaristas lideram engajamento nas redes sociais entre deputados da AL-BA, diz levantamento - Bahia Notícias",
+      "Link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOc0ticG1vN2c0Rkh2bEdVQm5VTng1SWxJZ0VpSi1kTE9jNER0ZlpSNWk4d29HOXlNUlJVLVd3aDZJd2RCdklieGhWSlQzVm9aYVhIdzZJUGIxWVJ2Qm81Qk9NaDc2TldTRFlnMHRoMUhyRVdobkFDTFZaT3UzWFRiVzhaOGVGUmRXanR2V3hGTzVaNUJuQk5RN0RSYnBlMkkzYjVpU3R4ZVNXcVRMN0JCRlNmU1NfRkRQNGNfTlZmM3ZuQXdRbUxPZ3FkMGxqN05QSWRCcGtGQ2I?oc=5"
+    },
+    {
       "Hash_ID": "4456f4dccbda54403efba773e04b6e5c",
       "Data_Coleta": "2026-08-03 09:13:04",
       "Ano": "2026",
@@ -811,6 +691,16 @@
       "Portal": "news.google.com",
       "Titulo": "Segurança digital, com o jornalista Yuri Almeida, é tema da última Conexão Pascom de 2020 - CNBB",
       "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01ZV9nS1JiOGpFYlVEdTVEUVhlR1FpS20wbTBjWExOcnZzZjNlTzQtdTFmZnJQZWt0RkZHektwTlJLUnBZS0ZsemZXQ290X2lrTWpIS2xsbEVjUEwzRC1nQWRaSy1XaEljTXBOTDkxd2Zhd0tBeERBV1h4MG9rT1U?oc=5"
+    },
+    {
+      "Hash_ID": "c34790cad9a1d9c7298ec959b5cc2aeb",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "CAPITÃO ALDEN LIDERA ENGAJAMENTO ENTRE DEPUTADOS FEDERAIS BAIANOS NAS REDES SOCIAIS - - Bahia Economica",
+      "Link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU1BPbk1vbV9KWDFLTUVIYzF3T292Wi1nTDhtRUxEcTAzMnBTLWNxS0FtWWZZbXIzYjVPdlBNandjNHQzdkhoZVE0bjBpMzRVTFRQUWwyaWZWeVlrMnpuZXE1QWJkTkF2UEtvMnByVmZ6Z1gtVnljd254YUh0cXJTbi0wR0loRXE0d3hLa0t5Z1pieGlCQlNHRmVFc1k3N1BCV1dZUHViclZzRHpEbVkyS1N5bkhGUDFWR05DaUIxTGJ5eE5Ea0Fj?oc=5"
     },
     {
       "Hash_ID": "98acd1ef47da55431263f99eca03c5ad",
@@ -831,6 +721,26 @@
       "Portal": "news.google.com",
       "Titulo": "Cecon/SP homologa acordo de R$ 28,3 milhões e finaliza processo iniciado há 45 anos sobre aposentadoria de trabalhadores da RFFSA - trf3.jus.br",
       "Link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT25ZNkxvWWlSSmEwVDVQQ1hiZnByRG0zRWlSVmdZREZGRGU4Q3o3bHVrdXVvR0hGUlVpeldkSTZWMHpxRGNTaHZGcDJLM29aQk5Ic1RyaFJSXy1pV2VMY1hSTWJNMUVhWk5OWGdwcnJPTmtHRS16U2VUZnljakpZeHdkZW0xTlVEMXN1bVIwRnd2ZDVHSXRObFk5UEY2bi0tSTQ3NmhvNUw1Y1Z3X2VHdWU2S2szeDQ?oc=5"
+    },
+    {
+      "Hash_ID": "bcdb5f20e287d056c3885ea556c057f7",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Em evento de integração, Semsa Manaus destaca carreira e valorização do servidor - Prefeitura de Manaus",
+      "Link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPalJob2FYaDFDamM5N2drMlVnczEtcFlXMVF6Mm95UFFYY3J3cW5wRWlQLUFWVy1rV0lodXJ0YmExaXhyRHpxZ3N2OGJiS3lVQTU3MkNuOXZSNUJBMl9BTXllbTJRTWJqa3o3b3BWZ3FScUZWeWRTV01aOVFQd3BSMEpqcHhtSFNNdUNjZGppVUVFdm5VenJFSERoSlBZLVJLeEY0X1Q0emN1Z3M5NmFTaVpfamRWUQ?oc=5"
+    },
+    {
+      "Hash_ID": "52a747de7ab6fcb3b1b1a61b51724f78",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Polícia investiga morte de jovem atropelado na BR-116, em Caxias do Sul - Leouve",
+      "Link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2xWOUpJczhkb2xNNG13dW03eTN4YTN6WWViVHljNjJObk8zZ3RFbzQ3T19DbE96cFNFREFpd0gyUW9WM0c4dTRmWnU2SkdxZmV2a2VQM256Smc4MWRsMWgzQ1VoMlpaZlQ0LXVvVk5lMExjbjFDLW5jWTdVMjJNTmRnYy1DUnFFWGJpZHlncm1sM0NMQzhXQnFwdGFoc3FuVmxLN1RZZ3MxaXlYSjhZcVVn?oc=5"
     },
     {
       "Hash_ID": "d30865f3453324ecc747fcec518ab33f",
@@ -861,6 +771,26 @@
       "Portal": "news.google.com",
       "Titulo": "Cisp de Alagoinhas debate fortalecimento de ações de combate à criminalidade - Ministério Público do Estado da Bahia. |",
       "Link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBTZkI3ODNoYXNuOFdrc2dBVzAzRnZOYkdaZkVtRWdKN2cwZnAySFk0SHZDZjVUcE85a214VXo5NTFNelJ6ZUJoMzZYZHM?oc=5"
+    },
+    {
+      "Hash_ID": "4156ce5051b5cc1aba3c94a67d855556",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Memes ganham espaço no marketing político - Terra",
+      "Link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNWmg3SzFHcGNrOE1TRDBJc2VlWEpZRy1qQ2MxTzl5QURsY0JSWGNUcVlNTWE3T21Vd18xMUZ5RHJPQlJMaDNLQnJIVmZLZGZCOGxQWXNoLUxQekZVY3pzV1pLS250TlpkVDhOMlkxdmFDTHIzWFN6T296UndDNV9QMU1zNlJaZ01scWZ5NVB5dktSRldtWTZ4UktRV3lXYndYVHU2OTZHYXl4TU9ZZU90VU5WUlJBaW9GRTEwZUZn?oc=5"
+    },
+    {
+      "Hash_ID": "e9219854a37dd12625aea6994db39908",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Brandão decide ficar no governo e apoiar Orleans; Senado deve ficar com Weverton e Fufuca - atual7.com",
+      "Link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOM2hacW9MR2dPclR3ZkRoM1lUZXp0TFJDVWFZV3ZVd0RZWlU0TTNKRDJHZnUwNlJuN1loS0lwaURQVUhicWN5eEJzNEZPUWRDZ1A3dVlmdzExOU9jYlBHMGt5TEM0dDhYMW80eHZxdTV0Yk9ieGdWekNYMWdVMUVvS3dOSF9uMGFlcFM1bWU0eWo0TEJmY3E0Wi1CWVZaN3ptSHM3WnRSNVlPWmhtTEs0MGg4X1BNcldTZFVv?oc=5"
     },
     {
       "Hash_ID": "7199fb9498ca80ebcfb9ea08b837a322",
@@ -963,6 +893,16 @@
       "Link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRFhtYjNlWklqUU1KNk1JTnk4azJKalNxbGo3VHItX0c1S3dRc3JZVW14YTMxWmxBMkxhc2VxM21LNXFBelRsNFJSNkM2Sm9QV3BKT2pHUmlLYnF4UmJwZWdETW5RSkhXWGNTZFd0QmZSOC16Tk5tNTdzU1pRMGJiUzJJUFU0eGdvN3ppSEJJbWRZT2dwdjZ6Tm44Y0Vtdm1TbFNqWG1tbVRDQTZTc0pvN2JncVdMLVVGWmRFZllrX1ZTTmhvLTUwRm84RGZkSDFSRVNZMmFPWHlKVURkaFlZWERicw?oc=5"
     },
     {
+      "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Yuri dispensa apelido \"Mamutelli\", vira pai babão e vê valor de mercado subir - ge",
+      "Link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNay1QODI1U3d3c09MMVhIc1ZZRUlHWFlwTEZ1eEhXSWZXYnRCaGUxSjlqZHVUSjFNd3U0b2lyb2hiUE5Va0Q4djdpaTBLQmJwQ012d0p3RUJ5NFFwaW13Q1ZUVU9fOFFRS2k2UHp4Nnk3ei10SzJUQzhRNzc2VS1lckxWbS1kM2kwck8xUFVwd2VlaXBKbm8yXzh3Y0Rqb1c4Y0lBZkJBUXRmRFF6RDlFU1o3bG9iY0NEYmFMYTBJRGtUeENKQU5Pdm1OZFc1a2RFVXlGMHVTMmp0dVh5ZmJGSQ?oc=5"
+    },
+    {
       "Hash_ID": "772afbdea4d9a76efe9b7db4df77f776",
       "Data_Coleta": "2026-08-03 09:13:04",
       "Ano": "2026",
@@ -1033,6 +973,16 @@
       "Link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQVhCSE5RYUZ5WDhjdzk3azBXcS0zV1pMWGNpdXUzb2NPLWppRkRUaTBmUEg3Wmp5S09XbC1qRjBMWWpoMGF0NVJDT1c0Z084WE1CdDdKV2hXSWdLNTZvVGk1V0JRMGE3WmVDZi1KejZHZ09xd0pvVWstd0lSNmQyeFk0NEtSekVJSXJJbFlPRG5CSFdDMnc?oc=5"
     },
     {
+      "Hash_ID": "8d29ad8566ebe2b8805256651f89f9e1",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Pesquisa aponta que só 6 deputados baianos lideram engajamento nas redes - Panorama da Bahia",
+      "Link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSWlUUFd4OW1TSzJpejRqNkxrd2hpMWE1LXNfSmI1VmdieTNPcUEzM3U5RGFtNklTNEgtNU9kbGtDRVppY3VwNkI4ZkdpMTN6T3Y2andCcFg5QXZ1a0tVYlR5MWt0MnVKOXpySGpsSFM3TmdzZ29LbXBoazNDSjdNRmR4aHZNN1U3QXBTRjBkRlJYN0dwYUZRZGF4WU9LTDNWZU9VbElXNA?oc=5"
+    },
+    {
       "Hash_ID": "f592d4c82cd72ff28ae08fba3955ab78",
       "Data_Coleta": "2026-08-03 09:13:04",
       "Ano": "2026",
@@ -1043,6 +993,16 @@
       "Link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiM1JsOUxrUXltSFJPTkRBSzJXeWtSMW05blB6OU9hRlI3S1gyaUFFc0JlSHA1bmFUOE5hWGt6QjVzQ01FcTFsaTRvWGpwS2ZIOW95ZmNGSlBfbHJNNmVkQTBUN2hhUQ?oc=5"
     },
     {
+      "Hash_ID": "05a56474cfb372c101f73a1e973ec7e1",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Ex-participante Yuri é o novo integrante do BBB13 - G1",
+      "Link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSGVrU1NIQ0V6eUxaUEc1TXczQjVFMXF4X1BGYVU1YnZEdWJSQTNFanFpUERkdTE3WS1fOHVjcS1HaTc4c0g5THk0WmsySDNfUEpFXzdJaWxwNlRkU2pXT3I2NFR3aGljOE9RWk5CY0V6QzEtbDZKdG0tRWlwUzdKdXVUUDM0clRHLWtRV21zVk1WY2VzU1ZoOTQxSzhTQjNQLXc?oc=5"
+    },
+    {
       "Hash_ID": "58f921b590b4f944999d084de5d268e1",
       "Data_Coleta": "2026-08-03 09:13:04",
       "Ano": "2026",
@@ -1051,6 +1011,16 @@
       "Portal": "news.google.com",
       "Titulo": "Yuri Mamute - Transfermarkt",
       "Link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE12ZTEwb1F5dDhiWGpTaDRlR0hBQVJWd0lCdThHakdOLWtoUlR2WmdfMS14NWM0NTh2N1RHbEZFdUdPYjh5UmZnY25QVEpZdGY1elNXMGZrLTdUdjFaSHNocEt4SHk4T0pYMlhFNUpZaw?oc=5"
+    },
+    {
+      "Hash_ID": "3997924a18210346a7c0f2c9b8b22c2e",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "De quase R$ 17 milhões, primeiro contrato de Léo Coutinho foi com a própria família - atual7.com",
+      "Link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdVE3Z1NWZDlmOW95TTg5dUtyaFF2RGQ2cmJoUTdfd21IQnZxN3c0YjVVbE9YakJmSUlidVBlODlfaFVRd2tqR1hLUElSa0x0dVNyTnFBSGZ3Z1FtV3RsTUlWVHU4NlBzT1dXdWJXWW44SGxIal8wNWNjNVlLamlhTGprTkdlZFhWdU1UX2YweG9yQTV3SkN4MDNBb0loRFJHOVM3MnozVTVvY0I3TzV0N3FR?oc=5"
     },
     {
       "Hash_ID": "4ab42f409c27983d3ca89497c0bfba8d",
@@ -1073,6 +1043,16 @@
       "Link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZ3hpN2t2TDRMYkh2YVA0RVRzM04yZnJSQmNJYnpMd1BSZTRDWVFYYlRGNDVYMFcxU1dwUnNzS1M4dmlTYjlwemVQNU9NNXhVYVJaMFFkVUdXNV9yLVlFUVd4VklNdFZHVmFwU2FVWjlfRWlHdmpZY2ZkcVRRbmtHcDdSQXdBRHZLOTBONS1zNy1BQ2p6bTZTMGxfMTBseWU3Q25yOXJoVldSR0tPV1FPLUxGaDBPNGvSAbcBQVVfeXFMTmd4aTdrdkw0TGJIdmFQNEVUczNOMmZyUkJjSWJ6THdQUmU0Q1lRWGJURjQ1WDBXMVNXcFJzc0tTOHZpU2I5cHplUDVPTTV4VWFSWjBRZFVHVzVfci1ZRVFXeFZJTXRWR1ZhcFNhVVo5X0VpR3ZqWWNmZHFUUW5rR3A3UkF3QUR2SzkwTjUtczctQUNqem02UzBsXzEwbHllN0NucjlyaFZXUkdLT1dRTy1MRmgwTzRr?oc=5"
     },
     {
+      "Hash_ID": "c3581523350affd135bf45a908a3c6a6",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Saiba quem são os deputados federais da Bahia com melhor engajamento nas redes sociais - Bnews",
+      "Link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcm5sZHNRRUZvaFBLVUNyTnpId0dyTm5hd19TM05GbG9lUE5mc1RYcU1RWUM3N2YxQTUwNGRHZV9jVkVtSHlUQUN6NGFhQlpXblRNVEhSU3oxSXFkeGNIZVJnZG5yaVNlaFJCdE5FZzlaQnlsdEtpWTlYQ1poMERMSmRLdlU4VE1xZ0FadHh5eEYxemFnNEZiUGdPV0hwd2NZMEJjUXAwdkRZaFpub1J6NldLbUJYTklpYXEwZm15ZC03T2dNT1o4NF9WNjJEZVXSAdQBQVVfeXFMUFAtMEgtZVQ5V0QzLXUydzZGcWFIUHpGUlk2VlhGMFhSYy1vUF9kZlByTDNsWmpETnhOSUQ4aVU0NDZBRWdKUXd6ektJTnJsOEIyWTI5NUVlSFpLNTd1LTZuVWtyMmlkVFIyalBfVjB2eTFRLVA3Rnd0UHdNUFVPdjlPYzdwY2otRlp2eDRKQ1liclNuOUNtQmVBTmRVTGh3WDZCS0FhYjBsTHd2UmI0bmx2RmhVaFNhMnVrMTRYTTlUZnBtRzM5YV85RHhZY2ZlZ2NpeVc?oc=5"
+    },
+    {
       "Hash_ID": "facfdc50d885000d4cba2c538c7262b2",
       "Data_Coleta": "2026-08-03 09:13:04",
       "Ano": "2026",
@@ -1093,6 +1073,26 @@
       "Link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aZ2hUOE0ySUlNRVVCNTBXU0taelgzWHMtZC1lTEdhc01qQU51MW9VcmNOb1hOOUU4RVA0ejB2VDRnZXlFMGJvbWIxa0FHOVFzc1ZnZ0k3OEhQdjhVMF9wRw?oc=5"
     },
     {
+      "Hash_ID": "fd8c1ae2d99d5311ca990db428549370",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Morre aos 65 anos, o jornalista Luís Cardoso - Diego Emir",
+      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBNSUpmaW5vYkNvQ2pUVFFva21SRTYzdGZpc3Y1UUR0Vkw1ZG13NUl1Vy1qSmRxTjNvbnZXd3V4NVlyWXVHTl9FQzhsOHVCSllNVklmdzdWeDhRVEhjeHZIZFdBVGpfSXc3dC1IMW82TG1mQUlyY2ZrVG9BdzBPZ00?oc=5"
+    },
+    {
+      "Hash_ID": "55fd0da30e694eb2840adb018212b27b",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Atiradores do Tiro de Guerra são homenageados pelos vereadores de Linhares - Eu vi em Linhares",
+      "Link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbFNpYjlySl9MaHhGdGp2Q3pySjk5Umw3OEprM1d2THc3OFpTQWlxek1ZU1VraUNjeWdhZkc4SnBmd1lwSnVmUjNsY3BUSjlWb3N6akJHODdkdXpubURDOV9GQ2ZyR21VUXBSYkR1SFVlYXhkV1lMZm5TcUgxazFpbDV3Vm1BUm10QUx2N29UMWxSYWlRNk9lMloyRncwVXByTGZMQ2RTTXQ3SmFObEoxamdJTXd4dHc3N3c?oc=5"
+    },
+    {
       "Hash_ID": "c5148ad8c9570033050d7590cd797839",
       "Data_Coleta": "2026-08-03 09:13:04",
       "Ano": "2026",
@@ -1103,6 +1103,16 @@
       "Link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTEhoODJPYW4zRzNBdmZsY2dmUUh3bl9ESy1IbnpqQlZLYXFIUDJ4TC1tVWd3aEprUHN4eEY5THFROU9MYXpVbHpzZ3NxYVR3VTItRWJ6VkhpTDJlSG44QUlncHVuN1I3YXZJVTIyejFBU3pKekRqT3ZiU3ZXMDNRQjlTalptTlVId2NyTGtILTlWVTF6X2lPNzJFSHVzMG9WLXhMaHN5OA?oc=5"
     },
     {
+      "Hash_ID": "57e22fccac344baaf5e15e4df1e41c79",
+      "Data_Coleta": "2026-08-03 09:13:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "IML confirma que ossada encontrada é de marceneiro desaparecido desde outubro de 2023 - afnoticias.com.br",
+      "Link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb3NMV1ZPcWF5S2xNU0RKN0FXVWs4VHJHZlFBX1NwMEVPdnNDalhHbUgwNVY2OXhWbWU4Mm5BQkJqUy1zczRLQlFoUFlLOFpibEh5aEEyRUZGNGN0NVVrb05qTGI1OGRXd2FzMTFLYlZUNGhpZGJ4S0Y1UUp5LWV0QmNfWjJqTjJIa0UyZWh5bTAxT3Vfb3BDVFJPaWlYRnQzTldlMHkzdW5SbWpoSEpLRTZuY014ejJkLVRDbnJOWXhQckZaNlU1bzhQNFFpQ28?oc=5"
+    },
+    {
       "Hash_ID": "f4b38790348dfd90a9775526c0045b2d",
       "Data_Coleta": "2026-08-03 09:13:04",
       "Ano": "2026",
@@ -1111,6 +1121,16 @@
       "Portal": "news.google.com",
       "Titulo": "Dr. Orlando é alvo de ação de improbidade e estaria se ocultando da Justiça - Marrapá",
       "Link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNM0J5bzBpWkZaUnRsVkdaRlhEZk9qYkxJQzZpNWtpcnZpRUdhcHIxZFg1eXNqdGpQTUJMUDlFLW9HZGFfci0zWEpvSWhTR3M5aEY1c1RJT3lUdWJ0dC1JbVAyNExONUhkbWJGNHBHdE1nczRlVEFCMFhQWnNEN0dYWDFWc3lqanJLR1hJbmdka0d5bHhCY2RvTi1ZWQ?oc=5"
+    },
+    {
+      "Hash_ID": "86a6fd767a944e37398462f71a5d49ab",
+      "Data_Coleta": "2026-08-03 09:13:03",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Confira a lista dos aprovados do vestibular 2015 da Unesp - Estadão",
+      "Link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUmY5ck1xd3dFOURUZWFfZXpHQk1odTFacE82bnJyUWd6SjU2V3laMUk4TldEOGxRQXVoclE2UHZmRWVBWnlFVzJBOWZyaGRqVHRKVGowT3J4ZzIzS2wzSlB6MFNHQTNkeExsZ05Jb3Z5SFJRYWRPN2NlZ0VZSFlPT1RkYTVMSzZ2NXFKRkJaVk1JdU5XSW5MWXlkY9IBoAFBVV95cUxOdnFWT1hXMU40Z3lFLW02alV5dENzY1RHS0xsWjFKNGpoOXVkdDFfa0Zabl8wRzlidGRTWjM2LWl4dlBRcndFeXRHYXVVMUhEUUtrRE9vRmNMSW9lLUcyMTV6TEdSbW5lY0FqeFJtNWQxcUNpM2xuLWJGSmpUVlh3N2liTUtCS0dfQkd1TzBSWmFpRkVXaVhzUG9iZ0ZqRVVI?oc=5"
     },
     {
       "Hash_ID": "3470fdb53b656aae8864e7e3fca71970",
