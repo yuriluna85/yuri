@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-08-16T09:37:09.937253+00:00",
-  "total_mencoes": 139,
+  "ultima_atualizacao": "2026-08-17T09:53:41.941710+00:00",
+  "total_mencoes": 141,
   "mencoes": [
     {
       "Hash_ID": "2ce48d48685c61dbefff6588e5b15aff",
@@ -191,6 +191,26 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "7e7b0935891c6d907fbc2d4bc0d13ba1",
+      "Data_Coleta": "2026-08-17 09:53:37",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Cecon/SP homologa acordo de R$ 28,3 milhões e finaliza processo iniciado há 45 anos sobre aposentadoria de trabalhadores da RFFSA - trf3.jus.br",
+      "Link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPeWFQeWlfbmJpNEZ3eFBmSUV1YXlaTm12LVBpWG4zUmY4YWc1MW1WWHlyRHRMMWZUM0x1bERkejNKVkhhMmx5VEc1MjhfSDFiam1fQVdfWU00MzZyYl9LTERBSFV6bXY3S2RiN3VUZnFZRFFmaXhMRFhrS0ROclpJVjhTc2dNYkd5Z0ppNlFFMlYxRGNqS1ROMzJ2V2NVc0xCY1ZLNmlNWGc2UTlOc2lOeHVGM05LV2JVTWVVN2I3REM?oc=5"
+    },
+    {
+      "Hash_ID": "8c17e438df003e45fa178ea0aea26688",
+      "Data_Coleta": "2026-08-17 09:53:37",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Flávio Dino no Twitter: o que podemos aprender com o governador do MA - PCdoB",
+      "Link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQLXNZMXY4ZmtDcmRMc2Q4d0VmaERFX2VLdWF0Yzl4OUE0QXgzYmstMFpVWF9PUDBqNG9XSDlaaVNWV3ZfcndlbTVQa2ZmdUZabFRTQVM2SDBhaDRoelhCci1iLWhGVHRhUXBWcTBCNExrMTFUdDh4b1JaUXMtam9GR1RldHBkQVZQWHYtTm91T1FFdkZqLVl1UnlxaFlINVN5NEE?oc=5"
     },
     {
       "Hash_ID": "ae869829f82347f1b977bcb92a72cf03",
