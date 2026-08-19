@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-08-18T09:44:02.966379+00:00",
-  "total_mencoes": 143,
+  "ultima_atualizacao": "2026-08-19T09:44:45.092704+00:00",
+  "total_mencoes": 144,
   "mencoes": [
     {
       "Hash_ID": "2ce48d48685c61dbefff6588e5b15aff",
@@ -191,6 +191,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "ab608d118fbf34accf846e90316b87dd",
+      "Data_Coleta": "2026-08-19 09:44:41",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Cecon/SP homologa acordo de R$ 28,3 milhões e finaliza processo iniciado há 45 anos sobre aposentadoria de trabalhadores da RFFSA - trf3.jus.br",
+      "Link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOZ1BJM3BDM2d1ZjlwbVJqeWtRYUNMMFVtOVFIdEcwdDZ5ZU1DaHNjU3hTTEpFY3pVaDVEYTVMckNkMERUOUtOVnkzMVZlSFlSXzJCOE9ldzVyMmc2bGx1VlVMSExaRjZRenNNakJ3d0haaWhmREExVmdVZUVmTlYzTFBKSktSakwzbnF5NDMxTTFXVUtaX2ozRmZ3Q3VMNDFPWnhqM2pPOUNqWVFxRmZwaE5HUmw?oc=5"
     },
     {
       "Hash_ID": "00b26f4435bcb6f69eec70835104e620",
