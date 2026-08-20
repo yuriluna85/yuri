@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-08-19T09:44:45.092704+00:00",
-  "total_mencoes": 144,
+  "ultima_atualizacao": "2026-08-20T09:46:42.425846+00:00",
+  "total_mencoes": 148,
   "mencoes": [
     {
       "Hash_ID": "2ce48d48685c61dbefff6588e5b15aff",
@@ -191,6 +191,46 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "ca84934f8b8866c61160f1b471a08559",
+      "Data_Coleta": "2026-08-20 09:46:37",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Curso Método Caos prepara profissionais para campanhas - O GLOBO",
+      "Link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ0lVcnVTUWNJRUdUMFRFUVU0OURrWXE5RmduVnZnc0hnZExrSHM0a2pseGw0MXdIM19MLVh2QWY5bF9pRnZSRzJRQWxRTUxxb0c4YjlQX285b1dVX0Y5VUhWejM4MVVjNjJ0elBXVmNlMGxIZ0pCY0dsdlpDMDBJdDNyWUhWdzc2VGpnUjl4cEZIbHo2OGd1S2tDR1dZVkVzS1RfU2k5X1VFanlCLS1oS2pJN1dkUGpjN1NwWFhOV2xZNEowdkZ2c2NVUmjSAcwBQVVfeXFMUGdJVXJ1U1FjSUVHVDBURVFVNDlEa1lxOUZnblZ2Z3NIZ2RMa0hzNGtqbHhsNDF3SDNfTC1YdkFmOWxfaUZ2UkcyUUFsUU1McW9HOGI5UF9vOW9XVV9GOVVIVnozODFVYzYydHpQV1ZjZTBsSGdKQmNHbHZaQzAwSXQzcllIVnc3NlRqZ1I5eHBGSGx6NjhndUtrQ0dXWVZFc0tUX1NpOV9VRWp5Qi0taEtqSTdXZFBqYzdTcFhYTldsWTRKMHZGdnNjVVJo?oc=5"
+    },
+    {
+      "Hash_ID": "751652ce9a4dc443163b13c45bf45a76",
+      "Data_Coleta": "2026-08-20 09:46:37",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Anielle demite secretário ligado a ex-ministro Silvio Almeida? - UOL Notícias",
+      "Link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVEVEcUhNVFhxU2liZnRNMkswRVJtZVZFR3I3MFNuRHJBMUhZeVNBWWpreFZOcTFDYktjR2x1MDMwckxuOFowY2xhVDNXUWUzcUJOS0NJd1oyMzlOd1htQS1XUk5pd1hROHlBUElZTmR4c0hYTlkwRVJQV0lmajJMeTM5LUEtNTJCbXRsbEtLRFpjUjlGeFU4blNqUVh6aXZkdDM2eVg2Mkd0OXBjdERZM2x2RQ?oc=5"
+    },
+    {
+      "Hash_ID": "eb63aea6a95d0e33aee790c3a7d3c1a0",
+      "Data_Coleta": "2026-08-20 09:46:37",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Tratamento experimental nos EUA é esperança para Yuri; veja como ajudar - Gazeta Digital",
+      "Link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdHhqbzM0WEpBcVV1cFhQQjUyWW05Sm4xdDI1ZXlMZ19kMWwzUlRyN0JMbFFibXpURUgxQ2ROZnJTejJmUUxsM3RRUnJNMm9iWlFGa0hMNjg5b1NoVl91V3FSaDdkM1Z2ZFdXNkJiVFR0UkdZcHV1ZGtXVEFNUjd6c2NBeXpXNEVXcEpDYWJ0Zndxdm1Yb2hqcWMtbFQycmdCM2RUdVJ5UklTMjZRME0yRGZ3YzZzOHg2dllGRlZaVnAzejM3VFdr?oc=5"
+    },
+    {
+      "Hash_ID": "a0cc65c539570823bda3789114eb99e4",
+      "Data_Coleta": "2026-08-20 09:46:36",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Lázaro Ramos, Luedji Luna e Yuri Marçal dão voz a podcast infantil do Spotify - Alô Alô Bahia",
+      "Link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOa2trUTMzeEVWT2NjdjhaSTFRLTFpQW9WdUlMTE1iRXM5NnRBT2kyUEFRZG10b2d5aGFiUkNfakxxZGJYMHhvQmJQLWpPZlIwbzZCM09xN21PVkdwdlZIN3EtVzNHa3V3dU8zTFBaQnd2S2N6bUlaZUFmenlDVE83S2gzQXVxRVhuWnRINUNPYk5ydkNBX0VmTTA4a2pqNUtEeU1XczNGREJiUQ?oc=5"
     },
     {
       "Hash_ID": "ab608d118fbf34accf846e90316b87dd",
