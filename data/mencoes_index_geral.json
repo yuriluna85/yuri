@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-08-20T09:46:42.425846+00:00",
-  "total_mencoes": 148,
+  "ultima_atualizacao": "2026-08-21T09:49:04.130127+00:00",
+  "total_mencoes": 150,
   "mencoes": [
     {
       "Hash_ID": "2ce48d48685c61dbefff6588e5b15aff",
@@ -191,6 +191,26 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "747c166383d3580e71ba395c02c99909",
+      "Data_Coleta": "2026-08-21 09:49:00",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Empetur inicia roadshow para promover Pernambuco em SP; veja fotos - Brasilturis",
+      "Link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTVNtSzJqMXlhWUpBb2ZZcU5wRDUyc0czdnhqaEVheDVxeS1hUGNmMkl3ZW4xZjhpNkNDUHpJdlM0YWlZel9pTmV2SjJpbUdFWEhiMk1uajN0VjFCRlFsRG4zc1U4UnRYQXBBODNnTjktZERuMmhDeGN0Ri1uRC0ydHY0ZjlYVjdvdW05cVNNTDlnclVQNGpTTjhnY21wbm9FYVRmMkNfcw?oc=5"
+    },
+    {
+      "Hash_ID": "276b165d6687aa2fbf5e1bc4b6212769",
+      "Data_Coleta": "2026-08-21 09:49:00",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Jovem é encontrado morto, com o corpo amarrado na zona rural de Extrema - Rede Moinho 24",
+      "Link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRkVNVzFrUHlaS0dQYmRINWhWSDlPNGtQdG11eGR1M01mTWthTjVORU9UMmw1c2pvUmh6Q3J5Qmctb1RJeWN0bmFkVlJHTVhGVWdDd0dfOVJDbllnSmxJa3BMYThnSlVZWXkyWDZuTER2NURUeFc4aVdWLWRlQzFoS3gxTF9ScjlabktoOGNzN3c3c2l3R3hLb0x6MzJQTVBnSHBWa2ZvMNIBrAFBVV95cUxORXVzbExNWFhOTm9ZZHlHdjhlZ2JVRDA2aUthNVNXRTNEYW1EdVZVZlFIY1lRamlhZEhiQUgyUEg2dUVDdEJUbEUzQXJpWFJzMUhuZFFFckthUi1hbUNEazM2OXlHQlhGVGoxajY0U1I2WWxZZ0RRMDR6VUdwc0t5dlNFVFNZY3NqNkZKQ1hiQmlXX3lWODRWWEpYbjJ3aHpkdlNyT1QzZC1iRlFj?oc=5"
     },
     {
       "Hash_ID": "ca84934f8b8866c61160f1b471a08559",
