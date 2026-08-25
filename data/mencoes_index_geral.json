@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-08-24T09:58:44.249975+00:00",
-  "total_mencoes": 159,
+  "ultima_atualizacao": "2026-08-25T09:47:28.797483+00:00",
+  "total_mencoes": 160,
   "mencoes": [
     {
       "Hash_ID": "2ce48d48685c61dbefff6588e5b15aff",
@@ -191,6 +191,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "cd51317e1639e56dfd144884e9dfd40c",
+      "Data_Coleta": "2026-08-25 09:47:24",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Eleição em Petrópolis confirma Hingo Hammes como próximo prefeito - PortalR3",
+      "Link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOc3AxTU12RVlza0ZWYVB3QS1wVTROY09PTnR0ZXJkdzJiRWZUMjNsb1pHTXctTkl3S2pSY0MxbDg5cW9OWEFuSnUxa0E0UVZQWkxGVzdCRk96NEJKdXVEX1ZhcUY5bVRCM0JjS2ZwQ0xUWjZWNFh4NWp4cFpYVTZEQWVsZU8zZjlmMWNzbEZUMmRWTklxNnF2eExpRmVSdTZoTGtaWjVpQQ?oc=5"
     },
     {
       "Hash_ID": "3986a80604f4946b58819f08ea828114",
