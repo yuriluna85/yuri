@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-08-26T09:53:29.619463+00:00",
-  "total_mencoes": 160,
+  "ultima_atualizacao": "2026-08-27T19:48:24.765871+00:00",
+  "total_mencoes": 162,
   "mencoes": [
     {
       "Hash_ID": "2ce48d48685c61dbefff6588e5b15aff",
@@ -191,6 +191,26 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "500f24364b082de2333d40440dcac9cb",
+      "Data_Coleta": "2026-08-27 19:48:20",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Héloa convida à dança com Luedji Luna e o rapper angolano Liu Kid no single que anunciará em setembro o álbum 'Árida' - G1",
+      "Link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxQYzJ2V24yMUJxRWRuM0VBb1lKcWcxSW9fSDk3aGZoc1pHcFJzYm01dUVFWjlLUURwdFlMcHBkenh0S2lpcFJhYWVCT1dlLXI1eWV4Unhxazd6RVRINFpuc0xvb1AxR3BMTjU2X25NRnN3R2dGWnNWdUsyalRBaHhyQktuYndKNHowR0ZiZV9JWHM2ejR3UV9tUTNvTElsXzhhOEs0LXB0dHV3ZGZjNi1FbElCNWktVzNrWGVvUWx5aG9talpzNm5BQ1ZaZTN6QXRMaUo3TEl3eFNjTUxmamFCcmYxbG1lSUFrNS00dHpYZU9oRjE3RXNxUk00VGhnV3FQMXlFd0R0a1NmNnJaZmUxMTA2QTczZW14MHpBM0JJd9IBrgJBVV95cUxOTVRpVkpjemZLNEtfR3JyM0pGanRiajFpOVFtLTB3dno4Y1RhSG0xMnV6VTB2S3o1c3ctNFpHNFhwYVZVNzZ3STRtczBqbWhSQmJqYkVMX1Q3dXhsVjVhQmw3NzhZa3VocXpOSzBzNEtpdTlNZlEyZnU0Wk4xU013OFNpOGpfaUN4blRGelNGSmw4NmZianZvdFJBVmZ3SXFxd1ZnS0h5ZlhnUTJHZ1ZWNmZZSlNVLVV4MjNwOTdjMXBZc1VneTd6cE9Pa3NIMjFvaDhVT0hlMWtwMVZ1eFlZOHg5bnNhWDl3OHJPWkI3bkpHa3RNTF9Id0l0d0hLczhHcWZaeFBtRFZyN2VTREoxNWVpVjdzQ1NkSFBWQzRTc1J5V2FIRUhJLVBsMmFlZw?oc=5"
+    },
+    {
+      "Hash_ID": "a5a8d640168427f29b47e3b2c7e56692",
+      "Data_Coleta": "2026-08-27 19:48:20",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Falha em motor fez sonda russa Luna-25 se chocar com a Lua - Canaltech",
+      "Link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWkJLeU1Edi0zMnNRdGJnX0NjNUl0MW5VMUYwX3R6RDh5LWN6T1lqaWJMM1BWR0J2VkdEMVZzTDZtTGZnZi1JVnhtY2lRVGRoYUpkUE9laFdLWGxocUd1OXBjMDQ3RU11Q255UEpYd05SeVdqV2VOX0d4RFVvcElhS0NJaklteGhjLTJROFFyR1BkVTBhNHJNbFMycmZ2OFk?oc=5"
     },
     {
       "Hash_ID": "cd51317e1639e56dfd144884e9dfd40c",
