@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-08-28T20:49:12.857650+00:00",
-  "total_mencoes": 165,
+  "ultima_atualizacao": "2026-08-29T14:25:22.324732+00:00",
+  "total_mencoes": 166,
   "mencoes": [
     {
       "Hash_ID": "2ce48d48685c61dbefff6588e5b15aff",
@@ -191,6 +191,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "11fbfb993c624daeba7cc38657c12dad",
+      "Data_Coleta": "2026-08-29 14:25:17",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Jovens afirmam que motorista os atropelou após discussão em Niterói - A Tribuna RJ",
+      "Link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdjIyZ0tqVTJZblYtMVBEU1VoZmtwYjdTMVRZb3FKQ05WdmNYUDhiSmdEclIxaXFIMkFmUy1uVXlNeEg5Q3ROUU56bk15bTYwVFZhbk0yZzZJNGtsdHB0eHFOSWV0M2taZVRQMWE4a1hhY1lQUW4zVzFxOEZmQW1JMzZscXRvRzlUY3d5Z1NGenpnWEl3VVJ2dXk1WWhtYVh4bExj?oc=5"
     },
     {
       "Hash_ID": "85a664b5e33b584ccc7fdf963c33d642",
