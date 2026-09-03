@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-02T13:34:43.035136+00:00",
-  "total_mencoes": 172,
+  "ultima_atualizacao": "2026-09-03T13:31:08.700189+00:00",
+  "total_mencoes": 174,
   "mencoes": [
     {
       "Hash_ID": "2ce48d48685c61dbefff6588e5b15aff",
@@ -191,6 +191,26 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "4b303e7474428ea67250bc24cbe56c31",
+      "Data_Coleta": "2026-09-03 13:31:08",
+      "Ano": "2026",
+      "Pessoa": "Rodrigo Neves",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Rodrigo Neves vibra com título da Viradouro - O Dia",
+      "Link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbC11SFA5X3RuVmVGZmd5VlAtNTNGaWlvbEJlTmw4ZTkyVmJhcUxTVXVQdldKamthcDNPa3NsSmt4ejlVQjR2aGtNSWF2YmEyYXpLZE9DRlRVdzVCLWYxS2xwY1NjeGZjdXEyc2Jxb0d5WUNFNVhnXzVQS0VFOVNBbTFhRXlHN1BmaTQwNnNrWGxQbnpZV2JoOXVrUdIBoAFBVV95cUxNNzk1aS1zeHF1ejdDZHo5TFBVYmJNNE82aDg5b2ptOE45Rkx5ZEdPSG9vRlBCeTNqZFZKQjgtS0NMY2NKaEY3X0xNbEFsWWJTVUdyRjZZSGNhbzQ2V090NEMyaDl6eTRJaXdaVmc2U0QxOUJFUVg1SjVOOUd5ZVhGLWtUb1pGNzJBVjZva0RYTzhWeXlHTFRqZG1rc081LU9Z?oc=5"
+    },
+    {
+      "Hash_ID": "3daee53e181106fff0404ff1a3e0e28b",
+      "Data_Coleta": "2026-09-03 13:31:04",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Protagonista de Fuzuê invade Vai na Fé para pedir socorro a Guiga; fotos - Notícias da TV",
+      "Link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVDNybDExd3BfVTRfajhqWW9UTHhEYlBEMlZPRndyRXdJUllvM2QwUENhcTQxS1YzR0dJTzNjX1dOY2kyUmxjbE5QRlFJRzZwR1AxLVJhVVRYWDlLc1poLXFMTHN5NjBIWWRYa2NBZERFTmVLQTdSdV8zUkdabldnOXI2TEV0Nlh5WVFONFhPUi12Ny1qWjVPcDg0a1EyV0tYZ21lV0JQMklwUmpHbDNuVi1lVlVOT2JCcTdFWDd6YWNWaFpx?oc=5"
     },
     {
       "Hash_ID": "c5c793c35a43b4fd7195dc1f9630f95c",
