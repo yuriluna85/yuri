@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-06T12:50:50.170484+00:00",
-  "total_mencoes": 201,
+  "ultima_atualizacao": "2026-09-07T15:01:34.041432+00:00",
+  "total_mencoes": 203,
   "mencoes": [
     {
       "Hash_ID": "a586031aa55c085381b86c7097143550",
@@ -481,6 +481,26 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "6570f1a7cca0d0c6ab2d3446b483213e",
+      "Data_Coleta": "2026-09-07 15:01:29",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Ministério Público denuncia policiais que mataram estudante de medicina em São Paulo - SBT News",
+      "Link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYUx4RDNxYS0xTTF1VTN4NTlBeW5SVFN3TVhfcDBLVF9Ka281M3lvYW5YdXpFbXBtN29TTWhUNHdBOWxaWUpkNXZUNXdUZTZEUmdLMWtuSGJ3UW5zMVlSX01waTJDYm83OXotckpuLUdsbHc2Y0RNdENlX1lrMF8xSGJuVGNxcjZ1eTBTTW4yUm5VV0JhVVJRWnMwM3pCTG5nMXo0YnRWanVPT3BDNzBjMHowZ21nbDhTVHZ3SHRKMHZiUWZWelE?oc=5"
+    },
+    {
+      "Hash_ID": "22b723ca94c90b0dac2a0a93f53d1521",
+      "Data_Coleta": "2026-09-07 15:01:28",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Destaques da rede municipal de Ilhabela brilham no Prêmio Excelência Estudantil 2025 - Jornal Tribuna Do Povo Ilhabela",
+      "Link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUjZiaHF2N0xPc3JUVXRoUmREdFJpRE54MGZkaGhpYTR0V0FneHdMTjFCWUxkT3lpdGxVcDlDSENZLVppU0xqNElvY3ZZSHFrUkNoenlJTnVLT2E3V0JoZHdvdU5ZeUR2QVFKbHR2anpndDhQcUczdTFLZGU1S0NGcHhqVDhZTk9HYVg4LUFnUEprTnd5S1A1Y1hQSzhKUHh6NXBpVHFxbXdQWF9jX3UxeFloUENYdUlYcENIUUo5aFlNYVRsZGljbEx4MU1QZw?oc=5"
     },
     {
       "Hash_ID": "58524ce88ecf947d648618800a1680de",
