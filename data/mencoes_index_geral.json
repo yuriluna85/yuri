@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-08T13:31:38.052164+00:00",
-  "total_mencoes": 203,
+  "ultima_atualizacao": "2026-09-09T13:39:49.860775+00:00",
+  "total_mencoes": 204,
   "mencoes": [
     {
       "Hash_ID": "a586031aa55c085381b86c7097143550",
@@ -481,6 +481,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "0e8e4c799466c32ac0beec1a188bb158",
+      "Data_Coleta": "2026-09-09 13:39:45",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Semana de Quadrinhos da Rede Cuca começa nesta terça-feira (01/08) com grandes nomes do cenário nacional - Prefeitura de Fortaleza",
+      "Link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQY21kOGJ6NUZwbDhoMFExY0M3U3YyWkxpc0F6bFhkSnFYcGVra21FWFlXM2lNYXl5NjZET0hJcDBNYlFGZFRDaWhsRVpDSnM2QU1IYTQzVFAwaGp2Q0pCMXg5Y21VT1ZLTm4yYlNwR3dZTTlRejJqTlBUWmxFek1zdVJOdWkxMVRzaGFIUUYtX2s4ME50UVF1SVZIREZiTlNEdzY5a0ZDSlA3bkhRaUhqNFN6TWN3aU5GWE4tTExlZGhlakptRjUzbW5HaDByRndNMjBFUFpNY2pWYU0?oc=5"
     },
     {
       "Hash_ID": "6570f1a7cca0d0c6ab2d3446b483213e",
