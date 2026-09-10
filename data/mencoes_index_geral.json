@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-09T13:39:49.860775+00:00",
-  "total_mencoes": 204,
+  "ultima_atualizacao": "2026-09-10T13:31:54.335338+00:00",
+  "total_mencoes": 205,
   "mencoes": [
     {
       "Hash_ID": "a586031aa55c085381b86c7097143550",
@@ -481,6 +481,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "cf328fab642de616a35055e2e2e8973d",
+      "Data_Coleta": "2026-09-10 13:31:49",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Héloa lança single em parceria com Luedji Luna e Liu Kid - amazônia brasil rádio web",
+      "Link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNjdfMC1qSm1lRGFaUnV2ZTVYaGlvX2hjaDhPdFRST3BnVkNvU29uRVd3N3BGdG5WSjM0RS1leGc2VVFFbm1oalNjelFqVlk5akhTTTVxWm9MNFFpRnlrOEVfcF91d2ZSdVdVRDBLd0MwNVVCdlZ0c0kwb1h6OEJpMGp0TlBodnB6TUk2UW00UE9vNVkwaUE?oc=5"
     },
     {
       "Hash_ID": "0e8e4c799466c32ac0beec1a188bb158",
