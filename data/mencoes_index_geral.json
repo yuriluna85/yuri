@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-10T13:31:54.335338+00:00",
-  "total_mencoes": 205,
+  "ultima_atualizacao": "2026-09-11T13:29:39.409401+00:00",
+  "total_mencoes": 206,
   "mencoes": [
     {
       "Hash_ID": "a586031aa55c085381b86c7097143550",
@@ -481,6 +481,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "c89fd9445b74debca6158afccbea1ddc",
+      "Data_Coleta": "2026-09-11 13:29:35",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Requalifica Alagoinhas é apresentado a empresários em encontro promovido pela CDL - Prefeitura de Alagoinhas",
+      "Link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNnZRdzBRdjVjd1hSTnB2MVc0dURBQXJfXzBQUzR4RGh4U3k5aDA0Q3FpSUxEZXhDWDdGblRLZjV5NVVlTUpsbUt6LVIzUzRXRnVsY2YzdzJhVmpDem1mUVUySTFpaHY5TXFla0VLMUp5R21hRzlTSURXSlBOckl5ejBFcVdKdzQ3aEVqdTJmSkliU2d5ZWpobW5qX2hEWUduTWRqejR1OVljOHlhX3RtZVN1NUlLZkxxWmQxN0xlVDVjSW8?oc=5"
     },
     {
       "Hash_ID": "cf328fab642de616a35055e2e2e8973d",
