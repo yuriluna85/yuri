@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-11T13:29:39.409401+00:00",
-  "total_mencoes": 206,
+  "ultima_atualizacao": "2026-09-12T12:49:02.996976+00:00",
+  "total_mencoes": 208,
   "mencoes": [
     {
       "Hash_ID": "a586031aa55c085381b86c7097143550",
@@ -481,6 +481,26 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "a4873df728f94b501550738008a1c8b4",
+      "Data_Coleta": "2026-09-12 12:48:58",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Filme produzido em Ipatinga é selecionado para Mostra de Cinema de Ouro Preto - Plox",
+      "Link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObmZrRTJZU3dJNE44M2NjMGQtVzRYSlk0VmdJM3FKdUhWb3dkTlJQNEVVWGZ2bENJQy1feHBnNXhyWGN4dC1wZEN5NHljYkM0ODdMTmNMdUctbkNmQXJ3aENMdGJhUkZQakJpdFlnNVEyU09oNkJYNGQxYWhRbHRmVmNIc2xCYUI4NlhWWmZsTFduTUVNUHREQmE0SDZfc00xTkFFQzZEQVdQNFFQOWhDVmMyX3JBREk?oc=5"
+    },
+    {
+      "Hash_ID": "3700bc693c1046327587e2ea717602c8",
+      "Data_Coleta": "2026-09-12 12:48:58",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "LUAN DE ALMEIDA NOFFS vs NADSON YURI ALVES MONTEIRO 2024 Brasileiro Jiu-Jitsu IBJJF - FloGrappling",
+      "Link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxONU9aNzNIbDIxY1pfQVhOTnprSnE3ZDBzcnJzNTR2cVpmaUZ4MXZ4TFlDNmtWeTVPRWJXbmN1MXNzdkVfSGVCSTN4Q0tWVlRqckV0V0JkU2NXaVhBVEpDa2lmMXhOWXNQcjhnODJUdmwzOGpNZ0NJTjBUVDJ6dzdDeF9NZzNIRGVVZEM0V0xYZTBjTm1OZ1dRcmY4LUUtVUpyWnFRbGNWbWVpeFU4c3FtS2lhTmVpVDMtRzlaX193UFFmcW9kWnc?oc=5"
     },
     {
       "Hash_ID": "c89fd9445b74debca6158afccbea1ddc",
