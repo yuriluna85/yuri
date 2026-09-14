@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-13T13:46:51.204858+00:00",
-  "total_mencoes": 211,
+  "ultima_atualizacao": "2026-09-14T15:52:07.299684+00:00",
+  "total_mencoes": 214,
   "mencoes": [
     {
       "Hash_ID": "a586031aa55c085381b86c7097143550",
@@ -481,6 +481,36 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "85f6ba542bea2e4f613d6a2113277a6d",
+      "Data_Coleta": "2026-09-14 15:52:02",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Jornalista cobra coerência de Dino e pede fim do sigilo de processos envolvendo políticos maranhenses - iMaranhense",
+      "Link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNRk93VVlLdW03X1kyUEh1U2g4TTFWcFNROHlfeHBpREd2VkpZdUpDQmpETl9hWFA0SWQ4SnhqNVhDLXdOZk1MamkwX0lLaTBTRnlQcGVRYjVJa2laWVF2SUpoZE9wYVE5OVNYWGVLaTlMMnZVMHpmUjVLSktaUndRYjZmaW9NYkVpSFZYVnk2VjBSRy1ocHhyOVIzVDdEVEQxY1dXTVlObHo3dDYxZW1oRkJHbGpYUEhCVVZTaUJ5Y0ZOZXJ4Y0JnQWo3VW44WlRPMnZFZ29B?oc=5"
+    },
+    {
+      "Hash_ID": "e2bf92b58bb43126c4f4b1c92403e75f",
+      "Data_Coleta": "2026-09-14 15:52:02",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Diretor de Comunicação da ABI, Yuri Almeida conquista reconhecimento internacional – Home - ABI - Associação Bahiana de Imprensa",
+      "Link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNHlLQjR5WnNmVzNvalhoM1BXYjJ3a09vSmhSSTFZc29Zb3k2MEtjODY2UGNzNUNVS2Y4TlZ2eG1OUDlnTERJbDZKS3N5RHYwdmstWDNyaGNKTU5ZN0JrSDJNa2ZJdGRsdUFNVzBFMXZsYUR3UEEySkR4YS01US0yY240X3JzdEVMY1J6eWhFOE0xMkZDSV9Ta0FFTmdlbV9pTkdkZUFVdWUtSFU?oc=5"
+    },
+    {
+      "Hash_ID": "e9738d69764a81b6eeba2b9750616d89",
+      "Data_Coleta": "2026-09-14 15:52:02",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "setembro 2023 – Página: 3 – Home - ABI - Associação Bahiana de Imprensa",
+      "Link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KS0tzWWo3WDFmZ1hPaXROX2ktaWNUZEdxR2dkcHV1bVZfZUNobUZRZ1hQamhfZVkwb29EYXIwaUJnQlUzZE85NUJXalhoWWV4cmc?oc=5"
     },
     {
       "Hash_ID": "d1681a75846888cb0bbe2c3fcdaa0e9e",
