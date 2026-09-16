@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-15T14:18:04.404809+00:00",
-  "total_mencoes": 217,
+  "ultima_atualizacao": "2026-09-16T14:09:59.091654+00:00",
+  "total_mencoes": 221,
   "mencoes": [
     {
       "Hash_ID": "a586031aa55c085381b86c7097143550",
@@ -481,6 +481,46 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "ac3cf3280e260bcbd833411b559cb1fe",
+      "Data_Coleta": "2026-09-16 14:09:53",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "KSOP RJ: Yuri Martins Gama leva o título do Turbo Finale - Mundo Poker",
+      "Link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNTWRxTllOa1RUVlRVdWZQUEpKTGxxT3gxZ2pQNXNDSFNmMVNBeVEtUXVOMVFQZUZLV0g4T3VOVzBFNGtuckpQYXJWdENGRVdZRDdaRDZnSFNMRVg3UG16alpkUVNRek44cTc0QlRQMzNZTzZPcVpZSWdIOVhmbWoyV1lXQUVOT0Juejc5ejFBSHpONUY3Ny0yRG1wcnpKRkJtVGlnUnlZR05laE1XWXlHLU93QjNWYzJydGpTUU9yc0dsMXdKM0VEQnY0RWVaTUtJMEJKRThtSVFpUm1VaVNuSWVyZTd1RE9kRUZQcFdpU0V0dw?oc=5"
+    },
+    {
+      "Hash_ID": "4b6fbd8a678ab1b0cfa502a114317441",
+      "Data_Coleta": "2026-09-16 14:09:53",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Requalifica Alagoinhas é apresentado a empresários em encontro promovido pela CDL - :: Bahia Jornal ::",
+      "Link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVjNJYWlqM3JpYU1oR3Z3ZlJ0NklzNG1YdTNmM0hnd1NLMjljMlZqZUgxcERDU3lzVlotRmZpVkVicHZILW5DbUdUbWVoMGJ5aVBEUXJMd2JHVlhFbHp6VnZlOGczcGVNV2RxOW9fRGowZnAwS1Y2MFI3aE8zRWd3Q1pVYm5IV2dQdjlqalRsYUVNQ3duMXdMc0JnbmtNNGo1XzVDNFNUWjk5bVRYZ1VpWG1qVDVwQmN2R1k4YjQtcjVjdWxHWmc?oc=5"
+    },
+    {
+      "Hash_ID": "210bfec30cdf850163d79a1d1525f8d7",
+      "Data_Coleta": "2026-09-16 14:09:53",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Livro debate desafios para o marketing político no Brasil - Estado de Minas",
+      "Link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdnZtOFBNYUdZNzNXeTNmRERuRGtKaGhKZmllaTFibnhFQ1RxNk9URFVZWDQwbC1fVTJRRnVCRjJ4Y1NiRXpmUko2NnFfQ1c1QlJvcllBelptSU5Od2F0d3RBanVCM0UzcjBhVW8wNi1zSV9lZXF0d21NZ2syeUJzLS1zM0FxU3p3dGpYZzBvR0dKUy1POHdBTUNOWG9CcG5PM05OYmhTQU9KNU9MT1E4am5NczJoZnNiVlHSAb8BQVVfeXFMTVZqR0FncnlMT21ZV3ByaFNlMXVYTjNRRHcwQUY5QWZlbFBLR2ZGNTk2YUpPV0RLNERLaVhISUJvSU01VTk3bEJEZkowZVFDM0Jxc2FScHlhUGNsWDYyclBaNUlKMTMtVVhyczUtOHJlOUEyQjJtbVFxdWhfdi1FY1liT1VjUHliVV9BcHhVWnpWTXFmaVlfNWxTR3dMTXVsdERVaENzS2NicWZqQjdubkQzWWVRRGI5SFBfckd2b2M?oc=5"
+    },
+    {
+      "Hash_ID": "888f159654d778d293c201e8888ab669",
+      "Data_Coleta": "2026-09-16 14:09:53",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "100 jornalistas brasileiros foram bloqueados no Twitter por autoridades - Jornal Opção",
+      "Link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZ2lXSHVVUmphRklGT3JMQWM0eFZ3Y0xOR1J1Ty11dWVjZGVuSXFpSnY1cnpDN3BfVUUzOGFyMGVZMmRVNWJsa2toN1FoRnBxUWpMSk9kS0c0TXZUcko0RUJLYVlKbmFPY29CUE5EbDZ3TW9PU2l0SUNPQjhVaXVaZ21jTXV6RmFaTWFaZjdVY0lRU1NSVzlBM3o5YTJ1YVdrZU1mUzNBUFNnaUFXWGJHZ09FWmxxd1REbDV4dXJOaGdnOVVBMXZuNUdnbzRrMkxv?oc=5"
     },
     {
       "Hash_ID": "aabcf851310c4fd1786eaf8d9d07e3c3",
