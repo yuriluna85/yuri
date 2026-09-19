@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-18T13:33:32.079998+00:00",
-  "total_mencoes": 222,
+  "ultima_atualizacao": "2026-09-19T13:04:53.633525+00:00",
+  "total_mencoes": 223,
   "mencoes": [
     {
       "Hash_ID": "a586031aa55c085381b86c7097143550",
@@ -481,6 +481,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "504a611045c7548372ae341cc0ee92a7",
+      "Data_Coleta": "2026-09-19 13:04:50",
+      "Ano": "2026",
+      "Pessoa": "Ana Gabriela",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Preuni Seduc alcança jovens de diferentes cenários sociais e garante acesso ao Ensino Superior - Consed",
+      "Link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNV3RlRmF2TU5ITTlQQUNOeGpKTk1yTU5zQldURnFYZW84ZkVHWmdsZ0VqZ1VQYUhuTTJvOWJ1Nk9wS2JhM0RZQUIwb1l4Zk1iN0ZWV0d3MkUwakRUdUZ4TlVRMU9iZjFuelN6MTdfcVlHX0NKblN4NUtFYW1GUEN1M3l5N19NakhhZVF3MkpfdThqSzR3aTlUaXFJQUdGUmVNa2gzNmN5TUhPZ1MwdTl0SlhUTnB2clVDMUF1V1I4VUNXRFhjWHV3?oc=5"
     },
     {
       "Hash_ID": "43b9cef150e0ad4f72939cc830849932",
