@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-19T13:04:53.633525+00:00",
-  "total_mencoes": 223,
+  "ultima_atualizacao": "2026-09-20T13:33:38.155180+00:00",
+  "total_mencoes": 225,
   "mencoes": [
     {
       "Hash_ID": "a586031aa55c085381b86c7097143550",
@@ -481,6 +481,26 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "fc1319ddf908f21968c3848e3c628a1b",
+      "Data_Coleta": "2026-09-20 13:33:32",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Anitta, Nego do Borel e axé representam música brasileira no Pan de Lima - BOL",
+      "Link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaHluZk1Hc2tFU0oyZ1JFOWdqQVkzQy1DZ3gyZWhDQUFwTXNfclVjdXVKSU12YnQ5RGFrbVg3X3BfNkxaSEY2dGFRYUxvYW44UndhQVR5OWVDTnhYU1kzLUM0NzJnV2owOUdqbUF2SEpHZlZHTlN5OTNQeGh4TE5WM1BheVc5YThrcUN2eTlSTWJjdVFYUFRKOW5ZdDFZRDNUN2VCakdObTdmMjM0bWc2bzJNUWpzenRUU25ZRml30gHDAUFVX3lxTE9rQW4yczEwWG9qRE5LbDA1dFlxam55X184MWw3aFdRMGhVRDRMYzBVT25nTHBwZXdFM0hWdVRMMkhiVHBDd0o0TTdUT215dVRqUnZmeWNFakR2UDRjTmJacTVIb1NaUlI4MmUyY3p6Zm44aTZjM1h4LXV4SWRmUnpUVWxyTlZUc29yTVRjMEFmR1ZteVcyVjIzMmhFcE1SZjF1NzU2Q2ViQ0ZwUklDSmRyLVFsSlFsdVZvV2dpNzFzM3h2NA?oc=5"
+    },
+    {
+      "Hash_ID": "de2a521e65c8645866af7b01f77d2c1d",
+      "Data_Coleta": "2026-09-20 13:33:32",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Planejamento em Palmeirais - CidadeVerde.com",
+      "Link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9Fb2pNRXozbV95OEJFM0J2d0dhcHVmUHAxa0JCWUF3Q0t4T3pMZnhIN3ZSdmpuLWRFaENLclpCMjlvZmQtcGR2Z3NiWDFveUtZeWdVWHhsbjlSMHN6RHZFMFEwSlpmUlpqZGQ1aEtkdHN6ODdra0hXNE9aZw?oc=5"
     },
     {
       "Hash_ID": "504a611045c7548372ae341cc0ee92a7",
