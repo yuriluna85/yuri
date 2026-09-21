@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-20T13:33:38.155180+00:00",
-  "total_mencoes": 225,
+  "ultima_atualizacao": "2026-09-21T15:52:04.046395+00:00",
+  "total_mencoes": 227,
   "mencoes": [
     {
       "Hash_ID": "a586031aa55c085381b86c7097143550",
@@ -481,6 +481,26 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "092ef6c2373202668153b7bead7afb4b",
+      "Data_Coleta": "2026-09-21 15:51:58",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Reconhecimento internacional: Yuri Almeida é eleito um dos profissionais mais influentes do marketing político - Classe Politica",
+      "Link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQYVNmX3BoazJnd28teUxuTjNRT0VMejQ3blc5ZVFwRWxHSExfNTBrcmd1UFlWaU85bHNySXVuY2Zsdm9CWjd6SkREeVY5NkZKYXVyVjRYeFNrTGwwS3dEQVUtbDNLYkNWSnFZRDV5SGtyNkh4bjVSa1J1WDVfaHZuRjF1TE90VnFtRGl4bWhsU25yS1k5NVI3SVVUYXJxSTRVRk9XSTU2LWczblVMa3d3cXlmWldKWHB0a2FUQ2dlNHR0NW9iSXVKeXFXZlNXY0pkWGI5SmxsOWU1SzRjazRVakhpeHczS2Jz?oc=5"
+    },
+    {
+      "Hash_ID": "d76166ae14bf5d4175b4fcea3cf3840d",
+      "Data_Coleta": "2026-09-21 15:51:58",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "2026 FJJ Rio Carioca - FloGrappling",
+      "Link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR1BLTWgzM2oweG1kbFFtZFlQQWxHREdicWsxY2xndWxMRS1hRDBLZ2hBTi1rQzQxb25Vd3BMeXgtODlra1hBUUNuUVFiaWI3ZWIzM05vWkUtNUdjR3dHMDM4cXRXUmw2cVBTbS1MT2I4Uk5WR2dyOXplSWlpT3hqOUtDVXBxQmdt?oc=5"
     },
     {
       "Hash_ID": "fc1319ddf908f21968c3848e3c628a1b",
