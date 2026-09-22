@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-21T15:52:04.046395+00:00",
-  "total_mencoes": 227,
+  "ultima_atualizacao": "2026-09-22T14:00:17.094604+00:00",
+  "total_mencoes": 229,
   "mencoes": [
     {
       "Hash_ID": "a586031aa55c085381b86c7097143550",
@@ -481,6 +481,26 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "344168a01a087d43bcad17c7afdd5df9",
+      "Data_Coleta": "2026-09-22 14:00:11",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Maranhão paga aluguel de R$30 mil a familiares da cunhada do governador - Diário do Poder",
+      "Link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMTllRGdlVG9pU3hsLTVqWlpiLU9sZWp0NXdNSXR6OG9QcXVfSHM2R20xbktNYzhsS1RuRklhM0VfM2Z3Uk1CZ1pMRlNtMXg5bEE5UVk4YjBsZmg2TVZqZ2EyeTA4aHNfT0VIRUVyVW5SUmNtaWxMMm1tdWVJY2dMTEVtck9OUGhQOG1Cc1JRTEctUVMtQmI4ejI2bm1VS0lsNlEzVXd0Mzg2MW13bTBSNWt1WdIBuAFBVV95cUxOSVhSd3h1ZWQydDktX1RMYTJsN3hwZFQyYlE3YzFkUktSenl0c0N4LVI2MXpFV1lpQ3JKYU4xLVBLNnRmdW9RZzNhbUY3cnhjbFp1LUNIQ0RQamhLTHBiaTZ2aHJ0UEViY1d5cWoySnJ3a1dodXoteTFWX21xOVAxeHlZYmxuSFdoamJ0VFQxLVVBeExWLUl6NHBVMkJrRTlhVGNEZjgxWGwtbmNwa2JXcXdkd2ZRLU90?oc=5"
+    },
+    {
+      "Hash_ID": "f500bfce14d1861e69fa34f510a25e6c",
+      "Data_Coleta": "2026-09-22 14:00:11",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "“Ela é 40”, diz membro de facção em espancamento de menor em São Luís - atual7.com",
+      "Link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORzlQTFMta3RzNjFUeW1ETU9mSHZxOVlxS2c0bVdpaGpqZWUzNjdzWkUxejR6cENuQm1jbURkM0FDTVQ0R0ZoOGd5Wkt3WUJtR1ZhZmpUSkhqc1lBSzJDenZoZWlDamdlN1dmWkFCaWlvUnBXd3djaTJIVXhVQkR5ZHFsQ0xLM2FsZjRydXlwdkEzTzNIaWRJQjc1SkV6QQ?oc=5"
     },
     {
       "Hash_ID": "092ef6c2373202668153b7bead7afb4b",
