@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-22T14:00:17.094604+00:00",
-  "total_mencoes": 229,
+  "ultima_atualizacao": "2026-09-23T14:12:23.188695+00:00",
+  "total_mencoes": 231,
   "mencoes": [
     {
       "Hash_ID": "a586031aa55c085381b86c7097143550",
@@ -481,6 +481,26 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "114b58dca72e1ab4ab15bb23c85f500d",
+      "Data_Coleta": "2026-09-23 14:12:22",
+      "Ano": "2026",
+      "Pessoa": "Rodrigo Neves",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Viradouro recebe encontro político com Vitor Junior, Rodrigo Neves e Eduardo Paes - Diário do Rio",
+      "Link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZFlBWEhIaVdPN3FKN1FBMjV1QU15QXVnUjVSc0k3S2NRX1FVSWEwQ1BWT0Z0MnprOVZnZHV0UlNjMV9JWldzbVg5Wko4VmhWcTBLendVWEp6MGxTSVRVMG1ZRVJqbWpiTlZ2clVaSFZ0N3JtRThnU2tSWDVFenJfaWVYb3NOYkNNWF9NOFpKWEtuSGE5Y2JHaFBOUDVmT0ZXRjlGUFhRUFpHbUxhUEdPemZQLVZ0UExzOVhpZEJEemNjQ0VCdmdDYlpVQVI3eF9D?oc=5"
+    },
+    {
+      "Hash_ID": "ad82f56ef235d807175661356e3fd4c8",
+      "Data_Coleta": "2026-09-23 14:12:17",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Brasil Jazz Sinfônica une tradição e renovação - Viva a Cidade",
+      "Link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeHIweHhQVk5pYWZtQXhtVFpWX1V0Z2NYaWQ0d1VGUlVLS09XcWtLZjE3bHVBSEJfTVZRRzZpMVFoSmNPS1hiazM0NV9jVEUtWm1VVGVYZUZvZGpnVTZwVWFjRllPZkF2LUNyMUowSlplWFRFVENzNU5DSW8xRXFZREVsbGg4c1ZoRURzejR5QUpaODFFakJ2UUpfdHRlV2J2VkpJ?oc=5"
     },
     {
       "Hash_ID": "344168a01a087d43bcad17c7afdd5df9",
