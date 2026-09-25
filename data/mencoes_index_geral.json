@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-24T14:10:23.071550+00:00",
-  "total_mencoes": 232,
+  "ultima_atualizacao": "2026-09-25T14:34:05.270979+00:00",
+  "total_mencoes": 234,
   "mencoes": [
     {
       "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
@@ -281,6 +281,26 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "596a14ca6dee4c646495b87d75d93861",
+      "Data_Coleta": "2026-09-25 14:34:00",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Precisamos rever o critério da subsistência para definir quem é segurado especial no INSS - Consultor Jurídico",
+      "Link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeXhwOFpZRzZScW9ZSVNiMFJmX3dzcGRpR3B3N0pQaDFIa05JcUdDa2c5SHBsTms2UThmaUFxUV9SY0ZmTUVwRWZRSDJwUGpwdUY4S0xfQXM2M1hxdG9abGR1Q05qcnlnVk5IclRQTWNWRnl4eGRqVndwTUcxYXkyV1FEZ0NtcXdTME1ibjdUWDIxSktTeS02aVpJRmNUZlJPcjdtcWRuUUhNejRtMW1Fcmh3MFRaeERuSEtOZFRNVTFBdw?oc=5"
+    },
+    {
+      "Hash_ID": "cd933a5e35c50a80050858bd35d2c3da",
+      "Data_Coleta": "2026-09-25 14:33:59",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Chegada do homem à Lua, 55 anos: Sem pés no satélite, programa espacial soviético teve pioneirismos, heróis e disputas internas - O GLOBO",
+      "Link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNVlkxUlJRQzY0dWlaNXRLZFFraTQzN3Ayd1V6MVdEV1RkSU45a2JrQTQ1aEN2WlhVS2prQ1hWTE5kYUhVQW9Cc0ktanotbzRRN1JpVEhVSVpPWlB3UFd4YUZpVnV4MktqM2lPRUdwajZpZTJmaWczWTlqMlVqZlJJOTZ5elFodkVESHRwTW9aXzVNckdHRmp3WHFZTy0xNWN6TUVRclIxeG1ibjNEZzlPMVgwNDdOb0N0NGJUanFmVVZDM19sdDVqZVhJdWxaZExGR0JGTWExZ0NNUTJfTEdBQUhNdUdOaHVnajl1UUItOGVKbGFSUmhFdmYyUUhKN3k5?oc=5"
     },
     {
       "Hash_ID": "39f9c5411e5abaaf65c75802a6d4ad85",
