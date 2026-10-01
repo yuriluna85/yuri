@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-09-30T15:52:31.782385+00:00",
-  "total_mencoes": 243,
+  "ultima_atualizacao": "2026-10-01T16:20:44.537339+00:00",
+  "total_mencoes": 248,
   "mencoes": [
     {
       "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
@@ -281,6 +281,56 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "97fcd52a9a15a15b8331b9abfa2ba8ac",
+      "Data_Coleta": "2026-10-01 16:20:43",
+      "Ano": "2026",
+      "Pessoa": "Rodrigo Neves",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Dez mil pessoas lotam quadra da Viradouro em plenária de Vitor Junior - O Dia",
+      "Link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWDJ6ZEdkT1liZ2tPRlBoVWdORnh1LUJaVHBEVVQwRmN5bW5vdTBLY29lVkNrNFFBUlJjM2xzYVpKY3E3MzJDWDEyTGtXLUVzdUVyUWE5OE13R1hFbHBoZTdmSk9McW1PLWJHc0lTUGJDak5QNHFfSkNSYm40VTVEOFRFOXQ0aFl2ZmcxeWVNaU10X2dSYUR5SFZtVUEtQVBtYnFYMVluMnF6eWNEempsOWExcmsxdGJ1dzR5V1lR0gHDAUFVX3lxTFBDeXZxUzdFU2d5MnlxSjVFOUVmNDlKS1ZIbVJ5NVdnYVFNTHg0SnM2X3hBS21YcklBWC1uZUU0cEZjNlNwRXBPS2VRUG1ycERhV3piNmQwa3pDZkl3eDlMMzVaNnVZYWE5XzZGenpjNVRJa2RrZmFZdVA2ZXBEWXdSTVJIZ2VrakljXzdIS1Q4N3FIaUJyQzFCOVc3Y0VwX2RqVExHRV9OX2RBc1lqTUFVeEkzdmtaWlZ5Z1lwUHIybS1Fdw?oc=5"
+    },
+    {
+      "Hash_ID": "a0aa2fd31c58f7d7f6d5699bbbb54e90",
+      "Data_Coleta": "2026-10-01 16:20:39",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Reconhecimento internacional: Yuri Almeida é eleito um dos profissionais mais influentes do marketing político - classepolitica.com.br",
+      "Link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPX2hvTE5Qc3plZ29EZkp6dFJpeXZJMm4ydHFpQmwtWnNyeS1rRmh3NEhNMS11azRfN0NybWg3WlJUTWlWZWNxbE9NNGVkZHNKQXRVYXBCT05lbzFpTDhZdDRLUUJyelFTYTB6ZzZFUE85dTU2S1E2elptbHpZQ1BKU2FhMkxxMkZZVmw0cjlDT2Jpd3FTNFBkNG5fSHE4OTNPZHlFM1FwdnZSczZzcTYyNFN5NTBDd1BWaGRHNzYtT192OV9UR2Z5S1dING8wbWd3bzd1dlRGeTdYSDZ3bTV1Yg?oc=5"
+    },
+    {
+      "Hash_ID": "2956ec257ea7976000936e9b3a9f32fd",
+      "Data_Coleta": "2026-10-01 16:20:39",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "WNO Unleashed: The Best of Professional Submission Grappling | FloGrappling | Grappling - FloGrappling",
+      "Link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVHpBSUtncTVoQ1lENEoxU3VldlI0Q2tmcWFtNnNyRnJvWGVsa0k2S0dzVVNBbVVDbGk3VGN1OXZJVVNUenVkcm9YM0RVQm4yS20zZEpRc1VxM2p3cjFvNzZlSV9WemlmLXR6SmdVOHR2MnpfMFNqbmw0ckZNb2M0aUJfQ1E0M2tuS2UxUGRkaVJ4UFlkU2JxQlpYMDZvQ1VrZVk0dmdEUEZXRFJ5eGUtVFpNR1E2SGRaN1BIMlZLUTl4VTQ?oc=5"
+    },
+    {
+      "Hash_ID": "bd2c7e8aa0418d35a4c200f37b38e7a1",
+      "Data_Coleta": "2026-10-01 16:20:39",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Estatísticas Yuri Almeida hoje, | Perfil e notícias - BeSoccer Livescore",
+      "Link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE55ZndOaEFhYkV6RDI0eWU4bnB2eUptMlVTaVNmN3Jpc1VZcmFudXFLMjQ1RHhIUHNURkUta3liTnNOX3RiS0xTTVk5blljam5hTkdJcDQ1bmlxSDNYS01mbDBR?oc=5"
+    },
+    {
+      "Hash_ID": "45a4f3ea7a2f6386588916ac4a169449",
+      "Data_Coleta": "2026-10-01 16:20:38",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Marilene Godinho lança o livro “casa da gente” em Caratinga - Diário de Caratinga",
+      "Link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVWs0YlFqNmNCVDJrM24tNkNfZHNqa1NDR3I1WTVnYmNkVV94MWFCSVRrZm5EYU5ST3ZGTjNIQTBFZzJKOUdmUXZXcTJRd2tPcnFQVUZxZE1WOEpmYWxHX2pMTl9pbXVoOXRXSkxDenhqbUpleFZjdEp3MVBFa2c5djYwU2U5Sko4NkFnQjlPZHg1amQ3cGUwLWtla1dlNkE?oc=5"
     },
     {
       "Hash_ID": "8cdeeb9fde6aadeae463ab43a6656406",
