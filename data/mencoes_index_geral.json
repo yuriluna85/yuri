@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-10-01T16:20:44.537339+00:00",
-  "total_mencoes": 248,
+  "ultima_atualizacao": "2026-10-02T15:44:31.985351+00:00",
+  "total_mencoes": 252,
   "mencoes": [
     {
       "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
@@ -281,6 +281,46 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "47d34581606b8c6aba1f881d7fcf398d",
+      "Data_Coleta": "2026-10-02 15:44:31",
+      "Ano": "2026",
+      "Pessoa": "Rodrigo Neves",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Vinte anos da Lei Maria da Penha: debate sobre feminicídio destaca prevenção e integração de serviços - O GLOBO",
+      "Link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOMnlhUGlWQWZobnVZeV8tckdoUDVGcVRsbjNyZXpfb2M2VlhYX0VZWkt4MVVOVk5hRldfZ0VadFZHLUlyVVpXVkFTNHpqSWNhYWlydkV3cnRqUV8tSk1mWkVOVkY3Rlo2QUl6TXprai1nRWFMQ3VqbVMzOUdYNkVOeUtvR09HZVNGZjk0Wkd3YmdVNWVVVHE0TFh2ZzV3T2JvY2w3UmdLMS00OWt6c3NpQUtncWIxY2dORVd2bUtOeVhucEo2d3FDcVl0SklOYkZUZTY2dHB6NVB0QVdoRUtnQzhVXzRRb09XdnfSAfgBQVVfeXFMTXVGNUdiTU53VkhUeHJhekk2YS1OOExadjcyLWlzOFA4OHhBcmJaMzBFQUQxNEsxWkw2REp4VlY2TjBOU29FRDFoLXJBcFlvTmNqZTBQcWNrVkpEYV9mWGFrbGMtNm1CeVVHSFVjaFdmNzgwbHhRZnBtZ0o3VGJHNU83UHM3UGhlbkVETFV1WHNvc0dtakt0ZFJnQnRVNHRyZUl0SUdjWUtwWlFLdHE0NWJnUFRkY1RPYmdJOEpLWDgwMWlXUXN6Sndtdkh0NGNkNGhlaWFGSlFVS1BJSmdUcXFQYkR1SkhuWnlMLTM0a3Nsa2czcWJsbDc?oc=5"
+    },
+    {
+      "Hash_ID": "f4a6c2ca8c8a3ecd4b48937c9881eca3",
+      "Data_Coleta": "2026-10-02 15:44:28",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Yuri Perneta: perfil e propostas nas Eleições 2024 - Estadão",
+      "Link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa1NoUHJKSHVSM0MzLWFJeTJmOGZocENVdzFXVExWa3J5X1d4N1A3b2p2My12S2JwR1ZFUy0tRnVKUWxkeWNPck9nT25kRXpUVEpSQ201NUZ1T2c2Zks1TFVFalluQ2tHM0ViVndqN3Z2cDlUYkcxOWMwbnZxV056aGZsZG41WDl3SGF5MVppZHNmTG1QNkEzNFZ3aW9CVzVmZUNQTFR0R3B3aEE?oc=5"
+    },
+    {
+      "Hash_ID": "a911efa42516670cf4d92c1e43414f0a",
+      "Data_Coleta": "2026-10-02 15:44:28",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Juniores: Lateral-esquerdo Yuri Almeida assina contrato de 1 ano com o Vasco - NETVASCO",
+      "Link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcjRFZ3dMLVVkZTRMdnNmbS01Ym9xWlN4eGxWSExRZlltUkFyeFlJN3U5ekNTeE4ySXR4bXF2NW02UldMV1JFck5XRzdiaFJfSFg0Z3NUVDBXTDFXcnl6OVJJRlhaVEkwQ0NKN1RmS0t0S3VBQUozR05XT2FLVmd3VS1OSXo4Zzc0a3JwcTNQRS10UUlYbXZkc25JempnZ0hFR28yNjVhbGtiTU9JLVZFODJB?oc=5"
+    },
+    {
+      "Hash_ID": "88b19bf1c06b86c7f7f326aa26c1c787",
+      "Data_Coleta": "2026-10-02 15:44:27",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Héloa - Dança N'kisi Dança (feat. Luedji Luna & Liu Kid) - YouTube",
+      "Link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE05djM3Zi1NaG1HZUFBd2JnQ2JuVDlKNWxLei1SZHpQUEp1VTZ2VEpRQUZuMnJhT0dUVnZPYjdGVlJ3MjNfUS0zdlN6OGlMc2Qy?oc=5"
     },
     {
       "Hash_ID": "97fcd52a9a15a15b8331b9abfa2ba8ac",
