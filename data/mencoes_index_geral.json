@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-10-04T14:45:09.409584+00:00",
-  "total_mencoes": 254,
+  "ultima_atualizacao": "2026-10-05T18:20:49.102027+00:00",
+  "total_mencoes": 255,
   "mencoes": [
     {
       "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
@@ -281,6 +281,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "0275e7819839d247ed48ad196bcb8c43",
+      "Data_Coleta": "2026-10-05 18:20:43",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "WNO Unleashed: The Best of Professional Submission Grappling | FloGrappling | Grappling - FloGrappling",
+      "Link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQNEpXcnljV0lCemZYUC1oMGVjYmx4MnZGaUxsTXp6TDczemdzWnlqelJCaHBXUG4zOUR2b29YRHZqckxrbk5DeUJRblFXNUNtNWZUUC12dnZ5cVRwSGJKTFM4Q1d0MjR5UDN4LUdUcjR6YWRTRS1mbFRjSkRuMGlkUUpOOTYxNjlpeDl6YzdRMnNMR1pnVDZCazg3UjllR0hMTEN6OXU0bW8yVmZJSkJ5QzE2WUdya1MzVEVMYVF3T3dUYnc?oc=5"
     },
     {
       "Hash_ID": "308e355a59bd2a581f1c59647eedae9e",
