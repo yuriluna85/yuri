@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-10-05T18:20:49.102027+00:00",
-  "total_mencoes": 255,
+  "ultima_atualizacao": "2026-10-06T15:52:36.119158+00:00",
+  "total_mencoes": 257,
   "mencoes": [
     {
       "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
@@ -281,6 +281,26 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "df07c43737d09c66f9a28d424df0c2aa",
+      "Data_Coleta": "2026-10-06 15:52:31",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "E-book analisa os desafios do marketing político - Valor Econômico",
+      "Link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQjBZZkpuVjhTcVlyOE5MTENuNXluZnFBTGgxeTVGMlJVU09vM24zNVEySlUyZVBzODk2V3ZVODJBS21MZlp4SWYyaHdLUlVmRndiMV9hMXBod0JXcW1Yd3Zwazgzc0dVVWpmM0V2R21qemF5SEhzQlZGeUNydlhTU1RobkdiRk1lWTFfcnl6X3k2VG5aSzlTbWM5S2JuNl95OGE1N1drbVFiVmg1S21aZVhGLWvSAcMBQVVfeXFMTW1JeXA2SjFXTFh5Zi0ydlFkVkVra3ZTMUg2TS1CaHY4dmxBWW9NUm1PUWd0NGk4WU5OU3BxZWoySFM1dkt0ZEZHa2JYbTQzQklaaWdCWnc3QkJTRm9vRzhyOElYeWNya2pQTzk0QkZwTXU4cGtRcmNfN3dBZGZ1enFnN0V3c2JJRnNFb3J6SEpLeW53MUYzZDgzUXd1MXl4dWVTSTJrb0tIektjakQ3N0ZIUWNpd3dQVHRhemN5SVNCOXdB?oc=5"
+    },
+    {
+      "Hash_ID": "bdef3329606d5079c21cff38d4af21d9",
+      "Data_Coleta": "2026-10-06 15:52:31",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "O uso da Inteligência Artificial no Marketing Político - Por Yuri Almeida - Classe Politica",
+      "Link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT0J3aTdCcXJ1SGFHeVZfeVJuMlhHMFFxeGJpN2FuVVVfS2w5Unktb2M3QU9fZkdraml1MDRiNWRSeVdieVBDSVFfU3FFZFNrbmNrdGR2VzVXX18zVndUYUw4QkliQlM4UDFQR2Itd1BuRXFaRWtWNWZqcF81bU1iUVVXRjBqWW8tVUY4RWtQRF9QdnVuWU1hR0dsbjJQRUtUbXZPMDlzcnU1MmZHYnc?oc=5"
     },
     {
       "Hash_ID": "0275e7819839d247ed48ad196bcb8c43",
