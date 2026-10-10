@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-10-09T16:07:37.363434+00:00",
-  "total_mencoes": 258,
+  "ultima_atualizacao": "2026-10-10T15:17:03.041065+00:00",
+  "total_mencoes": 259,
   "mencoes": [
     {
       "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
@@ -281,6 +281,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "535c3544bb32cedbcadafefa22fc20fc",
+      "Data_Coleta": "2026-10-10 15:16:57",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Filha recém-nascida de Mirella Santos atinge marca ‘do milhão’ - OFuxico",
+      "Link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYnM3NWEzLTk2c2h6emF4bVBGRFdHdE9FSkkwd1hfQ0RhbC1JbVhQNktic0RmZDBOWUVCakFZSW9CLUEzTmc2TmtWOVNRR1MxZ04zdFduZk1LZUVBWmJucDR2WXlCRERnZ0ZsR0U3bkdpZTFKd1JOQzl0R3hJdnJrSjA5YVlfVElITmJyV3ZZdGtLM2M?oc=5"
     },
     {
       "Hash_ID": "cbe1c5d9bad02c26cf01673f300ff6df",
