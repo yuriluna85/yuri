@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-10-16T13:54:46.188822+00:00",
-  "total_mencoes": 260,
+  "ultima_atualizacao": "2026-10-17T12:54:36.617084+00:00",
+  "total_mencoes": 261,
   "mencoes": [
     {
       "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
@@ -281,6 +281,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "0088dcf00d0725384da7ca2eff0fd99d",
+      "Data_Coleta": "2026-10-17 12:54:32",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Yuri Almeida entra para lista dos 50 profissionais mais influentes do marketing político da América Latina - Panorama da Bahia",
+      "Link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNFhVeUtqbVFCZUd4SExfZlpGb3RUZEZPcTlReU42bm44X1JtRzFYUzlvdW10U0d3N3pPbUQyZmtvMnZfa3g0WHBhVkhySGk1RnFHajdWLTlOYzlDSUFHbmk3d1haanJYQWh2VDkzQ1l6Wk82Q1JqYU9NVkt4c2FHalliQkJpX3BMb1pPeHc0WGNpQTdfYzZHZlJ2dlVyalVoYzU4blJGNHpCT3ZmYTg1NThXdzVCQUZSLXhzLW5XX295MXlrbVFzUXpTeU9SRzVVbEpyWQ?oc=5"
     },
     {
       "Hash_ID": "8c8f5dba3b5e1285595d256c36804986",
