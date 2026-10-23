@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-10-22T14:28:48.172612+00:00",
-  "total_mencoes": 272,
+  "ultima_atualizacao": "2026-10-23T14:11:42.938909+00:00",
+  "total_mencoes": 276,
   "mencoes": [
     {
       "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
@@ -51,16 +51,6 @@
       "Portal": "news.google.com",
       "Titulo": "De quase R$ 17 milhões, primeiro contrato de Léo Coutinho foi com a própria família - atual7.com",
       "Link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdVE3Z1NWZDlmOW95TTg5dUtyaFF2RGQ2cmJoUTdfd21IQnZxN3c0YjVVbE9YakJmSUlidVBlODlfaFVRd2tqR1hLUElSa0x0dVNyTnFBSGZ3Z1FtV3RsTUlWVHU4NlBzT1dXdWJXWW44SGxIal8wNWNjNVlLamlhTGprTkdlZFhWdU1UX2YweG9yQTV3SkN4MDNBb0loRFJHOVM3MnozVTVvY0I3TzV0N3FR?oc=5"
-    },
-    {
-      "Hash_ID": "2ce48d48685c61dbefff6588e5b15aff",
-      "Data_Coleta": "Sun, 19 Dec 2010 08:00:00 GMT",
-      "Ano": "2014",
-      "Pessoa": "Yuri Almeida",
-      "Fonte": "Google News RSS",
-      "Portal": "news.google.com",
-      "Titulo": "A última Aloha do ano - Portal IN - Pompeu Vasconcelos - Balada IN",
-      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50VmxwUjhMSlRqcW12OUFKSW5jRzlOOFpvY2FJZC11VHV5Vl9SSEVDN213VHZ3NEpyXzFrZklUVFhPRnd5SXQtTVNXVzFmTEkzdWRnVGVzMVBmdVBKNW1vdXozczZIbUpLcUVlVFN3?oc=5"
     },
     {
       "Hash_ID": "fe6d4853422c192487301ec7ef056c4a",
@@ -281,6 +271,56 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "e5489926c834d079bc34ae326c8160d0",
+      "Data_Coleta": "2026-10-23 14:11:37",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "ChatGPT volta ao jogo: os agentes Sol, Terra e Luna e o que muda no seu trabalho - A Crítica",
+      "Link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbmlGazlSeUVQLTJBSWx2MnJraFJRTGFrZWdHc3JXLVcyVEE5YmptSmNrRGlUMkNtZDZBM2NrdTFRR0xrWHpkU2o3TWVPRVpqV2VFb190dUFEaW4xYXU1RmNXZTVMV3pvbW1QSUxobHJVbFp2ZDc3WDNYQkc1MV84bTB0Y01sSGw0czNXZWJsU0VucDMyZm5pd1pRQ1p0VXJfZlljYjgxZUxmckdCZURMMkp2cmlJQWg2XzZxT0ZLejdldjdzSFJfNC1hLXRDOUhm?oc=5"
+    },
+    {
+      "Hash_ID": "2ce48d48685c61dbefff6588e5b15aff",
+      "Data_Coleta": "2026-10-23 14:11:37",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "A última Aloha do ano - Portal IN - Pompeu Vasconcelos - Balada IN",
+      "Link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50VmxwUjhMSlRqcW12OUFKSW5jRzlOOFpvY2FJZC11VHV5Vl9SSEVDN213VHZ3NEpyXzFrZklUVFhPRnd5SXQtTVNXVzFmTEkzdWRnVGVzMVBmdVBKNW1vdXozczZIbUpLcUVlVFN3?oc=5"
+    },
+    {
+      "Hash_ID": "d030452c7a9937068a0483d6c03d52be",
+      "Data_Coleta": "2026-10-23 14:11:37",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Time de influenciadoras estrela editorial inspirado na vibrante Mallorca - UOL",
+      "Link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObmdSS19KeTFGUGVNMFNOTVFTTGNjbnQ5SVFBZlMtdzJfQnBVbjB0LXJaYURrVEk3ejJwR3NqZmtyZVhILVlTTkc0eWVJejJlcGprZ2ZjSlQ4M2hTTWhXVVdXY25aZFRBS3VTcTJiMnlBdl9xTEpuM0tHUjRFa0ZBNFVSXzBuaTlHaTluQTZvcjlRcUpONm5PbWtaWHlEZjV0Y0hJSGFpVDY0eUNpQUxfMNIBtgFBVV95cUxNUTBUOVUxNllBX2Z2QlB2b0toZllyaGVBV3hOQTA5T0VnQjg2UGZhY1ZGZ29JcGhsbnowRjJIX2lzempkRlFjR2N0c2RDb1JWV0xKbEdRejVoazJ6MEJReXF1bDNXNV90Sk5OR3QxTjVXNktnRmRPY0VmY3VTaHR2enFFMzJLenZXMl9CRkxoSUZqSGdIMmg0WjYzcXFuZ3VyWDlXdkFhN1pad216ODNFR01oZ216Zw?oc=5"
+    },
+    {
+      "Hash_ID": "0be8c54e5b542c0b6e184ab4d7fe5123",
+      "Data_Coleta": "2026-10-23 14:11:37",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Ronaldo Silva apresenta o show 'Luna Prateada' nesta quinta - G1",
+      "Link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWDl4YXhpUk9YenVaQlpacnFQVEVYWElSY3VuRy1ZQlBDQmJINGZndUJwQWk2R3RDRDFZQjJvTHp1ZnBTZ1dyaFczdGhfR2UzSWJOb2x2YWRnV0s3TDBoR2pqRHlzeUtGU2dPTnpoMnAwWUt4RHVPUTVaQlZPT3NOdjAxbU1takFwM3d2czNzX1lWUDVhblBYMzJxd3BtZjl2UWNlOExtNGZrcDA?oc=5"
+    },
+    {
+      "Hash_ID": "a2f5fda83712f9993b98bc1778bb0d69",
+      "Data_Coleta": "2026-10-23 14:11:37",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "O Que Aconteceu Com a Luna-25? - Space Today",
+      "Link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04bnVnLW5rZExtNFlIVmN3R0ZlazRxdUc0c25NVWkzYjNwUm5mRDhIVlM1cHNhaWdOaF9ZcjFxblFpWEhLMmpiX3NHTHZHUnNVbUFQQVJLUHJNWkRYRk1VM21ZbTVTS28?oc=5"
     },
     {
       "Hash_ID": "cf43113898a2edd777e5b81f938e2337",
