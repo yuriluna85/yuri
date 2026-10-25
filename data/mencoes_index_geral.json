@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-10-24T13:17:03.171139+00:00",
-  "total_mencoes": 276,
+  "ultima_atualizacao": "2026-10-25T13:40:46.864208+00:00",
+  "total_mencoes": 279,
   "mencoes": [
     {
       "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
@@ -271,6 +271,36 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "913aef803c6f1e776b3c2fbaffe0c861",
+      "Data_Coleta": "2026-10-25 13:40:45",
+      "Ano": "2026",
+      "Pessoa": "Rodrigo Neves",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Nota de pesar pelo Professor João Evangelista das Neves Araújo - ADUFPI",
+      "Link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNc1dTOTRnNFdjaTd2TlhjSHZQb1ZfWE5JUEkzRHZuYXFRVGh5M2FpTTFaWFljRmxxY09hVGhqdm9KeGhwM2VUX2ZuZ2U2aHZFRzZhMElsbV9PSXUyT0hVcDdubFlCaldwM0hGczJLT0g0ZUlvcjVYNUV3Z2pQRnVlZVNVdEtSaXRTZ0xibGpR?oc=5"
+    },
+    {
+      "Hash_ID": "3bb03b8505c2903f6013126ae5d417ea",
+      "Data_Coleta": "2026-10-25 13:40:43",
+      "Ano": "2026",
+      "Pessoa": "Ana Gabriela",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Lista de Selecionados - Programa de Extensão Cultural da Escola Superior de Guerra - www.gov.br",
+      "Link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaGwzUnBhczAzTmQ5QzB1VXZKdFR1cFJiMUhmVkpYMW5xdTlUNF9TTnUtX3ZtclRROE9iYTB0YTFsZEV3cjVmTUFOeDkzMjhwYlRPZXRSYzBrZ1RVSEllMjdtdTBJZTZkYk0zenNUMTdkc2NWaGgtVnM0VnlzOGNRS3pWczBvYzRkb1RsS2NvYUtyLTlUQXloZERuY0RFODM0cUo5TU53bk16RXNlemtxQlV0RENBZ1Yt?oc=5"
+    },
+    {
+      "Hash_ID": "22ddf5fb4e0bf71c3a3ade1fcedeb8a3",
+      "Data_Coleta": "2026-10-25 13:40:41",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "O Canto do Pássaro: veja o final explicado da novela turca - TechTudo",
+      "Link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUzZHRTBONjVnM2NyRW05c3hPX0tJZGs3VjN4Q2F2V0YxQUI0X2tqel9NUlVqUkI4ZDFRNWJqTkxoQWhZY2l0YVcwdnNxX1ZfUEpPR2VHRkxZb2JKOVhEcFVwZTd3Tmt0QzdVOVBJQnlLZVJlcUxxakJRYnN4X3lsMjRvVXN4SFVIdjZkM0FZcTRTYWxsLVRyekw5SGwzZHctVW9pRF90V2d4U0o3VlBYamJvUljSAcMBQVVfeXFMT25HUE1mR0Y4TFg1WmxTZFZ5dWhrbktXMUVfd1RXOFZEWS01Y2FDc0Q3VGh6bDIyNnctcFVINFhtVV9sZG5fcHVSYW5oM0NMUjA3Q0pNUnFSQk8zcmV1UHp2LTVzWm5UNmdDN1RfMFZzdVFaX2otLWFMLWZQc1h2NEV4a20yTE5iZmNsUVpsaHNBaDN5dGRsYlJvY19LcmNac2t2eVkyRXI2SGh4VzNRNWY3b2NZZTdZZERGakNKQklCMUVv?oc=5"
     },
     {
       "Hash_ID": "e5489926c834d079bc34ae326c8160d0",
