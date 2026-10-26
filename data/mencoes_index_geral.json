@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-10-25T13:40:46.864208+00:00",
-  "total_mencoes": 279,
+  "ultima_atualizacao": "2026-10-26T16:04:13.360936+00:00",
+  "total_mencoes": 280,
   "mencoes": [
     {
       "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
@@ -271,6 +271,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "cfc0f6bcba7f204a17c2a5d96025b437",
+      "Data_Coleta": "2026-10-26 16:04:08",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Vasco contrata reforço para o time Sub-20 - Eu, Rio!",
+      "Link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLUNMT2VxOGs4RkN0SzYzZ0RLbFViNHRaQkF4Rmdoblh1MzdqVzlTdVBWTmNyaW9IRTcxWXlVeGltMDRjSGJsUlZjdURJYkswX1JmMTIzd1Eyd3JSUjBrSjJkUUpsMUlNNXY2UXpPclJTY1V4eGM1M2N2MEt3cndvZTVaRzZCbjTSAYYBQVVfeXFMTVRXbm1oOFNvNWl5QXRZOUtVQzlKTkNqaDFWWnVaOV9zbFMybzB6YW5POGZsWGU1WjFvc1ozSW9WdFp5WExjVGkyM0l4b2Y4anF5cVdQdlhYR2RERml5OHlpSWFWYTFkcGZSWjRiUFFEOEpUTklWWGQ0cjhQZDJGeUFuQXNvVHc?oc=5"
     },
     {
       "Hash_ID": "913aef803c6f1e776b3c2fbaffe0c861",
