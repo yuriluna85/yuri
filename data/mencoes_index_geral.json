@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-10-26T16:04:13.360936+00:00",
-  "total_mencoes": 280,
+  "ultima_atualizacao": "2026-10-27T15:17:56.136307+00:00",
+  "total_mencoes": 281,
   "mencoes": [
     {
       "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
@@ -271,6 +271,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "814f388ec2a84f48301cb1674bfb03a4",
+      "Data_Coleta": "2026-10-27 15:17:52",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Dupla suspeita de assalto a comércio é morta à tiros por grupo armado em carro na zona Leste de Manaus - AM POST",
+      "Link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONUk4a1h2OVdWYWYxLUZHUmc5QTRLSEd5blRnNWtQOE5RdWpGbVhTZ0hGMzNEMGVES3Y5X2hUN19kWXk4ZlpGZG1uQkYzQzRPdjNIM2hmcWJXTXNNUDFRNS1OQ0Jta2JzTHFyb0xpenJhdFlYZ0JwbURwdldnM0c3Zm1TZjQ2NnVGcGFOZ1RPRXVwNS1tZnd3Q3JwUFNBbnlDS0RrWWFaUnJfLXB1R2tUd0ZLUVZHb2p0ZzlVYUE0R05UamQ4WkV5ZGUyUGh2dw?oc=5"
     },
     {
       "Hash_ID": "cfc0f6bcba7f204a17c2a5d96025b437",
