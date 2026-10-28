@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-10-27T15:17:56.136307+00:00",
-  "total_mencoes": 281,
+  "ultima_atualizacao": "2026-10-28T15:57:04.566805+00:00",
+  "total_mencoes": 282,
   "mencoes": [
     {
       "Hash_ID": "872c74b4a4ad643dfedc00d372e0fc8e",
@@ -271,6 +271,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "22a6d3fc029d92b39535f856c12dc218",
+      "Data_Coleta": "2026-10-28 15:57:00",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "VÍDEO: O recado de Luna Zarattini nos bastidores do ato de Lula - Revista Fórum",
+      "Link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95NFJWM1N0OTY2QjluSU04N09NSEJfTFR3ZTh6SlF1N0F3aVJTcEZndGxVVEE0UU9nbE0wTC1abGtyVHpQUzFCR0JPdVg0VDMyZm1MSVRWSGplMzdMYlE?oc=5"
     },
     {
       "Hash_ID": "814f388ec2a84f48301cb1674bfb03a4",
