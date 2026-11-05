@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-04T17:07:57.992054+00:00",
-  "total_mencoes": 291,
+  "ultima_atualizacao": "2026-11-05T17:19:13.658727+00:00",
+  "total_mencoes": 292,
   "mencoes": [
     {
       "Hash_ID": "819629496544acf0aa58cdac8335e606",
@@ -181,6 +181,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "398c927dee4e8fb825152b94e2f53cfe",
+      "Data_Coleta": "2026-11-05 17:19:09",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Curso Método Caos prepara profissionais para campanhas - Valor Econômico",
+      "Link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdkpIZ2JXWk9MTjZ0TUU3cVFrTVQ1UnZGQmlMWDlnUC01bHdnaVZQYkxUczlQUk41ZHhuODhCZmhENG1qcjh0Z0tZaUlkMm9oS2pTeUlHX29XdzJzVHZGc2RGYS03X0lyRWUtVE1rVG4zZ2Frb1hESWpKcGJBa2pvaU1Rc0Rzbmh4UnNUd0ZZOW00TkEwVVg2aThTVkcwTDJfUnR3cEUyRGRiOTVQZVJVUmxVb1I5ankwbm5sNUpvUm5nbzUyU3RWVFdDZ9IBywFBVV95cUxOdkpIZ2JXWk9MTjZ0TUU3cVFrTVQ1UnZGQmlMWDlnUC01bHdnaVZQYkxUczlQUk41ZHhuODhCZmhENG1qcjh0Z0tZaUlkMm9oS2pTeUlHX29XdzJzVHZGc2RGYS03X0lyRWUtVE1rVG4zZ2Frb1hESWpKcGJBa2pvaU1Rc0Rzbmh4UnNUd0ZZOW00TkEwVVg2aThTVkcwTDJfUnR3cEUyRGRiOTVQZVJVUmxVb1I5ankwbm5sNUpvUm5nbzUyU3RWVFdDZw?oc=5"
     },
     {
       "Hash_ID": "7e5d8adadac8466e764fc49e5756c95a",
