@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-11T17:03:18.095887+00:00",
-  "total_mencoes": 292,
+  "ultima_atualizacao": "2026-11-12T17:31:09.691704+00:00",
+  "total_mencoes": 293,
   "mencoes": [
     {
       "Hash_ID": "819629496544acf0aa58cdac8335e606",
@@ -181,6 +181,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "bb0cf746bb8fb358367e171388b2e3dd",
+      "Data_Coleta": "2026-11-12 17:31:05",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Yuri Almeida cita caso de Nikolas Ferreira em Luís Eduardo Magalhães como exemplo de \"vídeo desastroso\" que virou voto para Lula - Política ao Ponto",
+      "Link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQQnFmRHRUamNyZlJseVdadTFFRUlYdVhHMFVNaUxRMmRlZk9UQWxsSTd5TFZFanF4bzBhSk9HaDgtWU1sNjZNMExGUEJLUmU2N2Uza2NwZkNYdklQNEJEOWUwNW03SmhGYlB2aWhaMFdIT2h1WnBPY2llNllIOHhMWjc3WG40cmlPVzJPMnA3WElJUjRQM3dydUFDZUtmXzRqTkt5Z2JLbm1mRkJuNm9CTVdwYmhIenAwZXQ5aHpFUEZzNHZ2cmkxRzhzOWhqSzM3N3otaEt5OHFXMFRzVXI2cVlHR1NRcThuYzFIY0VkUQ?oc=5"
     },
     {
       "Hash_ID": "398c927dee4e8fb825152b94e2f53cfe",
