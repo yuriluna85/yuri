@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-11-22T17:03:50.176059+00:00",
-  "total_mencoes": 298,
+  "ultima_atualizacao": "2026-11-23T21:14:39.790910+00:00",
+  "total_mencoes": 299,
   "mencoes": [
     {
       "Hash_ID": "52a747de7ab6fcb3b1b1a61b51724f78",
@@ -601,6 +601,16 @@
       "Portal": "jusbrasil.com.br",
       "Titulo": "Menção identificada na busca web",
       "Link": "https://www.jusbrasil.com.br/diarios/71391259/dou-secao-2-05-06-2014-pg-19"
+    },
+    {
+      "Hash_ID": "4ef833951a6f81ec1185a57c657cbef2",
+      "Data_Coleta": "2026-11-23 21:14:36",
+      "Ano": "2026",
+      "Pessoa": "Yuri Almeida",
+      "Fonte": "Google News RSS",
+      "Portal": "news.google.com",
+      "Titulo": "Namorado de influenciadora é morto a tiros em Fortaleza; ela revela gravidez - Somos Notícia",
+      "Link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03d24zOXFrSEFPTXlWT1pOcTR6UWlvcVgwVHpVQW5TS0phNEdBYVBBNjFMZGdjZWlhY2M2cUNUMXAwcEJsSzdxRnBOdE42QVRjT3ZYNlZ2VkpMYmNIc292Qlg4cGhMQXllUVh5emVlUTA4QnNlOEpPS1VLSEJCb1U?oc=5"
     },
     {
       "Hash_ID": "4eaec145f8a3d2201819ec0f95d78b89",
